@@ -1,0 +1,1477 @@
+
+/* Pour une version propre, voir tipTip.css Ici, c'est minifié pour éviter trop de requête inutile */
+#tiptip_holder { display: none; position: absolute; top: 0; left: 0; z-index: 99999;}#tiptip_holder.tip_top { padding-bottom: 5px;}#tiptip_holder.tip_bottom { padding-top: 5px;}#tiptip_holder.tip_right { padding-left: 5px;}#tiptip_holder.tip_left { padding-right: 5px;}#tiptip_content { font : bold 14px 'Alegreya SC',serif; color: #fff; text-shadow: 0 0 2px #000; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.25); background-color: rgb(25,25,25); background-color: rgba(25,25,25,0.92); background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000)); border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; box-shadow: 0 0 3px #555; -webkit-box-shadow: 0 0 3px #555; -moz-box-shadow: 0 0 3px #555;}#tiptip_arrow, #tiptip_arrow_inner { position: absolute; border-color: transparent; border-style: solid; border-width: 6px; height: 0; width: 0;}#tiptip_holder.tip_top #tiptip_arrow { border-top-color: #fff; border-top-color: rgba(255,255,255,0.35);}#tiptip_holder.tip_bottom #tiptip_arrow { border-bottom-color: #fff; border-bottom-color: rgba(255,255,255,0.35);}#tiptip_holder.tip_righwrapper_nom_auteurt #tiptip_arrow { border-right-color: #fff; border-right-color: rgba(255,255,255,0.35);}#tiptip_holder.tip_left #tiptip_arrow { border-left-color: #fff; border-left-color: rgba(255,255,255,0.35);}#tiptip_holder.tip_top #tiptip_arrow_inner { margin-top: -7px; margin-left: -6px; border-top-color: rgb(25,25,25); border-top-color: rgba(25,25,25,0.92);}#tiptip_holder.tip_bottom #tiptip_arrow_inner { margin-top: -5px; margin-left: -6px; border-bottom-color: rgb(25,25,25); border-bottom-color: rgba(25,25,25,0.92);}#tiptip_holder.tip_right #tiptip_arrow_inner { margin-top: -6px; margin-left: -5px; border-right-color: rgb(25,25,25); border-right-color: rgba(25,25,25,0.92);}#tiptip_holder.tip_left #tiptip_arrow_inner { margin-top: -6px; margin-left: -7px; border-left-color: rgb(25,25,25); border-left-color: rgba(25,25,25,0.92);}/* Webkit Hacks */@media screen and (-webkit-min-device-pixel-ratio:0) { #tiptip_content { padding: 4px 8px 5px 8px; background-color: rgba(45,45,45,0.88); } #tiptip_holder.tip_bottom #tiptip_arrow_inner { border-bottom-color: rgba(45,45,45,0.88); } #tiptip_holder.tip_top #tiptip_arrow_inner { border-top-color: rgba(20,20,20,0.92); }}
+/* END USERMENU-TOOLTIP */
+
+
+
+
+.yellow {
+    color: #a5a524;
+}
+
+.yellow2, .orange {
+    color: #b8b858;
+}
+
+.sect_som {
+    font: bold 1em/1 "Alegreya SC";
+}
+#article_content {
+    margin-left: 130px;
+    position : relative; /* Pour le positionnement de l'usermenu-tools */
+}
+#article_content hr.grey {
+    margin-top: 0;
+}
+#article_content .article_navpages {
+    overflow: hidden;
+    margin-top: 0.3em;
+    text-align: center;
+    font: bold 16px "Alegreya SC";
+}
+#article_content .article_navpages > * {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    padding: 0.2em 0.5em;
+}
+#article_content .article_navpages .icon-arrow-white-left {
+    margin-right: 0.3em;
+}
+#article_content .article_navpages .icon-arrow-white-right {
+    margin-left: 0.3em;
+}
+#article_content h2.content2, #article_content h2.content3, #article_content .section h2 {
+    color: #a5a524;
+    text-align: center;
+    font: bold 18px "Alegreya SC";
+    margin-bottom: 0.6em;
+}
+#article_content a[name='resume'] {
+    text-decoration: none;
+}
+#article_content .section p {
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3.orange.text-center {
+    font: bold 18px "Alegreya SC";
+    color: #a5a524;
+    margin: 10px;
+}
+
+#infoBook .titre .amorce {
+    font-size: 0.7em;
+}
+#infoBook h1 {
+    margin-top: 0.3em;
+    font: bold 21px/22px "Alegreya";
+    color: #333333;
+}
+#infoBook h1 > span {
+    display: block;
+}
+#infoBook .surtitre {
+    font-size : 0.81em;
+}
+#infoBook .sstitre {
+    font-weight: normal;
+    font-size: 0.75em;
+    margin-top: 0.3em;
+}
+#infoBook .sstitre i, #infoBook .sstitre em { font-style: normal;}
+#infoBook .titreparal {
+    font-size: 0.7em;
+}
+#infoBook .trefbiblio { display: none;}
+#infoBook .without_contribution, #infoBook .contribution {
+    color: #b8b858;
+    font: italic bold 17px/20px "Alegreya";
+}
+#infoBook .nom_auteur {
+    font: bold 17px/16px "Alegreya";
+    color: #333333;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 0.5em;
+    padding: 0 3px;
+    height: 22px;
+}
+#infoBook .affiliation p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#textehtml {
+    margin-right: 30px;
+    margin-top : 2em;
+}
+#textehtml p {
+    line-height: 27px;
+    position: relative;
+}
+
+#textehtml h1, #textehtml h2, #textehtml h3, #textehtml h4, #textehtml h5, #textehtml h6 {
+    font-weight: bold;
+    font-family: "Alegreya SC";
+    margin: 1.25em 0;
+    color: #333333;
+    padding-bottom: 0.5em;
+    line-height: 1;
+}
+#textehtml h1 {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #888888;
+}
+#textehtml h2 { font-size: 21px;}
+#textehtml h3 { font-size: 20px;}
+#textehtml h4 { font-size: 19px;}
+#textehtml h5 { font-size: 18px;}
+#textehtml h6 { font-size: 17px;}
+
+#textehtml .negative_right {
+    float: right;
+    font: bold 15px "Alegreya";
+    color: #a5a524;
+    margin-right: -30px;
+    margin-top: 8px;
+    border-top: 1px solid #888888;
+    border-right: 1px solid #888888;
+    width: 18px;
+    height: 12px;
+    position: relative;
+}
+#textehtml .negative_right span {
+    height: 10px;
+    margin: -6px 0 0 0;
+    text-align: center;
+    padding-left: 4px;
+    float: left;
+    position: absolute;
+}
+
+#textehtml .para {
+    position: relative;
+}
+#textehtml .para + .para { margin-top: 1em;}
+#textehtml .alinea { margin: 0;}
+#textehtml .no_para {
+    font: bold 15px "Alegreya";
+    color: #a5a524;
+    position: absolute;
+    right : -3em;
+    border-top: 1px solid #888888;
+    border-right: 1px solid #888888;
+    padding-right: 0.2em;
+    min-width: 1em;
+}
+
+/*TODELETE*/
+#textehtml .notes .negative-left-text {
+    float: left;
+    margin-left: -60px;
+    display: block;
+    color: #4bb2ac;
+    font-weight: bold;
+    text-align: right;
+    padding : 0.1em;
+}
+#textehtml .notes .negative-left-text a,
+#textehtml .wrapper_renvois .negative-left-text a {
+    display: block;
+    padding: 0 0.2em;
+}
+#textehtml .notes .negative-left-text a .icon,
+#textehtml .wrapper_renvois .negative-left-text a .icon {
+    display: hidden;
+    margin-right: 0.15em;
+}
+/*ENDDELETE*/
+#textehtml .notes .note,
+#textehtml .notes .note > p,
+#textehtml .wrapper_renvois .note,
+#textehtml .wrapper_renvois .note > p {
+    font: normal 16px/20px Alegreya;
+    position: relative;
+}
+#textehtml .notes .note + .note,
+#textehtml .wrapper_renvois .note + .note {
+    margin-top: 1em;
+}
+#textehtml .notes .note > .no,
+#textehtml .wrapper_renvois .note > .no {
+    position: absolute;
+    right : 103%;
+    /*line-height: 20px;*/
+    white-space: nowrap;
+    color: #4bb2ac;
+    font-weight: bold;
+    padding : 0 0.3em;
+}
+#textehtml .notes .note > .no:hover,
+#textehtml .wrapper_renvois .note > .no:hover {
+    background-color: #221e1f;
+    color: white;
+    text-decoration: none;
+}
+#textehtml .notes .note > .no:hover:before,
+#textehtml .wrapper_renvois .note > .no:hover:before {
+    content: "\25B2";
+    margin-left: 0.2em;
+    white-space: nowrap;
+}
+
+#textehtml .notes .negative-left-text:hover,
+#textehtml .notes .negative-left-text:hover a,
+#textehtml .wrapper_renvois .negative-left-text:hover,
+#textehtml .wrapper_renvois .negative-left-text:hover a {
+    color: white;
+    background-color: #221e1f;
+    text-decoration: none;
+}
+#textehtml .notes .negative-left-text:hover .icon,
+#textehtml .notes .negative-left-text:hover a .icon,
+#textehtml .wrapper_renvois .negative-left-text:hover .icon,
+#textehtml .wrapper_renvois .negative-left-text:hover a .icon {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+#textehtml .partiesann .noteedito,
+#textehtml .wrapper_renvois .noteedito {
+    margin: 1em 0;
+}
+#textehtml .partiesann .noteedito p,
+#textehtml .wrapper_renvois .noteedito p {
+    font-style: italic;
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 1.4;
+}
+#textehtml .partiesann .noteedito p + p,
+#textehtml .wrapper_renvois .noteedito p + p {
+    margin-top : 0.3em;
+}
+#textehtml .partiesann .noteedito p i,
+#textehtml .partiesann .noteedito p em,
+#textehtml .wrapper_renvois .noteedito p i,
+#textehtml .wrapper_renvois .noteedito p em {
+    font-style: normal;
+}
+#textehtml .wrapper_renvois {
+    margin-top: 2em;
+}
+
+.negative-left {
+    float: left;
+    font: bold 14px Alegreya;
+    margin: 0;
+    margin-left: -95px;
+    padding: 0;
+}
+
+.wrapper_keywords .inline-meta {
+    list-style-type: none !important;
+}
+.wrapper_keywords.without_resume { margin-top: 2em;}
+.wrapper_keywords li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    font: 14px Alegreya;
+    background: #efefef;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+.wrapper_keywords li + li {
+    margin-left: 3px;
+}
+
+.partiesann > section,
+#plan-of-article, .abstract {
+    border-top: 1px solid #cccccc;
+    margin-top: 1em;
+    clear:both; /* Peut provoquer des espaces blancs avant la section !!! C'est un dirty-fix, pas le temps de me pencher sur le problème pour le moment */
+}
+
+#plan-of-article ol {
+    padding: 0;
+}
+
+.wrapper_resume + .wrapper_resume {
+    margin-top: 2em;
+}
+.wrapper_resume .resume {
+    background: none;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-style: italic;
+}
+.wrapper_resume .resume i, .wrapper_resume .resume em {
+    font-style: normal;
+}
+.wrapper_resume .resume .titreparal,
+.wrapper_resume .resume > .titre {
+    display: block;
+    font-weight : bold;
+}
+.wrapper_resume .resume .sstitreparal {
+    display: block;
+    font-style: normal;
+    font-size: 0.9em;
+}
+img[src='./img/trefle_3.png'] { display : none; }
+.refbiblio {
+    position : relative;
+}
+.refbiblio .reference {
+    position : absolute;
+    left : -7em;
+}
+#textehtml hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+/* Style utilisé uniquement pour l'affichage des articles xml en html */
+
+
+/* Rajout du 5 juin 2013 ():
+ *  Pour éviter que les renvois ne se superposent, on casse le float */
+#textehtml span.negative-left-text
+{
+    /*clear : both;*/
+    margin-bottom : 1em;
+    overflow : hidden;
+}
+
+
+#textehtml .lettrine {
+    float : left;
+    font-size : 3.5em;
+    line-height : 0.9;
+    margin-right : 2px;
+}
+.lang-ar #textehtml .lettrine,
+.lang-he #textehtml .lettrine {
+    float: right;
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+#textehtml a.renvoi, #infoBook .amorce
+{
+    color : rgb(75, 178, 172);
+    text-decoration : none;
+    line-height : 1;
+    font : bold 0.7em 'Alegreya';
+    position : relative;
+    top : -0.3em;
+    margin : 0 0.15em;
+}
+#textehtml .renvoi sup, #textehtml .renvoi_fake_no sup {
+    vertical-align: baseline;
+    font-size: 1em;
+}
+
+#textehtml .amorce
+{
+    padding-bottom : 1px; /* Pour ne pas manger le bas des lettres basses comme le g ou le q */
+    color : black;
+    font : normal 15px/16px 'Alegreya',Georgia,Verdana !important;
+    width : 115px;
+    margin-left : -124px;
+    display : block;
+    float : left;
+    clear : left;
+    text-decoration : none;
+    text-align : right;
+    margin-bottom : 1em;
+    overflow : hidden;
+    position : relative; /* NE PAS EFFACER : Cela peut paraitre inutile, mais mettre position à relative ici est CRUCIAL pour les performances en javascript. En effet, calculer la position relative d'un élement est relativement peu couteuse, mais passer la position en relative via renvoi.style.position = 'relative' en JS est TRÈS gourmand.*/
+}
+
+#textehtml .bloccitation .amorce
+{
+    padding-bottom : 1px; /* Pour ne pas manger le bas des lettres basses comme le g ou le q */
+    color : black;
+    font : normal 15px/16px 'Alegreya',Georgia,Verdana !important;
+    width : 115px;
+    margin-left : -154px;
+    display : block;
+    float : left;
+    clear : left;
+    text-decoration : none;
+    text-align : right;
+    margin-bottom : 1em;
+    overflow : hidden;
+    position : relative; /* NE PAS EFFACER : Cela peut paraitre inutile, mais mettre position à relative ici est CRUCIAL pour les performances en javascript. En effet, calculer la position relative d'un élement est relativement peu couteuse, mais passer la position en relative via renvoi.style.position = 'relative' en JS est TRÈS gourmand.*/
+}
+
+#textehtml.fulltext .notefig {
+    display : none;
+}
+#textehtml.focus .amorce
+{
+    padding-bottom : 1px; /* Pour ne pas manger le bas des lettres basses comme le g ou le q */
+    color : black;
+    font: normal 18px 'Alegreya', Georgia, Verdana !important;
+    line-height: 20px !important;
+    width : 159px;
+    margin-left : -180px;
+    display : block;
+    float : left;
+    clear : left;
+    text-decoration : none;
+    text-align : right;
+    margin-bottom : 1em;
+    overflow : hidden;
+    color: #1F1E1F;
+    position : relative; /* NE PAS EFFACER : Cela peut paraitre inutile, mais mettre position à relative ici est CRUCIAL pour les performances en javascript. En effet, calculer la position relative d'un élement est relativement peu couteuse, mais passer la position en relative via renvoi.style.position = 'relative' en JS est TRÈS gourmand.*/
+}
+
+#textehtml.focus .bloccitation .amorce
+{
+    padding-bottom : 1px; /* Pour ne pas manger le bas des lettres basses comme le g ou le q */
+    color : black;
+    font: normal 18px 'Alegreya', Georgia, Verdana !important;
+    line-height: 20px !important;
+    width : 159px;
+    margin-left : -205px;
+    display : block;
+    float : left;
+    clear : left;
+    text-decoration : none;
+    text-align : right;
+    margin-bottom : 1em;
+    overflow : hidden;
+    color: #1F1E1F;
+    position : relative; /* NE PAS EFFACER : Cela peut paraitre inutile, mais mettre position à relative ici est CRUCIAL pour les performances en javascript. En effet, calculer la position relative d'un élement est relativement peu couteuse, mais passer la position en relative via renvoi.style.position = 'relative' en JS est TRÈS gourmand.*/
+}
+#textehtml.focus .negative_right {
+    margin-right : -75px;
+    font-size : 0.8em;
+}
+#textehtml .amorce .renvoi_fake_no, #infoBook .nom_auteur a, #infoBook .note, #textehtml .amorce.figure .figure_no
+{
+    color: rgb(75, 178, 172);
+    font-weight : bold;
+}
+/*#textehtml .renvoi.figure .figure_no
+{
+    display : block;
+}*/
+#textehtml .amorce.figure img { margin-top: 0;}
+#textehtml .amorce.figure .figure_no { color: black; font-weight: normal;}
+/*#textehtml .amorce.figure .figure_no:before
+{
+    content : "[";
+}
+#textehtml .amorce.figure .figure_no:after
+{
+    content : "]";
+}*/
+#textehtml .amorce.figure .figure_titre
+{
+    font-weight : normal;
+    text-align : right;
+    max-height: 65px;
+    overflow: hidden;
+}
+#textehtml .amorce.figure .figure_titre strong, #textehtml .amorce.figure .figure_titre b { font-weight: normal;}
+#textehtml .amorce.figure .source,
+#textehtml .amorce.figure .figure_legende,
+#textehtml .amorce.figure .renvoi,
+#textehtml .amorce.figure .amorce,
+#textehtml .tableau .entry .amorce
+{
+    display : none;
+}
+#textehtml .notes .note .amorce {
+    display: none;
+}
+
+sub, sup {
+    line-height: 0!important;
+}
+/*sub
+{
+    position : relative;
+    top : 0.2em;
+}*/
+/*sup
+{
+    position : relative;
+    top : -0.2em;
+}*/
+
+
+
+
+#textehtml .merci
+{
+    margin-top : 2em;
+}
+#textehtml .titre_merci
+{
+    font-weight : bold;
+}
+#textehtml .merci p
+{
+    margin-left : 2em;
+}
+#textehtml blockquote .negative-left-text
+{
+    margin-left : -154px;
+}
+
+div.warning
+{
+    border : 1px red dotted;
+}
+
+li.firstBtn
+{
+    margin-top : 1em;
+}
+
+.chapo {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 1em 0;
+    font-style: italic;
+    margin-bottom: 3em;
+}
+.chapo i, .chapo em {
+    font-style: normal;
+}
+
+
+.invisible
+{
+    display : none;
+}
+
+
+img
+{
+    max-width : 100%;
+    max-height : 100%;
+}
+img.ligne {
+    display : inline;
+    max-height : 1.1em;
+    /*vertical-align : baseline;*/
+}
+/* /!\ Ce code casse l'affichage des équations sur le retro. NE DOIT PAS ÊTRE INSÉRÉ */
+/*img.equation {
+    max-height: 1.5em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}*/
+
+
+blockquote, .dedicace
+{
+    background : url("../images/icon/citation-begin.png") no-repeat scroll left 5px transparent;
+    padding : 10px 0px 10px 30px;
+    border-top : 1px solid rgb(136, 136, 136);
+    border-bottom : 1px solid rgb(136, 136, 136);
+    margin : 1em 0;
+}
+.dedicace {
+    display: block;
+    background: none;
+}
+blockquote p
+{
+    font-style : italic!important;
+    margin : 0!important;
+}
+blockquote p i, blockquote p em {
+    font-style: normal!important;
+}
+blockquote p.last
+{
+    background : url("../images/icon/citation-end.png") no-repeat scroll right bottom 5px transparent;
+    padding-right: 30px!important;
+}
+blockquote > .source {
+    margin-top: 0.3em;
+}
+
+
+section.abstract .resume+.wrapper_keywords
+{
+    margin-top : 1em;
+}
+
+
+.figure, .tableau
+{
+    margin-top : 1em;
+    margin-bottom : 1em;
+    text-align : center;
+}
+
+
+.figure_titre, .tableau_titre
+{
+    display : block;
+    text-align : center;
+    font-weight : bold;
+}
+
+.figure_legende p, .tableau_legende p
+{
+    text-align : center;
+    font-size : 0.9em;
+    line-height : 1.2em;
+    margin : 0;
+    padding : 0;
+}
+.source
+{
+    text-align : right;
+    font-weight : bold;
+}
+
+
+div.equation
+{
+    display : inline;
+}
+
+div.encadre, div.exemple
+{
+    border : 1px solid black;
+    background-color : rgb(235, 236, 222);
+    padding : 1em;
+    margin : 0.5em 0;
+}
+
+/*pre {
+    font-family: Georgia;
+    line-height: 20px;
+    white-space: normal;
+}*/
+.verbatim { margin-left: 1em;}
+.verbatim + .verbatim { margin-top: 1em;}
+.verbatim.forme, .verbatim.poeme, .verbatim.theatre {
+    font-family : inherit;
+    white-space: normal;
+}
+.verbatim.equation, .verbatim.formeef, .verbatim.poemeef, .verbatim.programme {
+    font-family: monospace;
+    white-space: normal;
+}
+.bloc { margin: 0;}
+.bloc + .bloc {margin-top : 1em;}
+.hgauche, .hleft { text-align : left;}
+.hcentre, .hcenter { text-align: center;}
+.hdroite, .hright { text-align: right;}
+.hjustifie, .hjustify { text-align: justify;}
+.hcaract, .hchar {} /* ??? Je ne sais pas à quoi ça sert, bien qu'indiquer dans la DTD */
+
+.vhaut { vertical-align: top;}
+.vcentrer {vertical-align: center;}
+.vbas {vertical-align: bottom;}
+.vlignebas {vertical-align: baseline;}
+
+span.ligne {
+    display : block;
+}
+.objetmedia.ligne { display: inline;}
+img.figure { margin: 0;}
+/*section .notes
+{
+    border-top : 1px solid rgb(204, 204, 204);
+}*/
+
+
+
+
+/* Gestion des elemliste */
+#textehtml ol
+{
+    list-style : decimal;
+    margin-left : 1.12em;
+}
+
+#textehtml ul
+{
+    list-style : disc;
+    margin-left : 1.12em;
+}
+
+#textehtml ul.inline-meta
+{
+    margin-left : 0;
+}
+
+#textehtml ol .alinea, #textehtml ul .alinea
+{
+    margin : 0;
+    padding : 0;
+}
+
+
+
+#textehtml .biblio ul
+{
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+    font : 17px 'Alegreya',Georgia,Verdana;
+}
+#textehtml .biblio li
+{
+    margin : 0.7em 0;
+}
+/*#textehtml .refbiblio {
+    margin-left : 1.3em;
+}*/
+
+div.exemple span.no_seul
+{
+    font-weight : bold;
+}
+
+#textehtml ol.decimal
+{
+    list-style-type : decimal;
+}
+#textehtml ol.lettremaj
+{
+    list-style-type : upper-latin;
+}
+#textehtml ol.lettremin
+{
+    list-style-type : lower-latin;
+}
+#textehtml ol.romainmaj
+{
+    list-style-type : upper-roman;
+}
+#textehtml ol.romainmin
+{
+    list-style-type : lower-roman;
+}
+
+#textehtml ul.carre
+{
+    list-style-type : square;
+}
+#textehtml ul.cercle
+{
+    list-style-type : circle;
+}
+#textehtml ul.disque
+{
+    list-style-type : disc;
+}
+#textehtml ul.tiret
+{
+    list-style-type : disc;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH3gISDiUCaFOHSgAAABBJREFUCNdjVJKT/88wiAAAwqkBYD3qLmMAAAAASUVORK5CYII=);
+}
+/*#textehtml ul.tiret li:before
+{
+    content : '–\00a0\00a0';
+    line-height : 27px;
+    float : left;
+}*/
+#textehtml ul.nul
+{
+    list-style-type : none;
+}
+
+
+/* Gestion de la relation des listerelations */
+#textehtml .listerelation.type1,
+#textehtml .listerelation.type2,
+#textehtml .listerelation.type3 {
+    overflow: hidden;
+}
+#textehtml .listerelation.type1 .lrsource,
+#textehtml .listerelation.type2 .lrsource,
+#textehtml .listerelation.type3 .lrsource,
+#textehtml .listerelation.type1 .lrcible,
+#textehtml .listerelation.type2 .lrcible,
+#textehtml .listerelation.type3 .lrcible {
+    width: 48%;
+    margin-top: 0.6em;
+}
+#textehtml .listerelation.type1 .lrsource,
+#textehtml .listerelation.type2 .lrsource,
+#textehtml .listerelation.type3 .lrsource {
+    float: left;
+}
+#textehtml .listerelation.type1 .lrcible,
+#textehtml .listerelation.type2 .lrcible,
+#textehtml .listerelation.type3 .lrcible {
+    float: left;
+    margin-left: 4%;
+}
+#textehtml .listerelation.type4 .lrsource,
+#textehtml .listerelation.type5 .lrsource,
+#textehtml .listerelation.type6 .lrsource {
+    margin-top: 0.6em;
+}
+#textehtml .listerelation.type4 .lrcible,
+#textehtml .listerelation.type5 .lrcible,
+#textehtml .listerelation.type6 .lrcible {
+    margin-top: 0.3em;
+    margin-left: 0;
+}
+/* Gestion de l'emphase */
+#textehtml .listerelation.type2 .lrsource,
+#textehtml .listerelation.type5 .lrsource {
+    font-weight: bold;
+}
+#textehtml .listerelation.type2 .lrsource b,
+#textehtml .listerelation.type2 .lrsource strong,
+#textehtml .listerelation.type5 .lrsource b,
+#textehtml .listerelation.type5 .lrsource strong  {
+    font-weight: bold;
+}
+#textehtml .listerelation.type3 .lrcible,
+#textehtml .listerelation.type6 .lrcible {
+    font-weight: bold;
+}
+#textehtml .listerelation.type3 .lrcible b,
+#textehtml .listerelation.type3 .lrcible strong,
+#textehtml .listerelation.type6 .lrcible b,
+#textehtml .listerelation.type6 .lrcible strong  {
+    font-weight: bold;
+}
+/* Fin de la gestion des listerelations */
+
+
+#from_xml_top a,
+#from_xml_bottom a,
+#lightbox2 a {
+    color : rgb(177, 96, 97);
+}
+#from_xml_top a:hover, #from_xml_bottom a:hover
+{
+    color : rgb(51, 51, 51);
+}
+#textehtml a.jump-to-top
+{
+    color : rgb(75, 178, 172);
+}
+#textehtml a.jump-to-top:hover
+{
+    color : white;
+}
+/*#textehtml #textehtml p:first-of-type::first-letter
+{
+    font : bold 60px/46px 'Alegreya',Georgia,Verdana;
+    float : left;
+}*/
+
+/* STYLE POUR LA LIGHTBOX */
+#lightbox2
+{
+    background-color : rgba(86, 83, 83, 0.8);
+    /*     background : url("/img/fancybox_overlay.png") repeat scroll 0% 0% transparent; */
+    display : none;
+    width : 100%;
+    height : 100%;
+    /*height: 300px;*/
+    position : fixed;
+    top : 0;
+    left : 0;
+    overflow: hidden;
+    z-index: 99999;
+}
+#lightbox2 .canvas
+{
+    margin-top : 2em;
+    height : 92%;
+    position : absolute;
+    width : 100%;
+    /*     border : 1px solid red; */
+}
+#lightbox2 .element
+{
+    background-color : #F9F9F9;
+    height : 100%;
+    position : absolute;
+    width : 100%;
+}
+
+#lightbox2 .title, #lightbox2 .legend
+{
+    background-color : black;
+    color : white;
+    font-size : 18px;
+    font-family : 'Alegreya';
+    padding : 13px 4em 15px;
+    min-height : 1em;
+}
+#lightbox2 .title .figure_titre .amorce {
+    display : none;
+}
+#lightbox2 .legend
+{
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    right : 0;
+}
+#lightbox2 .image
+{
+    position : absolute;
+    width : 100%;
+    text-align: center;
+}
+
+#lightbox2 img
+{
+    position : relative;
+    border : 2px solid #4BB2AC;
+    border-radius : 3px;
+    /*     height : 90%; */
+    /*     max-width : 90%; */
+    /*     max-height : 90%; */
+}
+#lightbox2 img.ligne {
+    border : 0;
+    border-radius : 0;
+}
+#lightbox2 .closer
+{
+    cursor : pointer;
+    width : 32px;
+    height : 32px;
+    background : url("../images/icon/lightbox-close.png") no-repeat center center;
+    position : fixed;
+    top : 2.5em;
+    right : 2em;
+    z-index : 999;
+}
+#lightbox2 .arrow-left, #lightbox2 .arrow-right
+{
+    cursor : pointer;
+    width : 30px;
+    height : 59px;
+    position : fixed;
+    top : 50%;
+}
+#lightbox2 .arrow-left
+{
+    background : url("../images/icon/modal-prev.png") no-repeat center center;
+    left : 1em;
+}
+#lightbox2 .arrow-right
+{
+    background : url("../images/icon/modal-next.png") no-repeat center center;
+    right : 1em;
+}
+
+#lightbox2 .counter-image
+{
+    position : fixed;
+    top : 0;
+    left : 0;
+    content : "hello";
+    width : 100px;
+    height : 100px;
+    background-color : red;
+}
+
+/* Pour les sauts vers les sections de l'article */
+a.jump_to_section
+{
+
+    padding : 0.4em 0!important;
+}
+
+#textehtml section.abstract, #textehtml section#plan-of-article
+{
+    padding-bottom : 1em;
+}
+
+span.barre
+{
+    text-decoration : line-through;
+}
+
+span.souligne
+{
+    text-decoration : underline;
+}
+
+span.url
+{
+    color : rgb(177, 96, 97);
+    text-decoration : underline;
+}
+
+span.majuscule
+{
+    text-transform : uppercase;
+}
+
+span.espacefixe
+{
+    font-family : "Courier New", Courier, monospace;
+}
+
+span.petitecap
+{
+    font-variant : small-caps;
+}
+.titre_encadre {
+    font-weight : bold;
+}
+
+
+
+#infoBook span.orange
+{
+    color: #B9B958;
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    text-transform:none;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: -2px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+#infoBook span.orange i, #infoBook span.orange em { font-style: normal;}
+
+
+
+
+
+#infoBook .wrapper_nom_auteur
+{
+    display : inline;
+    text-decoration : none;
+    /*     width : 100%; */
+}
+
+#infoBook .wrapper_nom_auteur[data-with-author-link=yes]:hover
+{
+    cursor : pointer;
+}
+#infoBook .wrapper_nom_auteur[data-with-author-link=no]:hover {
+    cursor: text;
+}
+#infoBook .from-the-same-author { display : none; }
+#infoBook span.from-the-same-author, #infoBook span.from-the-same-author .phylactere
+{
+    background-color : rgb(75, 178, 172);
+    color : rgb(255, 255, 255);
+    border-radius : 3px;
+    font : bold 14px/16px 'Alegreya SC',serif;
+    padding : 0px 3px;
+    height : 22px;
+    margin : 0;
+    text-decoration : none;
+    border : 1px solid transparent;
+    position : relative;
+}
+#infoBook .wrapper_nom_auteur span.from-the-same-author:after
+{
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(75, 178, 172, 0);
+    border-right-color: rgb(75, 178, 172);
+    border-width: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+#infoBook .wrapper_nom_auteur[data-with-author-link=yes]:hover > .from-the-same-author
+{
+    cursor : pointer;
+    display : inline;
+}
+
+
+#infoBook p
+{
+    margin-top: 8px;
+    line-height: 19px;
+}
+
+#infoBook .auteur
+{
+    margin : 1em 0;
+}
+
+#infoBook span.nom_auteur:hover .from-the-same-author
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+#infoBook .auteur .arrow
+{
+    height : 16px;
+    text-align : left;
+    font : 16px bold;
+    margin : auto;
+    cursor : pointer;
+}
+
+#infoBook .auteur .arrow.up
+{
+    background : url("/img/top-triangle-big-icon.png") no-repeat center bottom;
+}
+
+#infoBook .auteur .arrow.down
+{
+    background : url("/img/bottom-triangle-big-icon.png") no-repeat center bottom;
+}
+#infoBook .auteur .arrow.down:before
+{
+    content : '...';
+    position : relative;
+    top : -0.3em;
+}
+
+#infoBook .auteur .affiliation
+{
+    cursor : pointer;
+    overflow : hidden;
+}
+
+#infoBook .auteur .affiliation:hover
+{
+    background-color : rgba(204, 204, 204, 0.1);
+}
+#plan-of-article .section1_titre
+{
+    font-weight : bold;
+    /*     margin-top : 1em; */
+}
+
+#plan-of-article .section2_titre
+{
+    /*     font-weight : bold; */
+    font-style : italic;
+    margin-left : 1em;
+}
+#plan-of-article .section2_titre i, #plan-of-article .section2_titre em { font-style: normal;}
+#plan-of-article .section3 {
+    display : none;
+}
+#plan-of-article .section3_titre
+{
+    font-style : italic;
+}
+
+#plan-of-article .section3_titre:last-child
+{
+    margin-bottom : 0.5em;
+}
+#plan-of-article .section3_titre:last-child i, #plan-of-article .section3_titre:last-child em { font-style: normal;}
+
+#plan-of-article a
+{
+    color : inherit;
+    text-decoration : none;
+}
+
+#plan-of-article a:hover
+{
+    text-decoration : underline;
+}
+
+#plan-of-article ol
+{
+    list-style : none;
+    margin : 0;
+}
+
+
+
+/* SPÉCIFIQUE AU MODE ZEN/FOCUS */
+#focus {
+    width : 960px;
+    margin : auto;
+    padding-top : 1em;
+    font-size : 1.3em;
+}
+#focus .yellow-annot {
+    font : italic bold 1em Alegreya;
+    color : rgb(184, 184, 88);
+}
+#focus > header {
+    text-align : center;
+}
+#focus > header h3 {
+    font : bold italic 1em Alegreya;
+    color : rgb(184, 184, 88);
+}
+#focus > header h1 {
+    color : rgb(51, 51, 51);
+    font-size : 1.4em;
+}
+#focus .in-out-focus > * {
+    display : inline-block;
+}
+#focus .in-focus {
+    margin-right : 1.7em;
+    color : rgb(184, 184, 88);
+    font : bold italic 1em Alegreya;
+}
+#focus .in-focus img {
+    position : relative;
+    top : 10px;
+    margin-right : 0.3em;
+}
+#focus .exit-focus a {
+    color : rgb(88, 82, 82);
+    text-decoration : underline;
+    font-size : 0.8em;
+}
+#focus .numero.meta {
+    width : 100%;
+    padding : 0.6em 0;
+    border-top : 1px solid rgb(187, 187, 187);
+    border-bottom : 1px solid rgb(187, 187, 187);
+    font-size : 0.85em;
+}
+
+#focus .numero.meta .authors, #focus .numero.meta .others, #focus .numero.meta .publisher { display : inline-block; vertical-align : top; }
+#focus .numero.meta .authors { width : 350px; margin-right : 10px;}
+#focus .numero.meta .others { width : 390px; margin-right : 20px;}
+#focus .numero.meta .publisher { width : 182px; }
+
+#focus .numero.meta .authors {
+    font : bold 1em/1.1 Alegreya;
+}
+#focus .numero.meta .authors .attribut {
+    font : italic bold 1em Alegreya;
+    color : rgb(184, 184, 88);
+}
+#focus .numero.meta .revue_title {
+    font-size : 1em;
+}
+
+#focus .pages-numbers {
+    text-align : center;
+    margin-top : 0.8em;
+    margin-bottom : 2.5em;
+}
+#focus .pages-numbers > * {
+    display : inline-block;
+}
+#focus .pages-numbers > a {
+    border-radius : 3px;
+    padding : 0 0.3em;
+}
+#focus .pages-numbers > a:hover {
+    text-decoration : none;
+    color : white;
+    background-color : rgb(51, 51, 51);
+}
+#focus .pages-numbers .previous, #focus .pages-numbers .next {
+    color : rgb(33, 30, 31);
+    font : bold 0.8em "Alegreya SC";
+}
+#focus .pages-numbers .previous .icon {
+    margin-right : 0.5em;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#focus .pages-numbers .next .icon { margin-left : 0.5em; }
+#focus .pages-numbers .current { font-weight : bold; }
+
+#focus #textehtml {
+    width : 690px;
+    margin : auto;
+    position : relative;
+    right : -75px; /* Correspond au décalage qui est appliqué pour les numéros de pages */
+}
+#focus #textehtml p { line-height : 1.6; }
+
+
+.access_full_article {
+    margin-top : 1em;
+    float : right;
+    font : bold 1em "Alegreya SC";
+}
+.access_full_article .unicon { margin-left : 0.5em; }
+
+.ref-enligne {
+    left: -100px;
+    position: absolute;
+}
+.ref-enligne a {
+    left: -0.8em;
+    position: relative;
+}
+.ref-enligne.refnote a {
+    left: -3em;
+}
+
+blockquote.resume {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+/* Code pour la table */
+table {
+    text-align : left;
+    width : 100%;
+}
+tr {}
+td {
+    padding : 0 1em;
+}
+thead {
+    background-color: #4BB2AC;
+    color: white;
+}
+tfoot {
+    background-color: #333;
+    color: white;
+}
+
+table .no_para {
+    display: none;
+}
+
+.table  {
+    border: 1px solid #999;
+}
+.table > table {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table.frame_all {
+    border: 1px solid #999;
+}
+.table.frame_top {
+    border: 0;
+    border-top: 1px solid #999;
+}
+.table.frame_bottom {
+    border: 0;
+    border-bottom: 1px solid #999;
+}
+.table.frame_topbot {
+    border: 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.table.frame_sides {
+    border: 0;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.table.frame_none {
+    border: 0;
+}
+
+.table.pgwide_on { display: block;}
+.table.pgwide_off { display: inline-block;}
+
+.table.tabstyle_solid { border-style: solid;}
+.table.tabstyle_dotted { border-style: dotted;}
+.table.tabstyle_dashed { border-style: dashed;}
+.table.tabstyle_double { border-style: double;}
+.table.tabstyle_groove { border-style: groove;}
+.table.tabstyle_ridge { border-style: ridge;}
+.table.tabstyle_inset { border-style: inset;}
+.table.tabstyle_outset { border-style: outset;}
+
+.valign_top { vertical-align: top;}
+.valign_middle { vertical-align: middle;}
+.valign_bottom { vertical-align: bottom;}
+
+.halign_left { text-align: left; }
+.halign_right { text-align: right; }
+.halign_center { text-align: center; }
+.halign_justify { text-align: justify; }
+.halign_char { /* TODO */ }
+
+
+/* TODO: que la rotation se fasse sur le point d'origine (0, 0).
+    TODO: qu'après rotation, la table occupe un espace propre. Actuellement, elle se comporte comme un flow */
+.table.orient_land, .entry.rotate_on {
+    /*transform-origin: top left;*/
+    transform: rotate(270deg);
+}
+
+
+.entry {
+    /*border-right: 1px solid #999;*/
+    margin: 0;
+    padding: 0.3em;
+}
+.entry.colsep_on { border-right: 1px solid #999; }
+.entry.rowsep_on { border-bottom: 1px solid #999; }
+
+table > tbody > tr:first-child > td.entry {
+    border-top: 0;
+}
+table > tbody > tr:last-child > td.entry {
+    border-bottom: 0;
+}
+table > tbody > tr > td.entry:first-child {
+    border-left: 0;
+}
+table > tbody > tr > td.entry:last-child {
+    border-right: 0;
+}
+.font-polae {
+    font-family: "polae";
+}
+.font-polaep {
+    font-family: "polaep";
+}

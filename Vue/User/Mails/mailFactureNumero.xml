@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Facture de votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+<p>Madame, Monsieur,</p>
+<p>Vous trouverez ci-joint la facture de l'achat effectué le [DATE_ACHAT], pour le numéro [NUMERO_ANNEE]/[NUMERO_NUMERO] de la revue [REVUE_TITRE].<br />Cet ouvrage vous sera expédié aujourd’hui ou demain.</p>
+<p>Par ailleurs, vous pouvez immédiatement consulter sur [URLSITE] le texte intégral des différents articles de ce numéro en versions HTML et PDF.</p>
+<p>Pour cela, veuillez cliquez sur le lien suivant :
+<a href="http://[URLSITE]/numero.php?ID_REVUE=[ID_REVUE]&ID_NUMPUBLIE[ID_NUMPUBLIE]&USER=[ID_USER]">Sommaire de ce numéro</a></p>
+<p>NB : pour valider votre identification, il vous sera demandé votre mot de passe (celui que vous avez indiqué en créant votre compte Cairn.info). Si vous l'avez oublié, veuillez cliquer sur <a href="http://[URLSITE]/mot-de-passe.php">Mot de passe oublié</a>.</p>
+<p>Cliquez ensuite sur les liens [version HTML] ou [version PDF] pour consulter les articles en ligne ou pour les télécharger.</p>
+<p>En cas de difficulté, n'hésitez pas à joindre notre support utilisateurs : <a href="mailto:support@cairn.info">support@cairn.info</a>. </p>
+<p>Nos conditions générales de vente sont disponibles à l'adresse : <a href="http://[URLSITE]/conditions-generales-de-vente.php"> http://[URLSITE]/conditions-generales-de-vente.php</a>.</p>
+
+<p>En vous remerciant.</p>
+
+<p>Cairn.info<br />Car l'avenir de l'écrit est aussi sur le web.<hr>
+Cairn S.A.<br />58/60, rue des Champs<br>
+B-4020 Liège, Belgique</p>
+]]></body>
+</mail>

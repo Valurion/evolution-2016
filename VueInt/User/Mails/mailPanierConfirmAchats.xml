@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Your order no. [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>
+Dear Customer,
+You have ordered one or more papers for the Cairn International website. These papers will be available to you at http://[URLSITE] in HTML and PDF formats. They will not be sent by mail.
+To access your purchase, please click on the following link: http://[URLSITE]/my_purchases.php?USER=[ID_USER].
+You will be asked for your password. If you have forgotten it, please visit http://[URLSITE]/password_forgotten.php.
+You will then see the list of your purchases. By clicking on the title, you will be directed to the corresponding page for the "Paper" you have purchased.
+    
+If you have questions or problems, please do not hesitate to contact our Customer Service Department by filling out the contact form at http://www.cairn-int.info/help.php. Please include the following order number: [NO_COMMANDE].
+
+Thank you for your purchase.
+
+Cairn.info
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège, Belgique
+Terms of Sale:
+http://www.cairn-int.info/conditions.php
+</body>
+</mail>

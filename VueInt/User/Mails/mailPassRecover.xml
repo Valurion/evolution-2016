@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Cairn.info: Password reset</subject>
+<from>Cairn.info&lt;support@cairn.info&gt;</from>
+<to>[PRENOM] [NOM]&lt;[EMAIL]&gt;</to>
+<fromName>Cairn.info</fromName>
+<body>
+Bonjour [PRENOM] [NOM],
+
+Nous venons de recevoir une demande de réinitialisation du mot de passe de votre compte Cairn.info ([EMAIL]).
+
+Si vous souhaitez réinitialiser votre mot de passe, cliquez sur le lien ci-dessous ou copiez-le et collez-le dans votre navigateur :
+
+http://[URLSITE]/mdp_nouveau.php?id=[LINK]
+
+Si vous n'êtes pas à l'origine de cette demande ou si vous souhaitez garder votre mot de passe actuel il vous suffit d'ignorer ce message.
+
+Nous vous souhaitons une bonne visite.
+
+Cairn.info
+http://www.cairn.info
+</body>
+</mail>

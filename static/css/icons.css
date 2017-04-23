@@ -1,0 +1,269 @@
+.icon-sprite, .icon-add-biblio-glyph, .icon-add-biblio, .icon-add-to-cart-big, .icon-arrow-black-right, .icon-arrow-blue-right, .icon-arrow-white-left, .icon-arrow-white-right, .icon-arrow-white-top, .icon-bell, .icon-breadcrump-arrow, .icon-citation-begin, .icon-citation-end, .icon-diamond-bullet, .icon-envelope, .icon-login, .icon-logout, .icon-magnifing-glass, .icon-modal-close, .icon-refresh, .icon-remote-access, .icon-round-arrow-right, .icon-rss, .icon-submit-arrow, .icon-tools-ico-biblio, .icon-tools-ico-fontBigger, .icon-tools-ico-fontSmaller, .icon-tools-ico-hightlight, .icon-tools-ico-pdf, .icon-tools-ico-print, .icon-tools-ico-top, .icon-more, .icon-remove, .icon-elec-reader, .icon-book-elec-reader, .icon-elec-reader_inactive, .icon-book-elec-reader_inactive, .icon-triangle-down, .icon-info {
+    background: url('../images/icon-s63d8f25c80.png') no-repeat;
+}
+
+.icon-add-biblio-glyph {
+    background-position: 0 -903px;
+    height: 15px;
+    width: 25px;
+}
+
+.icon-add-biblio {
+    background-position: 0 -425px;
+    height: 32px;
+    width: 32px;
+}
+.icon-add-biblio:hover, .icon-add-biblio.add-biblio_hover, .icon-add-biblio.add-biblio-hover {
+    background-position: 0 -457px;
+}
+
+.icon-add-to-cart-big {
+    background-position: 0 -289px;
+    height: 34px;
+    width: 34px;
+}
+.icon-add-to-cart-big.fg-green {
+    background-position: -34 -289px;
+}
+
+.icon-arrow-black-right {
+    background-position: 0 -947px;
+    height: 23px;
+    width: 23px;
+}
+
+.icon-arrow-blue-right {
+    background-position: 0 -1006px;
+    height: 20px;
+    width: 28px;
+}
+.icon-arrow-blue-right:hover, .icon-arrow-blue-right.arrow-blue-right_hover, .icon-arrow-blue-right.arrow-blue-right-hover {
+    background-position: 0 -99px;
+}
+
+.icon-arrow-white-left {
+    background-position: 0 -1051px;
+    height: 15px;
+    width: 16px;
+}
+
+.icon-arrow-white-right {
+    background-position: 0 -1036px;
+    height: 15px;
+    width: 16px;
+}
+
+.icon-arrow-white-top {
+    background-position: 0 -1066px;
+    height: 16px;
+    width: 15px;
+}
+
+.icon-bell {
+    background-position: 0 -663px;
+    height: 36px;
+    width: 37px;
+}
+
+.icon-breadcrump-arrow {
+    background-position: 0 -1026px;
+    height: 10px;
+    width: 7px;
+}
+
+.icon-citation-begin {
+    background-position: 0 -869px;
+    height: 14px;
+    width: 19px;
+}
+
+.icon-citation-end {
+    background-position: 0 -855px;
+    height: 14px;
+    width: 19px;
+}
+
+.icon-diamond-bullet {
+    background-position: 0 -60px;
+    height: 14px;
+    width: 14px;
+}
+
+.icon-envelope {
+    background-position: 0 -627px;
+    height: 36px;
+    width: 37px;
+}
+
+.icon-login {
+    background-position: 0 -970px;
+    height: 36px;
+    width: 36px;
+}
+.icon-login:hover, .icon-login.login_hover, .icon-login.login-hover {
+    background-position: 0 -557px;
+}
+
+.icon-logout {
+    background-position: 0 -918px;
+    height: 15px;
+    width: 14px;
+}
+
+.icon-magnifing-glass {
+    background-position: 0 -883px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-modal-close {
+    background-position: 0 -34px;
+    height: 26px;
+    width: 26px;
+}
+
+.icon-refresh {
+    background-position: 0 -933px;
+    height: 14px;
+    width: 14px;
+}
+
+.icon-remote-access {
+    background-position: 0 -807px;
+    height: 14px;
+    width: 29px;
+}
+
+.icon-round-arrow-right {
+    background-position: 0 -255px;
+    height: 34px;
+    width: 34px;
+}
+.icon-round-arrow-right:hover, .icon-round-arrow-right.round-arrow-right_hover, .icon-round-arrow-right.round-arrow-right-hover {
+    background-position: 0 -821px;
+}
+
+.icon-rss {
+    background-position: 0 -699px;
+    height: 36px;
+    width: 36px;
+}
+
+.icon-submit-arrow {
+    background-position: 0 -74px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.icon-tools-ico-biblio {
+    background-position: 0 0;
+    height: 34px;
+    width: 34px;
+}
+
+.icon-more {
+    background-position: 0 -1082px;
+    height: 28px;
+    width: 28px;
+}
+.icon-more:hover, .icon-more_hover {
+    background-position: 0 -1110px;
+}
+.icon-remove {
+    background-position: -28px -1082px;
+    height: 28px;
+    width: 28px;
+}
+.icon-remove:hover, .icon-remove_hover {
+    background-position: -28px -1110px;
+}
+
+
+.icon-tools-ico-biblio:hover, .icon-tools-ico-biblio.tools-ico-biblio_hover, .icon-tools-ico-biblio.tools-ico-biblio-hover {
+    background-position: 0 -773px;
+}
+
+.icon-tools-ico-fontBigger {
+    background-position: 0 -187px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-fontBigger:hover, .icon-tools-ico-fontBigger.tools-ico-fontBigger_hover, .icon-tools-ico-fontBigger.tools-ico-fontBigger-hover {
+    background-position: 0 -489px;
+}
+
+.icon-tools-ico-fontSmaller {
+    background-position: 0 -391px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-fontSmaller:hover, .icon-tools-ico-fontSmaller.tools-ico-fontSmaller_hover, .icon-tools-ico-fontSmaller.tools-ico-fontSmaller-hover {
+    background-position: 0 -357px;
+}
+
+.icon-tools-ico-hightlight {
+    background-position: 0 -221px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-hightlight:hover, .icon-tools-ico-hightlight.tools-ico-hightlight_hover, .icon-tools-ico-hightlight.tools-ico-hightlight-hover {
+    background-position: 0 -323px;
+}
+
+.icon-tools-ico-pdf {
+    background-position: 0 -153px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-pdf:hover, .icon-tools-ico-pdf.tools-ico-pdf_hover, .icon-tools-ico-pdf.tools-ico-pdf-hover {
+    background-position: 0 -119px;
+}
+
+.icon-tools-ico-print {
+    background-position: 0 -523px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-print:hover, .icon-tools-ico-print.tools-ico-print_hover, .icon-tools-ico-print.tools-ico-print-hover {
+    background-position: 0 -593px;
+}
+
+.icon-tools-ico-top {
+    background-position: 0 -735px;
+    height: 38px;
+    width: 60px;
+}
+
+.icon-elec-reader, .icon-elec-reader_inactive {
+    width: 30px;
+    height: 43px;
+}
+.icon-elec-reader {
+    background-position: -30px -1138px
+}
+.icon-elec-reader_inactive {
+    background-position: 0px -1138px;
+}
+
+.icon-book-elec-reader, .icon-book-elec-reader_inactive {
+    height: 43px;
+    width: 72px;
+}
+.icon-book-elec-reader {
+    background-position: -72px -1182px;
+}
+.icon-book-elec-reader_inactive {
+    background-position: 0px -1182px;
+}
+.icon-triangle-down {
+    background-position: 0 -67px;
+    width: 14px;
+    height: 7px;
+}
+
+.icon-info {
+    background-position: -34px 0;
+    width: 34px;
+    height: 34px;
+}

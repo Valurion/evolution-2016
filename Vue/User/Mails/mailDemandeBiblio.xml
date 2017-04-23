@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>CREDIT/[ID_INST]/[ID_USER]</subject>
+<from>cairn@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>SELECTIONS:[SELECTIONS]
+NOM:[NOM]
+PRENOM:[PRENOM]
+FONCTION:[FONCTION]
+MOTIVATION:
+[MOTIVATION]
+</body>
+</mail>

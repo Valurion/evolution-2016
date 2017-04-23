@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>BIBLIO/[MAIL] </subject>
+<from>Cairn.info&lt;alertes@cairn.info&gt;</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+
+EXPEDITEUR:[EXP]
+COMMENTAIRE:[COM]
+BIBLIO:[BIB]
+-----------------------
+]]></body>
+</mail>

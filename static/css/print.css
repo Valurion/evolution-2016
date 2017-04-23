@@ -1,0 +1,148 @@
+#page-print-article .orange,
+#page-print-article #infoBook .from-the-same-author,
+#page-print-article #infoBook div.wrapper_nom_auteur:hover > .from-the-same-author,
+#page-print-article #textehtml .amorce,
+#page-print-article #infoBook .without_contribution,
+#page-print-article #textehtml #plan-of-article {
+    display : none;
+}
+
+body#page-print-article  {
+    width : 700px;
+    margin : auto;
+    font-family : Georgia;
+    text-align : justify;
+    font-size : 1.1em;
+    line-height : 1.3;
+}
+/* BEGIN COPYRIGHT */
+#page-print-article #copyright {
+    font-family : "Trebuchet MS";
+    font-size : 0.75em;
+    border : 1px solid gray;
+    padding : 1em;
+}
+#page-print-article #copyright img {
+    float : left;
+}
+#page-print-article #copyright p {
+    margin-left : 240px;
+}
+
+#page-print-article #copyright .numero_pages {
+    display : block;
+    margin-bottom : 1em;
+}
+/* END COPYRIGHT */
+
+
+
+/* BEGIN INFOBOOK */
+#page-print-article #infoBook
+{
+    margin-bottom : 3em;
+}
+#page-print-article #infoBook .grtitre
+{
+    text-align : left;
+}
+#page-print-article #infoBook .auteur .affiliation,
+#page-print-article #infoBook div.wrapper_nom_auteur:hover
+{
+    cursor : inherit;
+}
+
+#page-print-article #infoBook p
+{
+    width : 100%;
+}
+
+#page-print-article #infoBook .auteur .affiliation:hover,
+#page-print-article #infoBook span.nom_auteur,
+#page-print-article #infoBook div.wrapper_nom_auteur,
+#page-print-article #textehtml a.jump-to-top,
+#page-print-article #textehtml a.jump-to-top:hover,
+#page-print-article #textehtml a.renvoi_inside
+{
+    background-color : transparent;
+    text-decoration : none;
+    border : none;
+    margin : 0;
+    padding : 0;
+    color : inherit;
+}
+/* END INFOBOOK */
+
+
+
+
+#page-print-article blockquote
+{
+    background : none;
+}
+#page-print-article blockquote p:last-of-type
+{
+    background : none;
+}
+#page-print-article .renvoi_inside
+{
+    font-size : 0.8em;
+}
+#page-print-article #textehtml .notes
+{
+    margin-top : 3em;
+    font-size : 0.75em;
+}
+#page-print-article #textehtml .notes:before
+{
+    content : " ";
+    display : block;
+    border-top : solid 1px black;
+    width : 33%;
+}
+#page-print-article #textehtml a.jump-to-top
+{
+    font-weight : bold;
+}
+
+
+
+
+
+/* BEGIN DECALAGE */
+#page-print-article #textehtml
+{
+    margin-right : 2em;
+}
+#page-print-article #textehtml .negative-right
+{
+    float : right;
+    position : relative;
+    right : -2em;
+    font-size : 0.8em;
+    color : rgb(143, 143, 114);
+}
+/* END DECALAGE */
+
+
+
+/* BEGIN RIBBON */
+#page-print-article #ribbon,
+#page-print-article #lignesssss
+{
+    transform : rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    white-space : nowrap;
+    left : 99%;
+    position : relative;
+    bottom : 0;
+    width : 5em;
+}
+
+#page-print-article #ribbon .ribbon-elem,
+#page-print-article #lignesssss span
+{
+    display : inline;
+    padding-left : 5em;
+}

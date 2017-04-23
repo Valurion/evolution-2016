@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>
+Madame, Monsieur,
+
+Vous avez sélectionné sur le site Cairn.info des articles, chapitres d'ouvrages, numéros de revue, ouvrages, abonnements ou crédits d'articles pour lesquels vous souhaitez effectuer paiement par courrier.
+
+Cette possibilité vous est offerte, à condition que le montant de votre panier se monte à un minimum de 30 euros.
+
+Veuillez trouver ci-joint votre bon de commande, à nous retourner accompagné de votre règlement (chèque ou attestation de virement bancaire).
+
+Dès réception, nous vous ouvrirons l'accès aux contenus concernés par votre achat.
+
+Pour y accéder, il vous faudra vous rendre sur la page suivante : [URLSITE]/mes_achats.php?USER=[ID_USER].
+
+Il vous sera sans doute demandé votre mot de passe. Si vous l'avez oublié, veuillez consulter [URLSITE]/mot-de-passe.php. Notre aide en ligne, disponible sur [URLSITE]/aide.php pourrait également vous être utile.
+
+Par ailleurs, si votre panier contient des numéros de revue, nous vous les expédierons par courrier.
+
+Si votre panier contient des abonnements, vous recevrez les numéros papiers couverts par ces abonnements au fur et à mesure de leur parution.
+
+Nous restons à votre disposition pour toute information complémentaire : support@cairn.info
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+[URLSITE]/conditions-generales-de-vente.php
+</body>  
+</mail>

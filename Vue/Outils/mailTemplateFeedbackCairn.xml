@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Feedback [CATEGORY]</subject>
+<from>[FROM]</from>
+<fromName>[FROM]</fromName>
+<body><![CDATA[
+
+* *Date* : [DATE]
+* *Mail* : [FROM]
+* *Catégorie* : [CATEGORY]
+* *Site* : [FROM_SITE]
+* *Depuis l'url* : [FROM_URL]
+* *Depuis l'institution* : [FROM_INST]
+* *Depuis le compte* : [FROM_USER]
+
+
+---------------------------------------
+              MESSAGE
+---------------------------------------
+
+[TEXT]
+
+---------------------------------------
+            END MESSAGE
+---------------------------------------
+
+
+]]></body>
+</mail>

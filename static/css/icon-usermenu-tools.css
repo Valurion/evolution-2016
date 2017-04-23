@@ -1,0 +1,142 @@
+/*
+ * Afin de pouvoir positioner les "tiny" avec un position absolute,
+ * il faut passer l'élément parent en position relative :   
+ */
+.list_articles .result,
+.list_articles .article {
+    position: relative;
+}
+.main-title .icon-usermenu-tools-tiny {top: 10px;}
+
+/* BEGIN USERMENU-TOOLTIP */
+#usermenu-tools {
+    position : absolute;
+    top: 10px;
+    right : -70px;
+    list-style-type : none;
+    z-index: 2;
+}
+#usermenu-tools li + li {
+    margin-top : 2px;
+}
+#usermenu-tools li {
+    height: 56px;
+}
+#usermenu-tools li {
+    margin-bottom: 10px;
+}
+
+/* USERMENU-TOOLS : ICONS */
+/* Définition du style des usermenu-tools */
+.icon-usermenu-tools {
+    position: relative;
+    display: block;    
+    
+    width: 56px;
+    height: 56px;
+    
+    background-color: #4CB2AC;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+/* LABEL */
+.icon-usermenu-tools label {
+    margin-left: -141px;
+    display: none;
+    width: 141px;
+    height: 56px;
+    line-height:56px;
+    background-color: #323232;
+    border-right: solid 1px #979797;
+    cursor: pointer;
+} 
+.icon-usermenu-tools label span {
+    display:inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    width: 135px;
+    
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+}
+
+/* USERMENU-TOOLS : ICONS */
+/* Définition du style des usermenu-tools */
+.icon-usermenu-tools-tiny {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    display: block;
+    
+    
+    width: 24px;
+    height: 24px;
+    
+    background-color: #4CB2AC;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+/* LABEL */
+.icon-usermenu-tools-tiny label {
+    margin-left: -214px;
+    display: none;
+    width: 214px;
+    height: 24px;
+    line-height:24px;
+    background-color: #323232;
+    border-right: solid 1px #979797;
+
+    -webkit-border-radius: 2px 0 0 2px;
+    border-radius: 2px 0 0 2px;
+    cursor: pointer;
+} 
+.icon-usermenu-tools-tiny label span {
+    display:inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    padding-right: 5px;
+    width: 210px;
+    
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* COMPORTEMENT */
+.icon-usermenu-tools:hover,
+.icon-usermenu-tools-tiny:hover {
+    background-color: #323232;
+    text-decoration: none;
+}
+.icon-usermenu-tools:hover label,
+.icon-usermenu-tools-tiny:hover label {
+    display: block;
+} 
+
+
+
+/* DEFINITIONS DES ICONS */
+.icon-usermenu-tools-bigger-char {background-image: url('../images/icon-usermenu-tools-add.png');}
+.icon-usermenu-tools-lower-chr {background-image: url('../images/icon-usermenu-tools-remove.png');}
+.icon-usermenu-tools-pdf {background-image: url('../images/icon-usermenu-tools-pdf.png');}
+.icon-usermenu-tools-print {background-image: url('../images/icon-usermenu-tools-print.png');}
+.icon-usermenu-tools-xml {background-image: url('../images/icon-usermenu-tools-xml.png');}
+.icon-usermenu-tools-summary {background-image: url('../images/icon-usermenu-tools-paper.png');}
+.icon-usermenu-tools-html {background-image: url('../images/icon-usermenu-tools-html.png');}
+
+.icon-usermenu-tools-highlight-active {background-image: url('../images/icon-usermenu-tools-highlight-active.png');}
+.icon-usermenu-tools-highlight-inactive {background-image: url('../images/icon-usermenu-tools-highlight-inactive.png');}
+
+.icon-usermenu-tools-tiny-bigger-char {background-image: url('../images/icon-usermenu-tools-add-tiny.png');}
+.icon-usermenu-tools-tiny-lower-char {background-image: url('../images/icon-usermenu-tools-remove-tiny.png');}
+.icon-usermenu-tools-tiny-copy {background-image: url('../images/icon-usermenu-tools-copy-tiny.png');background-size: 16px 16px;}

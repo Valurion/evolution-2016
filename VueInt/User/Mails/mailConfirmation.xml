@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Your Cairn.info account has been created.</subject>
+<from>cairn@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+Hello,
+
+Thank you for signing up on Cairn International!
+Your personal account has been created with the following information:
+
+Email address: [EMAIL]
+First name: [PRENOM]
+Last name: [NOM]
+Activity : [ACTIVITY]
+Subject of interest: [DISCIPLINE]
+
+Your password is the one you entered during the sign in process.
+
+For any other question, do not hesitate to:
+- see our online help page on http://www.cairn-int.info/help.php ;
+- follow us on Twitter https://twitter.com/cairnint ;
+- or contact us using http://www.cairn-int.info/contact.php.
+
+Yours,
+
+Cairn.info
+International Edition
+
+----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIUM
+Terms of use:
+http://www.cairn-int.info/conditions.php
+]]></body>
+</mail>

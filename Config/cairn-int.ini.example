@@ -1,0 +1,189 @@
+; Configuration pour le développement
+
+[Installation]
+racineWeb = /cairn
+urlSite = 0.0.0.0:8080/
+gabaritDefaut = gabarit.php
+crossDomainUrl = www.cairn.info
+vign_url=cairn-int.info
+vign_url_cross_domain=www.cairn.info
+vign_path=vign_rev
+;; Le nom du site qui apparait comme titre de la page dans le navigateur. Par défaut à Cairn.info ou Cairn-int.info
+;; Cela fait suite à une demande de l'équipe conversion qui ne parvenait pas à repérer les versions du site
+;; avec beaucoups d'onglets ouverts
+siteName = "localhost::cairn-int.info"
+
+[VUE]
+dirVue=VueInt
+tabsMode=discpos
+breadcrumbMode=discpos
+modeBoutons=cairninter
+mode=cairninter
+
+[BD]
+dsn = 'mysql:host=localhost;dbname=cairnint_pub;charset=utf8'
+db_pub = cairnint_pub
+dsn_pub_forIdxer = 'mysql:host=localhost;dbname=cairnint_pub;charset=utf8'
+db_pub_forIdxer = cairnint_pub
+dsn_com = 'mysql:host=localhost;dbname=cairn3_com;charset=utf8'
+dsn_com_mongo = 'mongodb://user:password@host:port'
+db_com = cairn3_com
+dsn_abo = 'mysql:host=localhost;dbname=cairnint_abonnes;charset=utf8'
+db_abo = cairn3_abonnes
+dsn_stat = 'mysql:host=localhost;dbname=cairnint_stat;charset=utf8'
+dsn_stat_mongo = 'mongodb://user:password@host:port'
+db_stat = cairnint_stat
+dsn_evidensse = 'mysql:host=localhost;dbname=evidensse;charset=utf8'
+db_evidensse = evidensse
+login = my-user
+mdp = my-password
+
+[EVIDENSSE]
+runningProcess=1
+searchHost = localhost
+searchPort = 7050
+searchURI="pth_search";
+indexPath= "/home/search/idx/cairn2014"
+fwRech="titrech:2500,rev0:1000,Sectsom:1500,tr:2500,Motscles:400,Auteur:1500,Inter1:300,Inter2:250,Inter3:200,Note:50,rech1:1000,rech2:1000,rech3:1000,rech4:4000,rech6:3000"
+fwPert="titrech:0,rev0:0,Sectsom:1500,tr:2500,Motscles:400,Auteur:1500,Inter1:300,Inter2:250,Inter3:200,Note:50,rech1:1000,rech2:1000,rech3:1000,rech4:4000,rech6:3000"
+idxId=220
+crawlerMode=MODE_TEST
+docsRsTable=docsRS15
+cairnFacettes=tp,dr,id_r,dp
+cairnLabels=Types,Disciplines,Revues/collect.,Dates de parution
+packing=1
+expansion=family
+modeRech=triple
+filterEnabled=1
+filterHost= 127.0.0.1
+filterPort=7950
+filterURI="pth_filters";
+filterPath=/home/pyt/work/filters
+
+analyzeReqHost= 127.0.0.1
+analyzeReqPort=7010
+analyzeReqURI="pth_req_analyse";
+; Sur la page de recherche, détermine le nombre de mot qui seront affichés comme contexte à un résultat.
+amountOfContext=15
+; Sur la page de recherche, détermine le nombre de caractère à afficher pour les mémos de numéros.
+amountOfContextForNumeroMemo = 200
+
+[REDIS]
+redis_server= localhost
+redis_port=6379
+redis_expire=60
+cacheContent=1
+redis_db_search=1
+redis_db_sql=2
+redis_db_user=3
+
+
+[FILES]
+prefixPath = /mnt/nt110.reseaucairn.info/nfs/pub_en
+facturePath = /mnt/nt110.reseaucairn.info/data/work/cairn/factures/
+cairn_includes_path = /home/me/projects/cairn_includes/
+filePrefixTypeA=N
+filePrefixTypeZ=N
+filePrefixTypeR=S
+filePrefixTypePA=P
+filePrefixTypePR=PS
+rss_path=/mnt/nt110.reseaucairn.info/var/www/html/RSS/flux/
+pdf_tempdir="/tmp/pdf/"
+
+[CONTACTS]
+fromAddress = cairn@semantic.lu
+serviceClients = ""
+supportTechnique = ""
+administrateur = ""
+serviceCommercial = ""
+serviceAdministratif = ""
+contact_credit = ""
+feedback = ""
+mailer_host=localhost
+mailer_port=25
+
+[OGONE]
+ogoneMode=new
+ogone_url=https://secure.ogone.com/ncol/test/orderstandard.asp
+ogone_pspid=pythagoria
+ogone_shasig=ceciestunephrasebanalemais efficace
+ogone_knownIps =212.23.45.96/28,213.254.248.96/28,212.35.124.160/28
+
+[TYPES PAIEMENTS]
+typePaiementOgone="par paiement en ligne"
+typePaiementCredit="par paiement sur crédit d'articles"
+
+[SESSIONS_DURATION]
+guestSessionDuration = 13
+guestSessionUnit = MONTH
+userIPSessionDuration = 4
+userIPSessionUnit = HOUR
+userInstSessionDuration = 12
+userInstSessionUnit = HOUR
+userSessionDuration = 12
+userSessionUnit = HOUR
+userSessionRememberDuration = 13
+userSessionRememberUnit = MONTH
+
+[INACTIVITY_ALLOWED]
+userIPInactivityDuration = 15
+userIPInactivityUnit = MINUTE
+userInstInactivityDuration = 4
+userInstInactivityUnit = HOUR
+userInactivityDuration = 30
+userInactivityUnit = MINUTE
+userRememberInactivityDuration = 13
+userRememberInactivityUnit = MONTH
+
+[DB PARAMS]
+disciplineRewriting=URL_REWRITING_EN
+disciplineDiscipline=DISCIPLINE_EN
+fraisPays=FRAIS_ZONEPAYS
+revuescleo=ABPO,GERMA,MEDI,REMI,RLV,AHRF,ARSC,ASSR,BEO,COM,CLIO,CLIO1,COMOR,CC,ECRU,EDDI,EDC,FORM,GEOC,GRADH,HETM,HDLE,ITAL,JSO,MEDIE,MOTS,NOR,RDE,REA,REI,DNS,RHR,REMO,RESS,RFPED,RIVES,TC,TERR,TRAC,TE,SCIE,EXTRO,MHC,VOLU,CIVI,REFO,LABY,HOMI,MCV,QDC,GEOM
+
+[SHIBBOLETH]
+baseShibUrl='https://check.pythagoria.com/Shibboleth.sso/Login?SAMLDS=1'
+targetShibUrl='https://check.pythagoria.com/secure'
+
+[SOAP SNI]
+clientConnexionURL=http://ws.cedrom-sni.com/access.asmx?WSDL
+clientCntConnexionURL=http://ws.cedrom-sni.com/search.asmx?WSDL
+
+
+
+[LINKS_BACK_OFFICE]
+allow_backoffice = false
+backoffice = 'http://nt110.reseaucairn.info/bocairnv3'
+menu_conversion = 'http://nt110.reseaucairn.info/conversion/menu/menu.php'
+edit_xml = 'http://nt110.reseaucairn.info/import_conversion/js/edit_xml.html'
+tires_a_part = 'http://dedi.cairn.info/TAPALL/sendTap_2015.php'
+
+
+[WEBTRENDS]
+; La datasource qui permet d'identifier le site chez webtrends
+; /!\ Il y a plusieurs datasources pour cairn, entre les serveurs de dev et de prod'
+webtrends_datasource = "dcs2222f9fn5pyeyt5xn54vdi_7f3f"
+; L'hote qui sera renvoyé chez webtrends. Normalement, devrait être le même que celui du site
+webtrends_host = localhost
+; La clé javascript utilisée pour datadome, qui permet l'analyze des robots
+datadome_js_key = ""
+
+
+[EXTERN_PROGRAMS]
+; refworks, endnote et zotero sont utilisés pour l'export de la bibliographie.
+; Utilisé sur la page "ma_biblio.php"
+refworks = 'http://nt110.reseaucairn.info/refworks/'
+endnote = 'http://nt110.reseaucairn.info/endnote/'
+zotero = 'http://nt110.reseaucairn.info/endnote/expenZ.php'
+
+[ARTICLE]
+limit_article = 100
+
+
+[ALERTE]
+; Affiche un message d'alerte générale sur le site
+alert_display = false
+alert_message = "Ceci est un <i>test</i> de message d'alerte. Il accepte du html"
+; Les différents niveau disponible sont info, warning, danger
+; Ceci est purement visuel
+alert_level = warning

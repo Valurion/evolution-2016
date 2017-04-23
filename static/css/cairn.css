@@ -1,0 +1,6129 @@
+a {
+    text-decoration : underline;
+}
+sup, sub {
+    line-height: 0;
+}
+
+.link_custom, .deduire {
+    display: block;
+    text-align: right;
+    width: 95%;
+}
+button {
+    font: normal 17px "Alegreya";
+}
+
+.articleBody p a, .deduire, .link_custom {
+    text-decoration: none;
+    font: bold 16px "Alegreya SC";
+    background: url("../images/icon-fleche-d.png") no-repeat scroll 0% 0% transparent;
+    background-position: right;
+    height: 23px;
+    padding-right: 1.5em;
+    color: #4C4C4C;
+}
+
+.articleBody p  .link_custombis {
+    text-decoration: none;
+    font: bold 16px "Alegreya SC";
+    background: url("../images/icon-fleche-d.png") no-repeat scroll 0% 0% transparent;
+    background-position: right;
+    height: 23px;
+    padding-right: 3.5em;
+    color: #4C4C4C;
+}
+
+.link_custom_generic {
+
+    text-decoration: none;
+    font: bold 16px "Alegreya SC";
+    background: url("../images/icon-fleche-d.png") no-repeat scroll 0% 0% transparent;
+    background-position: right;
+    height: 23px;
+    padding-right: 1.5em;
+    color: #4C4C4C;
+
+    width: 3.5em;
+
+}
+
+
+
+.articleBody p a:hover {
+    text-decoration: underline;;
+}
+#free_text .icon.icon-diamond-bullet { margin-left : 11px; }
+
+.w22 {
+    width: 21.1%;
+}
+
+.w80 {
+    left: 10%;
+    width: 80%;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    font: bold 15px "Alegreya SC";
+    padding: 0 0.6em;
+    margin-left: 0.5em;
+
+}
+
+.article2 {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 1.5em 0 1.5em 10px;
+
+}
+
+.article2 .icon {
+    float: right;
+    left: -10px;
+    position: relative;
+}
+
+
+/* panier*/
+.article3 {
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    padding: 1.5em 0 1.5em 10px;
+}
+
+.article3 .prix  {
+    left: 48em;
+    position: relative;
+
+}
+
+
+.article3 .icon {
+    float: right;
+    left: -10px;
+    position: relative;
+}
+
+.article3 .titlepanier {
+    bottom: 1.2em;
+    position: relative;
+}
+
+.article3 .line1 {
+    color: #A5A524;
+    font-weight: bold;
+}
+
+.custom_textarea_bm {
+    resize: none;
+    border:none;
+    font: 1em Georgia;
+    width: 100%;
+}
+
+.listerev .meta, .lescollections .meta {
+    margin-left: 10px;
+    vertical-align: top;
+    width: 383px;
+}
+
+/*.lescollections .revue {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}*/
+
+select {
+    height: 2.5em;
+    border: 1px solid #C4CBCB;
+    font: Georgia;
+    padding: 0.4em 0.7em;
+    background-color: white;
+}
+
+/* recherche avancée */
+
+
+#chgmnt {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    font-size: 16px;
+    height: 100%;
+    opacity: 0.7;
+    padding: 25% 0 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+
+#chgmnt2 {
+    display: none;
+    font-size: 16px;
+    height: 100%;
+    padding: 25% 0 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+.recherche_avancee {
+
+}
+
+.recherche_avancee ul {
+    list-style: none;
+}
+
+.recherche_avancee li {
+
+}
+
+.recherche_avancee .optionrevue, .recherche_avancee .optiondisc {
+    width: 23em;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.link_font {
+    font: bold 16px "Alegreya SC";
+    color: #4C4C4C;
+
+}
+.biblio .del-panier {
+
+    float: right;
+    position: relative;
+    right: 2em;
+
+}
+.biblio .small_cover{
+    display: inline-block;
+    vertical-align: top;
+    width:60px;
+}
+.biblio .meta {
+    display: inline-block;
+    vertical-align: top;
+    width:790px;
+    padding-left: 2em;
+
+}
+.biblio .list_articles .article {
+
+    padding-left: 0px;
+}
+
+.biblio .line1 {
+    font: 18px Alegreya;
+}
+
+.magazines .grid-u-1-4 {
+    width: 24%;
+}
+
+.magazines .year_mag {
+    font-family: "Alegreya";
+    font-size: 2em;
+    position: relative;
+    right: 4em;
+    top: 1em;
+}
+
+.link_custom_en {
+
+    text-decoration: none;
+    font: bold 16px "Alegreya SC";
+    height: 23px;
+
+    color: #000;
+
+}
+
+.question-mark {
+    background: url("../images/intero.png");
+    background-repeat:no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: 80%;
+    /*background-position-x: -80px;
+    background-position-y: -1430px;*/
+
+    position: relative;
+    bottom: 5em;
+    float: right;
+}
+
+.question-mark .tooltip {
+    background-color: #333333;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: none;
+    font-family: "Alegreya";
+    font-variant: normal;
+    padding: 0.2em 0.7em;
+}
+
+.question-mark:hover .tooltip {
+    display: inline-block;
+    min-width: 10em;
+    position: relative;
+    top: 1.3em;
+    right: 9.5em;
+}
+
+.icon-add-biblio .tooltip {
+    background-color: #333333;
+    border-radius: 3px;
+    height: 30px;
+    color: #FFFFFF;
+    display: none;
+    font-family: "Alegreya";
+    font-variant: normal;
+    padding: 0.2em 0.7em;
+}
+
+.icon-remove-biblio:hover .tooltip {
+    display: inline-block;
+    min-width: 7em;
+    position: relative;
+    top: 0.5em;
+    right: 9.5em;
+}
+
+/* feedback from cairn int */
+
+#feedback a {
+    background: url("../images/icons.png") no-repeat scroll -8px -1345px rgba(0, 0, 0, 0);
+    height: 101px;
+    left: 0;
+    position: fixed;
+    text-indent: -9999px;
+    top: 356px;
+    width: 30px;
+}
+
+form#send_feedback {
+    background-color: #4BB2AC;
+    border: 0 none;
+    font-family: 'Alegreya',serif;
+    font-style: normal;
+    padding: 1px;
+    text-align: justify;
+    width: 450px;
+}
+#send_feedback h1 {
+    color: #FFFFFF;
+    font-size: 1.45em;
+    font-weight: bold;
+    margin: 6px;
+    text-align: center;
+}
+#feedback_radios {
+    margin: 0.4em;
+    text-align: center;
+}
+#feedback_radios label {
+    background-color: #FFFFFF;
+    color: #4BB2AC;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px 0;
+    text-align: center;
+    width: 32.8%;
+}
+#feedback_radios label:hover, #send_feedback button:hover {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+#feedback_radios input[type="radio"]:checked + label {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#feedback_radios input[type="radio"] {
+    display: none;
+}
+#feedback_fields {
+    background-color: #FFFFFF;
+    color: #4BB2AC;
+    margin: 5px;
+    padding: 1em;
+    text-align: right;
+}
+#feedback_fields .feedback_field {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: left;
+}
+#feedback_fields .feedback_field + .feedback_field {
+    margin: 42px 0;
+}
+#send_feedback input, #send_feedback textarea {
+    background-color: #FFFFFF;
+    border: 0 none;
+    display: block;
+    font-family: 'Alegreya',serif;
+    font-size: 17px;
+    margin: 5px;
+    resize: none;
+    width: 98%;
+}
+#send_feedback button {
+    background-color: #4BB2AC;
+    border: 0 none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Alegreya',serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    min-width: 82px;
+    padding: 5px 5px 8px;
+    text-align: center;
+}
+
+.abo_flux li {
+    list-style: none;
+}
+
+.list_articles-2 .article {
+    /*border-bottom: 1px solid #EEEEEE;
+    padding: 1.5em 0 1.5em 130px;*/
+}
+
+.list_articles-2 .grid-2-list .grid-u-1-2 {
+    width: 480px;
+}
+
+.list_articles-2 .grid-2-list .grid-u-1-2:nth-child(2) {
+    margin-left: 0px;
+}
+
+.list_articles-2 .meta {
+    display: inline-block;
+    width: 385px;
+
+}
+
+.list_articles-2 .small_cover {
+    display: inline-block;
+    width: 61px;
+    vertical-align: top;
+
+}
+
+.list_articles-2  .author {
+    color: #A5A524;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.sub-menu {
+    margin: 0 auto;
+    width: 730px;
+    padding-top: 1.2em;
+}
+
+
+#sub-category_tabs {
+
+    display: table;
+    font: 16px/20px Alegreya;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 3px;
+    width: 100%;
+}
+
+#sub-category_tabs li {
+    display: table-cell;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 1%;
+}
+
+.link-underline {
+    /*font-weight : bolder;*/
+    text-decoration:underline;
+}
+
+
+.page-cite-par .meta-cite {
+    left: 2em;
+    position: relative;
+
+}
+
+.page-cite-par .reference {
+    float: left;
+    min-height: 50px;
+}
+
+/* ------------- BREADCRUMBS : PANIER -------------  */
+#wrapper_breadcrumb_cart {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+#breadcrumb_cart {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    padding-bottom: 20px;
+    font: bold 18px/1 'Alegreya SC',Georgia,Arial;
+    list-style: decimal inside none;
+    overflow: hidden;
+    width: 100%;
+}
+/*#breadcrumb_cart:after {
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+    content: '';
+    height: 1px;
+    width: 80%;
+    background: #D8D8D8;
+} */
+
+#breadcrumb_cart li {
+    display: inline-block;
+    margin: 0 0.4em;
+    padding: 5px 0;
+    padding: 5px 20px;
+
+
+    font-family: "Alegreya SC";
+    font-size: 20px;
+    font-weight: bold;
+    color: #B8B8B8;
+}
+#breadcrumb_cart li:after {
+    display: inline-block;
+    margin-top: -5px;
+    margin-right: -27px;
+    float: right;
+    content: "›";
+    font-size: 50px;
+    line-height: 20px;
+    color: #C8C72E;
+}
+#breadcrumb_cart li.black_button {
+    background-color: #323232;
+    color: #FFFFFF;
+    cursor: default;
+
+}
+#breadcrumb_cart li.black_button:after {
+    margin-right: -45px;
+}
+#breadcrumb_cart li:last-child:after {
+    display: none;
+}
+
+/* ------------- END BREADCRUMBS : PANIER -------------  */
+
+/* ------------- ELEMENTS DE MON PANIER ------------- */
+.mon-panier .list_articles .title {
+    max-width: 430px;
+}
+
+.mon-panier .subTitle {
+    margin: 0 0 25px 0;
+    font-family: "Alegreya";
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 24px;
+    color: #A5A524;
+    text-align: center;
+}
+
+.mon-panier .prix {
+    position : absolute;
+    top: 21px;
+    right : 50px;
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.mon-panier .format-revue {
+    position : absolute;
+    top: 45px;
+    right : 50px;
+    font-family: "Alegreya SC";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: right;
+}
+
+.mon-panier .prixtotal {
+    margin: 30px 0;
+    padding-right: 50px;
+
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+
+    text-align: right;
+}
+
+.mon-panier .prixtotal .label {
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.mon-panier .panier-tips {
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.mon-panier .panier-tips-body {
+    display: block;
+    padding: 15px;
+    padding-left: 80px;
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    background: url('../images/icon-tips.png') no-repeat 40px 20px #F0F0F0;
+}
+.mon-panier .panier-tips-body .title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #A8A31C;
+}
+/* ------------- END ELEMENTS DE MON PANIER ------------- */
+
+.your-order {
+    text-align: center;
+}
+
+.your-order ul {
+    display: inline-block;
+    margin-right: 21px;
+    margin-top: 10px;
+    min-width: 241px;
+}
+
+.your-order ul li {
+    border-top: 1px solid #CCCCCC;
+    color: #444444;
+    display: block;
+    font: 18px/1 'Alegreya';
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+
+.your-order ul li span {
+    color: #444444;
+    font: bold 18px/1 'Alegreya';
+    padding-left: 22px;
+}
+
+
+.your-order ul li.last {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 5px;
+}
+
+
+.checkout-bottom-section {
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    padding: 25px 0 0;
+}
+.checkout-button {
+    background: none repeat scroll 0 0 #4BB2AC;
+    border: medium none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font: bold 17px/1 'Alegreya SC',serif;
+    margin-right: 13px;
+    min-width: 128px;
+    padding: 8px 10px 9px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.checkout-button:after {
+    border-bottom: 18px solid rgba(0, 0, 0, 0);
+    border-left: 17px solid #4BB2AC;
+    border-top: 16px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    position: absolute;
+    right: -27px;
+    top: 0;
+    width: 10px;
+}
+
+.checkout-cgv-acceptation {
+    margin-bottom: 10px;
+    text-align: right;
+}
+.checkout-cgv-acceptation label {
+    display: inline-block;
+    width: 350px;
+}
+.checkout-cgv-acceptation label a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.checkout-button:hover {background-color: #323232;text-decoration: none;}
+.checkout-button:hover:after {border-left-color: #323232;}
+
+.checkin-button {
+    background: none repeat scroll 0 0 #D8D8D8;
+    border: medium none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font: bold 17px/1 'Alegreya SC',serif;
+    margin-right: 13px;
+    min-width: 128px;
+    padding: 8px 10px 9px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.checkin-button:before {
+    border-bottom: 18px solid rgba(0, 0, 0, 0);
+    border-right: 17px solid #D8D8D8;
+    border-top: 16px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 10px;
+}
+
+.checkin-button:hover {background-color: #323232;text-decoration: none;}
+.checkin-button:hover:before {border-right-color: #323232;}
+
+.paiement h2 {
+    font-size: 1.3em;
+}
+
+
+/*select {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius : 3px;
+    font: normal 16px Georgia;
+    background-color : white;
+}*/
+
+.yellow {
+    color: #a5a524;
+}
+.yellow-bold {
+    color: #a5a524;
+    font-weight : bold;
+}
+
+.yellow2, .orange {
+    color: #b8b858;
+}
+
+.like_table {
+    display: table;
+}
+
+.like_cell {
+    display: table-cell;
+}
+
+.grey {
+    color: #999!important;
+}
+
+.yellow {
+    color: #B6B64C;
+}
+
+.red {
+    color: #d31600;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no_bold {
+    font-weight: normal;
+}
+
+.border_grey {
+    border-radius: 3px;
+    border: 5px solid #cccccc;
+}
+
+.no_border {
+    border: none;
+}
+
+.alegreya {
+    font-family: "Alegreya SC";
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.h_left {
+    text-align: left;
+}
+
+.h_center {
+    text-align: center;
+}
+
+.h_right {
+    text-align: right;
+}
+
+.h_justify {
+    text-align: justify;
+}
+
+.v_top {
+    vertical-align: top;
+}
+
+.v_middle {
+    vertical-align: middle;
+}
+
+.v_bottom {
+    vertical-align: bottom;
+}
+
+.w25 {
+    width: 25%;
+}
+.w30 {
+    width: 30%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w49 {
+    width: 49%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w66 {
+    width: 66%;
+}
+
+.w97 {
+    width: 97%;
+}
+
+.w98 {
+    width: 98%;
+}
+
+.w99 {
+    width: 99%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mp0 {
+    margin: 0;
+    padding: 0;
+}
+
+.mr6 {
+    margin-right: 0.6em;
+}
+
+.ml1 { margin-left: 0.1em; }
+.ml2 { margin-left: 0.2em; }
+.ml3 { margin-left: 0.3em; }
+.ml4 { margin-left: 0.4em; }
+.ml5 { margin-left: 0.5em; }
+.ml6 { margin-left: 0.6em; }
+.ml1e { margin-left: 1em; }
+.ml2e { margin-left: 2em; }
+.ml3e { margin-left: 3em; }
+
+.mr1 { margin-right: 0.1em; }
+.mr2 { margin-right: 0.2em; }
+.mr3 { margin-right: 0.3em; }
+.mr4 { margin-right: 0.4em; }
+.mr5 { margin-right: 0.5em; }
+.mr6 { margin-right: 0.6em; }
+.mr1e { margin-right: 1em; }
+.mr2e { margin-right: 2em; }
+.mr3e { margin-right: 3em; }
+
+.mt1 { margin-top: 1em; }
+.mt2 { margin-top: 2em; }
+.mt3 { margin-top: 3em;}
+
+.mb1 { margin-bottom: 1em;}
+.mb2 { margin-bottom: 2em;}
+.mb3 { margin-bottom: 3em;}
+
+.p0-5 {
+    padding: 0.5em!important;
+}
+
+.p1 {
+    padding: 1em!important;
+}
+
+.p2 {
+    padding: 2em;
+}
+
+.p3 {
+    padding: 3em;
+}
+
+.inbl, .icon {
+    display: inline-block;
+}
+
+
+.general_title {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+p.informations {
+    font-style: italic;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.black_button, .blue_button, .grey_button, .white_button, .button {
+    border-radius: 3px;
+    background-color: #221E1F;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    padding: 0.3em 0.6em;
+    text-decoration : none;
+    border : 1px solid transparent;
+}
+.black_button:hover, .blue_button:hover, .grey_button:hover, .white_button:hover, .button:hover {
+    text-decoration: none;
+}
+.button, .white_button {
+    background-color: white;
+    color : #221E1F;
+    border: 1px solid #cccccc;
+}
+.grey_button {
+    background-color : #dedede;
+    cursor : auto;
+}
+
+.grey_buttondis {
+    background-color : #221E1F;
+    cursor : auto;
+    color: white;
+}
+.blue_button {
+    background-color: #4BB2AC;
+}
+
+.blue_button:hover, .button:hover, .white_button:hover {
+    background-color: #221E1F;
+    color : white;
+    border: 1px solid #221E1F;
+}
+
+.submit_button {
+    padding: 0.4em 0.7em;
+    font: bold 1.1em Georgia;
+}
+
+.wrapper {
+    overflow: hidden;
+    clear: both;
+}
+
+/* ------------- FORMULAIRE CUSTOM -------------  */
+.blue_milk {
+    position: relative;
+    display: inline-block;
+    padding: 0.2em 0.7em 0.4em;
+    vertical-align: top;
+    font: normal 1em Georgia;
+    background-color: white;
+
+    border: solid 1px #C4CBCB;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    box-shadow:inset 0 0 6px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow:inset 0 0 6px 0 rgba(0,0,0,0.15);
+}
+
+.blue_milk label + input {
+    margin-top: 0.2em;
+}
+
+.blue_milk label, .blue_milk input {
+    display: inline-block;
+}
+
+.blue_milk label {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 14px;
+    color: #4BB2AC;
+    cursor:default;
+}
+
+.blue_milk input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    font: normal 17px "Alegreya";
+    color: #323232;
+}
+
+.blue_milk .flash {
+    background: url("form-validation-correct.png") no-repeat 0 0;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 0.7em;
+    top: 0.4em;
+}
+
+.blue_milk .flash.error {
+    background: url("form-validation-error.png") no-repeat 0 0;
+}
+
+.blue_milk .flash + .flash_content {
+    display: none;
+    position: absolute;
+    right: 2.5em;
+    top: -0.5em;
+    color: white;
+    background-color: #D31600;
+    padding: 0.5em 0.75em;
+    border-radius: 3px;
+}
+
+.blue_milk .flash.error:hover + .flash_content {
+    display: block;
+}
+
+.blue_milk .flash.error + .flash_content:after {
+    vertical-align: top;
+    position: absolute;
+    right: -9px;
+    top: 30%;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5.5px 0 5.5px 9.5px;
+    border-color: transparent transparent transparent #d31600;
+    display: inline-block;
+}
+.blue_milk.readonly {
+    background-color: #ddd;
+}
+.blue_milk.readonly > label {
+    cursor: default;
+}
+.blue_milk.readonly > label:after {
+    content: "  (lecture seule)";
+    font-size: 0.8em;
+    /*margin-left: 1em;*/
+}
+
+form.white_standard input[type="text"], form.white_standard select {
+    font : normal 16px Georgia;
+    padding : 0.5em 0.9em;
+    color : #626152;
+    border : 1px solid #ccc;
+    border-radius : 3px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+    background-color : white;
+}
+.flash_message
+{
+    border :1px solid rgb(204, 204, 204);
+    border-radius : 3px;
+    padding : 0.5em;
+    background-color : white;
+    color : rgb(75, 178, 172);
+    font : bold 0.9em 'Alegreya SC', Georgia;
+    position : relative;
+    width : 75%;
+    margin : auto;
+    margin-bottom : 3em;
+    border-color : rgb(75, 178, 172);
+    font : normal 1.2em 'Alegreya', Georgia;
+    color : black;
+}
+.flash_message.problem
+{
+    border-color : #FF0004;
+    color : red;
+}
+.flash_message a
+{
+    color : red;
+}
+/* ------------- END FORMULAIRE CUSTOM -------------  */
+
+/* ------------- FORMULAIRE DE RECHERCHE AVANCEE -------------  */
+/* Uniformisation des éléments */
+#form_advanced_search {margin: 0 auto;width: 885px;}
+#form_advanced_search .wrapper {font-family: 'Alegreya SC', Georgia;}
+#form_advanced_search .wrapper span {padding: 0 5px;display: inline;display: inline-block;vertical-align: top;}
+#form_advanced_search .wrapper label {font-size: 0.9em;}
+
+#form_advanced_search .wrapper label,
+#form_advanced_search .wrapper select,
+#form_advanced_search .wrapper input.field {line-height: 40px;height: 40px;vertical-align: middle;font-size: 0.8em;}
+
+/* Hauteur des blocks */
+#form_advance_content .wrapper {height: 80px;}
+
+/* Détails des éléments */
+#form_advanced_search .adv_field_type {width: 240px;}
+#form_advanced_search .adv_field_type label {font-weight: bold;}
+#form_advanced_search .adv_field_type select {margin-left: 5px;width: 195px;}
+
+#form_advanced_search .adv_field_value {width: 410px;}
+#form_advanced_search .adv_field_value .word_option {display: block;}
+#form_advanced_search .adv_field_value .word_option label {height: 25px !important;}
+#form_advanced_search .adv_field_value input.fieldText {padding: 0 2%;width: 94%;/*height: 36px;*/height: 38px;line-height: 38px;font-size: 0.8em;border: solid 1px #bdbdbd;}
+
+#form_advanced_search .adv_field_value select {width: 100%;}
+#form_advanced_search .adv_field_value select.year {margin: 0 10px;width: 140px;}
+#form_advanced_search .adv_field_value label.range {font-weight: bold;color: #2BA39B;}
+#form_advanced_search .error_empty {color: #a94442;background-color: #f2dede;border-color: #ebccd1;border-style: solid;}
+
+#form_advanced_search .adv_field_next {width: 90px;}
+#form_advanced_search .adv_field_next select {width: 100%;}
+
+#form_advanced_search .adv_field_action {width: 90px;}
+#form_advanced_search .adv_field_action a {margin: 4px;display: inline;display: inline-block;width: 30px;height: 30px;font-size: 36px;line-height: 25px;text-align: center;color: #2BA39B;}
+#form_advanced_search .adv_field_action a:hover {background: #2BA39B; color: #fff;}
+
+#form_advanced_search #submitAdvForm {padding: 10px 75px;font-family: "Alegreya SC";font-weight: bold;font-size: 20px;background: #2BA39B;color: #fff;-webkit-border-radius: 4px;border-radius: 4px;border-color: #2BA39B;}
+/* ------------- END FORMULAIRE DE RECHERCHE AVANCEE -------------  */
+
+
+/* ------------- DISCIPLINES : LISTE -------------  */
+.disciplineSwitcher {}
+.disciplineSwitcher .access_type_filter {
+    margin-top: 20px;
+}
+
+.disciplineSwitcher .access_type_filter input[type="radio"] {
+    display: none;
+}
+.disciplineSwitcher .access_type_filter input[type="radio"]+span:before {
+    display: inline-block;
+    margin: -2px 7px 0 0;
+    content: "\00a0";
+    vertical-align: middle;
+
+    width : 7px;
+    height : 7px;
+
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #000;
+
+    background-color: #fff;
+    cursor: pointer;
+}
+.disciplineSwitcher .access_type_filter input[type="radio"]:checked+span:before {
+    background-color: #000;
+}
+/* ------------- END DISCIPLINES : LISTE -------------  */
+
+.title_big_blue {
+    font: bold 24px/1 "Alegreya SC";
+}
+
+.title_medium_blue {
+    font: bold 20px/100% "Alegreya SC";
+}
+
+.title_little_blue {
+    font: bold 18px/100% "Alegreya";
+}
+
+.title_big_blue, .title_medium_blue, .title_little_blue {
+    color: #4bb2ac;
+}
+.title_big_blue a, .title_medium_blue a, .title_little_blue a {
+    color: #4bb2ac;
+}
+.title_big_blue a:hover, .title_medium_blue a:hover, .title_little_blue a:hover {
+    color: #4bb2ac;
+}
+
+.subtitle_medium_grey {
+    font: bold 18px/130% "Alegreya SC";
+}
+
+.subtitle_little_grey {
+    font: bold 18px/100% "Alegreya";
+}
+
+.subtitle_medium_grey, .subtitle_little_grey {
+    color: #666666;
+}
+.subtitle_medium_grey a, .subtitle_little_grey a {
+    color: #666666;
+}
+.subtitle_medium_grey a:hover, .subtitle_little_grey a:hover {
+    color: #666666;
+}
+
+
+/* ------------- MAIN TITLE ------------- */
+.main-title, .main_title {
+    font: bold 24px "Alegreya SC";
+    color: #333333;
+    line-height: 150%;
+    text-align: center;
+    margin: 0.8em 0;
+    position: relative;
+}
+.main-title a.btn, .main_title a.btn {
+    margin-left: 30px;
+    padding: 4px 15px;
+    padding-left: 40px;
+    font: normal 18px "Alegreya SC";
+    background: url("../images/icon-right-arrow-black.png") no-repeat 15px center #D8D8D8;
+    color: #323232;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+.main-title a.btn:hover, .main_title a.btn:hover {
+    text-decoration: none;
+    background: url("../images/icon-right-arrow-white.png") no-repeat 15px center #2BA39B;
+    color: #FFF;
+}
+
+.main-title .icon-add-biblio, .main-title .icon-remove-biblio {
+    position : absolute;
+    bottom : 0;
+    right : 13px;
+}
+.main-title .subinfos {
+    color : rgb(165, 165, 36);
+    font : italic 20px/1.3 Alegreya;
+    display:block;
+}
+
+/* Surcouche pour améliorer le style et les espaces */
+.main-title.mt1, .main_title.mt1 {margin-top: 1em !important;}
+.main-title.mt2, .main_title.mt2 {margin-top: 2em !important;}
+.main-title.mt3, .main_title.mt3 {margin-top: 3em !important;}
+/* ------------- END MAIN TITLE ------------- */
+
+
+.infos-subtitle{
+    font : normal 24px/150% "Alegreya SC"
+}
+.text_small {
+    font: normal 16px Alegreya;
+}
+
+.text_medium {
+    font: normal 18px Alegreya;
+    color: #333333;
+}
+
+.yellow_authors {
+    color : #B6B64C;
+    font-weight : bold;
+}
+
+
+/* ------------- BOITES MODALES ------------- */
+.close_modal {
+    background: url("../images/modal-feedback-close.png") no-repeat scroll 0px 0px transparent;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    cursor: pointer;
+}
+
+#blackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.7;
+    display: none;
+}
+
+.window_modal {
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    display: none;
+    z-index: 3;*/
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 850px;
+    display: none;
+    z-index: 3;
+}
+.window_modal > *:first-child {
+    position: relative;
+    top: -60%;
+    /*box-sizing: border-box;*/
+    box-sizing: content-box;
+    /*left: -50%;*/
+}
+
+.basic_modal, .info_modal {
+    background-color: white;
+    border: 5px solid #4bb2ac;
+    width: 850px;
+    padding: 1em 2em;
+}
+.info_modal h2, .info_modal p {
+    text-align : center;
+}
+.info_modal h2 {
+    font : bold 1.2em "Alegreya SC";
+}
+.info_modal .buttons {
+    margin-top : 3em;
+    text-align : center;
+    font : bold 1em "Alegreya SC";
+}
+
+/* MODAL COMPRENANT UN IFRAME D'EXEMPLE D'ALERTE E-MAIL */
+/* Réécriture de règle CSS du modal par défaut. */
+#modal_alerte_email_exemple {
+    /*top: 7% !important;
+    bottom: 0% !important;*/
+    height: 80% !important;
+}
+#modal_alerte_email_exemple .info_modal {
+    top: 0 !important;
+    bottom: 0% !important;
+    height: 100% !important;
+}
+#modal_alerte_email_exemple iframe {
+    height: 100%;
+}
+#modal_alerte_email_exemple h2 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+/* ------------- END BOITES MODALES ------------- */
+
+
+/* ------------- BOITE MODALE : CITATION & EXPORTS ------------- */
+#modal_citation .citation {
+
+}
+#modal_citation .citation .note {
+    margin: 20px auto 30px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 70%;
+}
+#modal_citation .citation table.format {
+    margin-bottom: 20px;
+    width: 100%;
+}
+#modal_citation .citation table.format th {
+    padding: 5px 10px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    width: 10%;
+}
+#modal_citation .citation table.format td {
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    width: 80%;
+    color: #323232;
+}
+#modal_citation .citation table.format td span.blue_milk {
+    display: block;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+#modal_citation .citation ul, .citation li {
+    margin: 0;
+    padding: 0;
+}
+#modal_citation .citation ul {
+    margin-bottom: 30px;
+}
+#modal_citation .citation li {
+    display: inline;
+    display: inline-block;
+    padding: 0 20px;
+}
+#modal_citation .citation li a {
+    padding: 3px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 24px;
+    color: #B2B2B2;
+}
+#modal_citation .citation li a:hover {
+    text-decoration: none;
+    color: #2BA39B;
+}
+#modal_citation .citation li a span {
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+}
+#modal_citation .citation a.btnCopyClipboard {
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    right: 10px;
+
+    padding: 3px 6px;
+    font-family: "Alegreya";
+    font-weight: bold;
+    text-align: center;
+    background: #2BA39B;
+    color: #fff;
+}
+#modal_citation .citation a.btnCopyClipboard:hover {
+    background: #323232;
+    text-decoration: none;
+}
+/* ------------- END BOITE MODALE : CITATION & EXPORTS ------------- */
+
+
+/* ------------- BOITE MODALE : CHOIX DU PORTAIL ------------- */
+#choix_langues_modal .info_modal {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+#choix_langues_modal h2, #choix_langues_modal p {
+    text-align: left;
+}
+#choix_langues_modal .thumbnail {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    width: 180px;
+}
+#choix_langues_modal .thumbnail figure {
+    margin: 0;
+    padding: 0;
+}
+#choix_langues_modal .thumbnail img {
+    width: 168px;
+}
+#choix_langues_modal .thumbnail h1 {
+    margin: 15px 0 5px;
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #2BA39B;
+}
+#choix_langues_modal .thumbnail p {
+    margin: 0 0 10px 0;
+    font-family: "Alegreya";
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#choix_langues_modal .meta {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+}
+#choix_langues_modal .meta .meta-lang {
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #CCCCCC;
+}
+#choix_langues_modal .meta .meta-lang:last-child {
+    margin-top: 30px;
+    border-bottom: none;
+}
+
+#choix_langues_modal .meta .note {
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: #BAB655;
+}
+#choix_langues_modal .meta a.btn {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 122px;
+    font-weight : bold!important;
+    font-size: 16px;
+    line-height: 16px;
+}
+#choix_langues_modal .meta a:hover {
+    text-decoration: none;
+}
+#choix_langues_modal .meta a.btn .icon { margin-right : 0.5em;float: left;}
+
+#choix_langues_modal .meta h2 {
+    margin: 10px 0 10px;
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 22px;
+    max-width: 400px;
+}
+#choix_langues_modal .meta .auteurs {
+    margin: 0;
+    max-width: 470px;
+}
+#choix_langues_modal .meta .auteurs span {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 2px 6px;
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-size: 15px;
+    background: #E2E2E2;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+/* ------------- END BOITE MODALE : CHOIX DU PORTAIL ------------- */
+
+
+/* ------------- GRILLES -------------  */
+.grid-g {
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    *word-spacing: -0.43em;
+    text-rendering: optimizespeed;
+}
+
+.opera-only :-o-prefocus, .grid-g {
+    word-spacing: -0.43em;
+}
+
+.grid-u {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.grid-u-1, .grid-u-1-2, .grid-u-1-3, .grid-u-2-3, .grid-u-1-4, .grid-u-3-4, .grid-u-1-5, .grid-u-2-5, .grid-u-3-5, .grid-u-4-5, .grid-u-1-6, .grid-u-5-6, .grid-u-1-7, .grid-u-2-7, .grid-u-3-7, .grid-u-4-7, .grid-u-5-7, .grid-u-6-7, .grid-u-1-8, .grid-u-3-8, .grid-u-5-8, .grid-u-7-8, .grid-u-1-9, .grid-u-2-9, .grid-u-4-9, .grid-u-5-9, .grid-u-6-9, .grid-u-7-9, .grid-u-8-9, .grid-u-1-10, .grid-u-3-10, .grid-u-7-10, .grid-u-9-10, .grid-u-1-11, .grid-u-2-11, .grid-u-3-11, .grid-u-4-11, .grid-u-5-11, .grid-u-6-11, .grid-u-7-11, .grid-u-8-11, .grid-u-9-11, .grid-u-10-11, .grid-u-1-12, .grid-u-5-12, .grid-u-7-12, .grid-u-9-12, .grid-u-11-12 {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.grid-u-1 {
+    display: block;
+}
+
+.grid-u-1-2 {
+    width: 50%;
+}
+
+.grid-offset-1-2 {
+    margin-left: 50%;
+}
+
+.grid-u-1-3 {
+    width: 33.33333%;
+}
+
+.grid-offset-1-3 {
+    margin-left: 33.33333%;
+}
+
+.grid-u-2-3 {
+    width: 66.66667%;
+}
+
+.grid-offset-2-3 {
+    margin-left: 66.66667%;
+}
+
+.grid-u-1-4 {
+    width: 25%;
+}
+
+.grid-offset-1-4 {
+    margin-left: 25%;
+}
+
+.grid-u-3-4 {
+    width: 75%;
+}
+
+.grid-offset-3-4 {
+    margin-left: 75%;
+}
+
+.grid-u-1-5 {
+    width: 20%;
+}
+
+.grid-offset-1-5 {
+    margin-left: 20%;
+}
+
+.grid-u-2-5 {
+    width: 40%;
+}
+
+.grid-offset-2-5 {
+    margin-left: 40%;
+}
+
+.grid-u-3-5 {
+    width: 60%;
+}
+
+.grid-offset-3-5 {
+    margin-left: 60%;
+}
+
+.grid-u-4-5 {
+    width: 80%;
+}
+
+.grid-offset-4-5 {
+    margin-left: 80%;
+}
+
+.grid-u-1-6 {
+    width: 16.66667%;
+}
+
+.grid-offset-1-6 {
+    margin-left: 16.66667%;
+}
+
+.grid-u-5-6 {
+    width: 83.33333%;
+}
+
+.grid-offset-5-6 {
+    margin-left: 83.33333%;
+}
+
+.grid-u-1-7 {
+    width: 14.28571%;
+}
+
+.grid-offset-1-7 {
+    margin-left: 14.28571%;
+}
+
+.grid-u-2-7 {
+    width: 28.57143%;
+}
+
+.grid-offset-2-7 {
+    margin-left: 28.57143%;
+}
+
+.grid-u-3-7 {
+    width: 42.85714%;
+}
+
+.grid-offset-3-7 {
+    margin-left: 42.85714%;
+}
+
+.grid-u-4-7 {
+    width: 57.14286%;
+}
+
+.grid-offset-4-7 {
+    margin-left: 57.14286%;
+}
+
+.grid-u-5-7 {
+    width: 71.42857%;
+}
+
+.grid-offset-5-7 {
+    margin-left: 71.42857%;
+}
+
+.grid-u-6-7 {
+    width: 85.71429%;
+}
+
+.grid-offset-6-7 {
+    margin-left: 85.71429%;
+}
+
+.grid-u-1-8 {
+    width: 12.5%;
+}
+
+.grid-offset-1-8 {
+    margin-left: 12.5%;
+}
+
+.grid-u-3-8 {
+    width: 37.5%;
+}
+
+.grid-offset-3-8 {
+    margin-left: 37.5%;
+}
+
+.grid-u-5-8 {
+    width: 62.5%;
+}
+
+.grid-offset-5-8 {
+    margin-left: 62.5%;
+}
+
+.grid-u-7-8 {
+    width: 87.5%;
+}
+
+.grid-offset-7-8 {
+    margin-left: 87.5%;
+}
+
+.grid-u-1-9 {
+    width: 11.11111%;
+}
+
+.grid-offset-1-9 {
+    margin-left: 11.11111%;
+}
+
+.grid-u-2-9 {
+    width: 22.22222%;
+}
+
+.grid-offset-2-9 {
+    margin-left: 22.22222%;
+}
+
+.grid-u-4-9 {
+    width: 44.44444%;
+}
+
+.grid-offset-4-9 {
+    margin-left: 44.44444%;
+}
+
+.grid-u-5-9 {
+    width: 55.55556%;
+}
+
+.grid-offset-5-9 {
+    margin-left: 55.55556%;
+}
+
+.grid-u-6-9 {
+    width: 66.66667%;
+}
+
+.grid-offset-6-9 {
+    margin-left: 66.66667%;
+}
+
+.grid-u-7-9 {
+    width: 77.77778%;
+}
+
+.grid-offset-7-9 {
+    margin-left: 77.77778%;
+}
+
+.grid-u-8-9 {
+    width: 88.88889%;
+}
+
+.grid-offset-8-9 {
+    margin-left: 88.88889%;
+}
+
+.grid-u-1-10 {
+    width: 10%;
+}
+
+.grid-offset-1-10 {
+    margin-left: 10%;
+}
+
+.grid-u-3-10 {
+    width: 30%;
+}
+
+.grid-offset-3-10 {
+    margin-left: 30%;
+}
+
+.grid-u-7-10 {
+    width: 70%;
+}
+
+.grid-offset-7-10 {
+    margin-left: 70%;
+}
+
+.grid-u-9-10 {
+    width: 90%;
+}
+
+.grid-offset-9-10 {
+    margin-left: 90%;
+}
+
+.grid-u-1-11 {
+    width: 9.09091%;
+}
+
+.grid-offset-1-11 {
+    margin-left: 9.09091%;
+}
+
+.grid-u-2-11 {
+    width: 18.18182%;
+}
+
+.grid-offset-2-11 {
+    margin-left: 18.18182%;
+}
+
+.grid-u-3-11 {
+    width: 27.27273%;
+}
+
+.grid-offset-3-11 {
+    margin-left: 27.27273%;
+}
+
+.grid-u-4-11 {
+    width: 36.36364%;
+}
+
+.grid-offset-4-11 {
+    margin-left: 36.36364%;
+}
+
+.grid-u-5-11 {
+    width: 45.45455%;
+}
+
+.grid-offset-5-11 {
+    margin-left: 45.45455%;
+}
+
+.grid-u-6-11 {
+    width: 54.54545%;
+}
+
+.grid-offset-6-11 {
+    margin-left: 54.54545%;
+}
+
+.grid-u-7-11 {
+    width: 63.63636%;
+}
+
+.grid-offset-7-11 {
+    margin-left: 63.63636%;
+}
+
+.grid-u-8-11 {
+    width: 72.72727%;
+}
+
+.grid-offset-8-11 {
+    margin-left: 72.72727%;
+}
+
+.grid-u-9-11 {
+    width: 81.81818%;
+}
+
+.grid-offset-9-11 {
+    margin-left: 81.81818%;
+}
+
+.grid-u-10-11 {
+    width: 90.90909%;
+}
+
+.grid-offset-10-11 {
+    margin-left: 90.90909%;
+}
+
+.grid-u-1-12 {
+    width: 8.33333%;
+}
+
+.grid-offset-1-12 {
+    margin-left: 8.33333%;
+}
+
+.grid-u-5-12 {
+    width: 41.66667%;
+}
+
+.grid-offset-5-12 {
+    margin-left: 41.66667%;
+}
+
+.grid-u-7-12 {
+    width: 58.33333%;
+}
+
+.grid-offset-7-12 {
+    margin-left: 58.33333%;
+}
+
+.grid-u-9-12 {
+    width: 75%;
+}
+
+.grid-offset-9-12 {
+    margin-left: 75%;
+}
+
+.grid-u-11-12 {
+    width: 91.66667%;
+}
+
+.grid-offset-11-12 {
+    margin-left: 91.66667%;
+}
+
+.grid-g-r {
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    word-spacing: -0.43em;
+}
+
+.opera-only :-o-prefocus, .grid-g-r {
+    word-spacing: -0.43em;
+}
+
+.grid-g-r img {
+    max-width: 100%;
+}
+
+@media (min-width: 980px) {
+    .grid-visible-phone {
+        display: none;
+    }
+
+    .grid-visible-tablet {
+        display: none;
+    }
+
+    .grid-hidden-desktop {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .grid-g-r > [class^="grid-u"] {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .grid-g-r > [class^="grid-u"] {
+        width: 100%;
+    }
+
+    .grid-hidden-phone {
+        display: none;
+    }
+
+    .grid-visible-desktop {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .grid-hidden-tablet {
+        display: none;
+    }
+
+    .grid-visible-desktop {
+        display: none;
+    }
+}
+.grid-2-list .grid-u-1-2 {
+    width: 466px;
+}
+.grid-2-list .grid-u-1-2:nth-child(2) {
+    margin-left: 28px;
+}
+
+.grid-4-article .grid-u-1-4 {
+    width: 220px;
+}
+.grid-4-article .grid-u-3-4 {
+    margin-left: 20px;
+    width: 720px;
+}
+
+.grid-3 .grid-u-1-3 {
+    width: 300px;
+    *width: 33%;
+}
+.grid-3 .grid-u-1-3:nth-child(2), .grid-3 .grid-u-1-3:nth-child(3) {
+    margin-left: 30px;
+}
+
+.grid-3-head .grid-u-1-4 {
+    width: 220px;
+}
+.grid-3-head .grid-u-1-4:nth-child(1) {
+    margin-right: 20px;
+}
+.grid-3-head .grid-u-1-4:nth-child(3) {
+    /*   margin-left: 29px; */
+    /*margin-left : 26px;*/
+    width: 246px;
+}
+.grid-3-head .grid-u-1-2.meta {
+    width: 460px;
+    /*border-right: 1px solid #cccccc;*/
+    padding-right: 10px;
+}
+
+.grid-4 .grid-u-1-4 {
+    width: 220px;
+    *width: 25%;
+}
+.grid-4 .grid-u-1-4:nth-child(2), .grid-4 .grid-u-1-4:nth-child(4) {
+    margin-left: 26px;
+}
+.grid-4 .grid-u-1-4:nth-child(3) {
+    margin-left: 28px;
+}
+
+/* Pages des magazines */
+.grid-5 .grid-u-1-5 {
+    width: 179px;
+    *width: 20%;
+}
+.grid-5 .grid-u-1-5:nth-child(2), .grid-5 .grid-u-1-5:nth-child(3), .grid-5 .grid-u-1-5:nth-child(4), .grid-5 .grid-u-1-5:nth-child(5) {
+    margin-left: 16px;
+}
+.grid-u-1-5.numero img {
+    width: 167px; /* largeur containeur - bordures */
+    height: 257px; /* ratio de 314 / (204 * 167) */
+}
+/* ------------- END GRILLES -------------  */
+
+#jump-top {
+    position : fixed;
+    right : 0;
+    bottom : 130px;
+}
+
+.grey9 {
+    color: #999999 !important;
+}
+
+.inbl, .icon {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+
+/*********************************************************/
+/* ------------- STRUCTURE : BASE -------------  */
+html {
+    /*-webkit-transform: translate3d(0,0,0);*/
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    background-color: transparent;
+    background: url("../images/white_strip.png") repeat scroll 0px 0px;
+    font: 17px "Alegreya";
+    color: #1f1f1f;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    min-height: 100%;
+}
+
+#body-content {
+    margin-top: 25px;
+}
+
+#nav1, #wrapper_search, #menu_login, #menu_login_dev, #body-content, #wrapper_category_tabs, #wrapper_menu_mycairn, #footer, #wrapper_bloc_box,
+#bloc_box2, #post_footer, #breadcrump {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*********************************************************/
+/* ------------- BOOTSTRAP STYLES : TOOLS -------------  */
+.container {width: 960px;margin: 0 auto;}
+.container-fluid {width: 100%;min-width: 960px;}
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+
+
+
+/*********************************************************/
+/* ------------- STRUCTURE : HEADER -------------  */
+#header {
+    font-family: "Alegreya SC";
+}
+
+/* LIENS DE NAVIGATIONS */
+/* Liens de navigation : Global */
+#header .nav ul, #header .nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#header .nav li {
+    display: inline-block;
+    zoom:1;
+}
+
+/* Liens de navigation : Top Links */
+#header .container-top-links {
+    padding: 5px 0;
+    background: #CCCCCC;
+    color: #6C6C6C;
+}
+#header .container-top-links li {
+    *display: inline; /*IE7/8 Hack*/
+    padding: 0px 10px; /* prec.: padding: 3px 10px */
+    border-right: solid 1px #fff;
+}
+#header .container-top-links li:last-child {
+    border-right: none;
+}
+#header .container-top-links li a {
+    padding: 2px 3px; /* prec.: padding: 1px 3px */
+    font-size: 1em;
+    line-height: 1em;
+    color: inherit;
+}
+/* Liens de droite.../!\ 40pixels de haut !!!! */
+#header .container-top-links .right {margin-top: 3px;}
+
+/* Liens de navigation : Accès Hors Campus */
+#header .container-top-links .access-hors-id {
+    padding: 3px 0 4px; /* prec.: padding: 4px 0 pour équilibrage */
+    font-family: "Alegreya";
+}
+#header .container-top-links .access-hors-id a.ah-not-connected {
+    padding-left: 25px;
+    background: url('../images/access-hors-not-connected.png') no-repeat center left;
+}
+#header .container-top-links .access-hors-id a.ah-connected {
+    padding-left: 25px;
+    background: url('../images/access-hors-connected.png') no-repeat center left;
+    cursor: default;
+}
+#header .container-top-links .access-hors-id a.ah-connected:hover {
+    text-decoration: none;
+}
+
+
+/* ------------- MON CAIRN INFO ------------- */
+/* Config Globale */
+#header .container-mon-cairn {
+    display: none;
+    margin-bottom: 15px;
+    background: #EFEFEF;
+    color: #323232;
+    height: 265px;
+    overflow: hidden;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+0,efefef+50,323232+51,323232+100 */
+    background: -moz-linear-gradient(left,  #efefef 0%, #efefef 60%, #323232 60%, #323232 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #efefef 0%,#efefef 60%,#323232 60%,#323232 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #efefef 0%,#efefef 60%,#323232 60%,#323232 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#323232',GradientType=1 ); /* IE6-9 */
+}
+
+#header .container-mon-cairn .moncairn-container {
+    position: relative;
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 39%;
+    height: 265px;
+    vertical-align: top;
+    background: #EFEFEF; /* Permet une meilleur intégration du fond en dégradé pour les petites résolutions */
+}
+#header .container-mon-cairn .moncairn-container a:hover {
+    color: #4DB1AC;
+}
+
+/* Title, Content & Footer */
+#header .container-mon-cairn .moncairn-title {
+    margin-bottom: 15px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+}
+
+#header .container-mon-cairn .moncairn-content {
+    height: 150px;
+}
+#header .container-mon-cairn .moncairn-content ul,
+#header .container-mon-cairn .moncairn-content li {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya";
+    list-style-type: none;
+}
+#header .container-mon-cairn .moncairn-content li {
+    margin-bottom: 5px;
+}
+#header .container-mon-cairn .moncairn-footer {
+    position: absolute;
+    bottom: 20px;
+}
+#header .container-mon-cairn .moncairn-footer a {
+    font-weight: bold;
+    padding-left: 25px;
+    background: url("../images/icon-right-arrow-gray.png") no-repeat center left;
+    color: #AAAAAA;
+}
+#header .container-mon-cairn .moncairn-footer a:hover {
+    text-decoration: none;
+    background-image: url("../images/icon-right-arrow-green.png");
+}
+/* Mes recherches */
+#header .container-mon-cairn #moncairn-mes-recherches {
+    width: 274px;
+}
+#header .container-mon-cairn #moncairn-mes-recherches .moncairn-content {
+    overflow-y: scroll;
+}
+#header .container-mon-cairn #moncairn-mes-recherches .moncairn-content::before {
+    position: absolute;
+    top: 30px;
+    right: 17px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background: url("../images/icon-carret-top.png") no-repeat center center;
+}
+#header .container-mon-cairn #moncairn-mes-recherches .moncairn-content::after {
+    position: absolute;
+    bottom: 30px;
+    right: 17px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background: url("../images/icon-carret-bottom.png") no-repeat center center;
+}
+/* Mes consultations */
+#header .container-mon-cairn #moncairn-mes-consultations {
+    width: 495px;
+}
+#header .container-mon-cairn #moncairn-mes-consultations .moncairn-content {
+    overflow-y: scroll;
+}
+#header .container-mon-cairn #moncairn-mes-consultations .moncairn-content::before {
+    position: absolute;
+    top: 30px;
+    right: 17px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background: url("../images/icon-carret-top.png") no-repeat center center;
+}
+#header .container-mon-cairn #moncairn-mes-consultations .moncairn-content::after {
+    position: absolute;
+    bottom: 30px;
+    right: 17px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background: url("../images/icon-carret-bottom.png") no-repeat center center;
+}
+/* Mes outils (negative) */
+#header .container-mon-cairn #moncairn-mes-outils {
+    width: 180px;
+    background: #323232;
+    color: #fff;
+}
+#header .container-mon-cairn #moncairn-mes-outils .moncairn-title {
+    color: #fff;
+}
+#header .container-mon-cairn #moncairn-mes-outils .moncairn-content {
+    height: auto;
+    overflow-y: none !important;
+}
+#header .container-mon-cairn #moncairn-mes-outils .moncairn-content li {
+    font-family: "Alegreya SC";
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+
+}
+#header .container-mon-cairn #moncairn-mes-outils .moncairn-content li a {
+    position: relative;
+    padding-left: 25px;
+    background: url("../images/icon-right-arrow-white.png") no-repeat center left;
+    color: #fff;
+}
+#header .container-mon-cairn #moncairn-mes-outils .moncairn-content li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-image: url("../images/icon-right-arrow-green.png");
+    color: #4DB1AC;
+}
+
+#header .moncairn-content li a .solde {
+    position: absolute;
+    top: 2px;
+    left: 120px;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+#header .moncairn-content li a:hover .solde {
+    color: #4DB1AC;
+}
+/* ------------- END MON CAIRN INFO ------------- */
+
+
+
+/* ------------- IDENTIFICATION DE L'UTILISATEUR -------------*/
+#header .container-user {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #AAAAAA;
+}
+
+#header .container-user .nav {
+    float: right;
+}
+#header .container-user li {
+    *display: inline; /*IE7/8 Hack*/
+    padding: 0 3px;
+    border-right: solid 1px;
+}
+#header .container-user li:last-child {
+    margin-left: -3px;
+    border-right: none;
+}
+#header .container-user li a {
+    margin: 0 10px;
+    padding: 2px 16px 3px;
+    color: inherit;
+}
+#header .container-user li a:hover,
+#header .container-user li a.active {
+    background-color: #2BA39B;
+    color: #FFF;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+/* Identification de l'utilisateur : Utilisateur non-connecté; */
+#header .container-user a.user-not-connected {
+    padding-left: 35px;
+    background: url('../images/icon-user-not-connected.png') no-repeat center left;
+}
+#header .container-user a.user-not-connected:hover,
+#header .container-user a.user-not-connected.active {}
+
+/* Identification de l'utilisateur : Utilisateur connecté; */
+#header .container-user a.user-connected {
+    position: relative;
+    padding-left: 30px;
+    background: url('../images/icon-user-connected.png') no-repeat 5px center;
+    color: #323232;
+    min-width: 170px;
+}
+#header .container-user a.user-connected:hover {
+    padding-left: 30px;
+    background: url('../images/icon-user-not-connected.png') no-repeat 0 center;
+    background-color: #2BA39B;
+    color: #FFF;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* UserName / Me Déconnecter */
+#header .container-user a.user-connected .label-logout {
+    display: none;
+}
+#header .container-user a.user-connected:hover .label-logout {
+    display: inline;
+}
+#header .container-user a.user-connected:hover #user-name {
+    display: none;
+}
+
+/* Mon cairn */
+#header .container-user li a.user-mon-cairn-info {
+    padding-right: 25px;
+    background: url('../images/icon-arrow-bottom-green.png') no-repeat 95% center;
+    color: #2BA39B;
+}
+#header .container-user li a.user-mon-cairn-info.active,
+#header .container-user li a.user-mon-cairn-info:hover {
+    background: url('../images/icon-arrow-bottom-white.png') no-repeat 95% center;
+    background-color: #323232;
+    color: #FFF;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+/* ------------- END IDENTIFICATION DE L'UTILISATEUR ------------- */
+
+
+
+/* ------------- CAIRN : LOGO & FORMULAIRE ------------- */
+#header .container-cairn {
+    position: relative;
+    margin-bottom: 20px;
+}
+/* Logo */
+#header .container-cairn .logo {
+    float: left;
+}
+#header .container-cairn .logo img {
+    width: 229px;
+    height: 82px;
+}
+/* Formulaire de recherche */
+#header .container-cairn .search-form {
+    margin-top: 30px;
+    margin-right: 55px;
+    float: right;
+    width:554px;
+}
+#header .container-cairn #main_search_form {
+    background: #fff;
+}
+#header .container-cairn .search-form input#compute_search_field {
+    margin: 0;
+    padding: 0 10px;
+    font-family: Georgia;
+    font-size: 16px;
+    color: #626152;
+    height: 31px;
+    width: 393px; /* 443 au lieu de 460 pour IE*/
+    background: #fff;
+}
+#header .container-cairn .search-form input#send_search_field {
+    margin-top: 1px;
+    margin-right: 1px;
+    padding: 0px 10px 0px 30px;
+    font-family: "Alegreya SC";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 29px;
+    height: 29px;
+    background: url("../images/icon-search-grey.png") no-repeat 5px center #221E1E;
+    border: none;
+}
+/* Options avancées de recherche */
+#header .container-cairn .search_form_advanced {
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#header .container-cairn .search_form_advanced label {
+    margin-right: 10px;
+    font-family: "Alegreya" !important;
+    font-size: 16px;
+}
+/* Search Options */
+#header .container-cairn .search_option {
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    width: 32px;
+}
+
+#header .container-cairn .so-label a#search-option-button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon-options.png') no-repeat center center;
+}
+#header .container-cairn .so-label a#search-option-button:hover {
+    background: url('../images/icon-options-green.png') no-repeat center center;
+}
+
+#header .container-cairn .so-label {
+
+}
+#header .container-cairn .so-label:hover .so-panel {
+    //display: block;
+}
+#header .container-cairn .so-panel {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: -90px;
+    padding: 5px 10px;
+    width: 180px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.05);
+}
+#header .container-cairn .so-panel::before {
+    position: absolute;
+    top: -10px;
+    right: 96px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgba(255, 255, 255, 1) transparent;
+}
+#header .container-cairn .so-panel a {
+    display: block;
+    padding-left: 25px;
+    font-family: "Alegreya";
+    font-size: 0.9em;
+    background: url('../images/icon-right-arrow-black.png') no-repeat center left;
+}
+#header .container-cairn .so-panel a:hover {
+    background: url('../images/icon-right-arrow-green.png') no-repeat center left;
+    color: #2BA39B;
+    text-decoration: none;
+}
+
+/* Menu pour smartphone */
+@media screen and (max-width: 1120px) {
+    #header .container-cairn .search_option {}
+    #header .container-cairn .so-panel {
+        padding: 15px 20px;
+        right: 0px;
+    }
+    #header .container-cairn .so-panel::before {
+        right: 6px;
+    }
+    #header .container-cairn .so-panel a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+/* CAIRN AND COOKIE POLICY */
+/* Message d'alerte pour l'acceptation des cookies */
+#cookie-alert {
+    position: relative;
+    background: #323232;
+    color: #FFF;
+    border-top: solid 1px #414141;
+}
+#cookie-alert .wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 8px 0;
+    padding-right: 20px;
+    font-family: "Alegreya";
+    font-size: 14px;
+    width: 960px;
+}
+#cookie-alert .wrapper a {
+    color: #fff;
+}
+#cookie-alert a.link-underline {margin-left: 10px;}
+#cookie-alert .wrapper .btn-accept-and-close {
+    padding: 2px 10px;
+    //background-color: #D8D8D8;
+    //color: #323232;
+    background-color: #2BA39B;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#cookie-alert .wrapper .btn-accept-and-close:hover {
+    background-color: #2BA39B;
+    color: #FFF;
+}
+
+/* CAIRN-INT */
+/* Message pour les NON-FR */
+#header .header-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+}
+#header #cairn-int-info-visitor {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: #000; /* IE8 */
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 440px;
+    z-index: 2;
+}
+#header #cairn-int-info-visitor::before {
+    position: absolute;
+    top: -18px;
+    right: 40px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 18px 18px 18px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
+}
+#header #cairn-int-info-visitor .wrapper {
+    padding: 15px 20px;
+}
+#header #cairn-int-info-visitor .wrapper .title {
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+#header #cairn-int-info-visitor .wrapper .msg {
+    font-size: 0.9em;
+    line-height: 1.1em;
+}
+#header #cairn-int-info-visitor .wrapper .msg a {
+    color: #fff;
+}
+#header #cairn-int-info-visitor .wrapper .btn-cairn-int-view {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+/* ------------- END STRUCTURE : HEADER -------------  */
+
+
+/* ------------- FORMULAIRE IN MODAL : LOGIN -------------  */
+/* Sur base du comportement des modals */
+#whiteground {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+#modal-login {
+    display: none;
+    position: absolute;
+    width: 340px;
+    top: 100px;
+    left: 50%;
+    margin-left: 20px; /* Negative half of width. */
+    z-index: 2;
+}
+#modal-login #modal-login-container {
+    position: relative;
+    width: 340px;
+}
+
+#modal-login #modal-login-container form#login_form {
+    margin-top: 0;
+    padding: 15px;
+    display: block;
+    width: 310px;
+    background: #4DB1AC;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+#modal-login #modal-login-container form#login_form::before {
+    position: absolute;
+    top: -10px;
+    left: 160px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent #4DB1AC transparent;
+}
+#modal-login #modal-login-container form#login_form #email_input,
+#modal-login #modal-login-container form#login_form #password_input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    font-size: 0.8em;
+    width: 100%;
+    width: 285px;
+}
+#modal-login #modal-login-container form#login_form #password_input {margin: 0;}
+#modal-login #modal-login-container form#login_form a {
+    color: #fff;
+    opacity: 0.7;
+}
+#modal-login #modal-login-container form#login_form .buttons {
+    margin: 0.8em -15px -15px;
+    padding: 8px 15px;
+    font-family: "Alegreya SC";
+    background: #282828;
+    color: #fff;
+}
+#modal-login #modal-login-container form#login_form .buttons label {
+    margin-top: 2px;
+    float: left;
+    font-size: 0.9em;
+}
+#modal-login #modal-login-container form#login_form #login_button {
+    /* Reset */
+    background: none;
+    border: none;
+
+    /* Overwrite */
+    float: right;
+    padding-right: 25px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 1em;
+    background: url("../images/icon-right-arrow-white.png") no-repeat center right;
+    color: #fff;
+    cursor: pointer;
+}
+#modal-login #modal-login-container .post-form {
+    padding: 7px 0;text-align: center;
+    font-size: 0.9em;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#modal-login #modal-login-container .post-form a {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    color: #5AB1AC;
+}
+
+/* Correction pour cairn-int, qui a un .wrapper défini avec une largeur et une largeur minimale */
+#modal-login .wrapper {
+    width: auto !important;
+    min-width: auto !important;
+}
+/* ------------- END FORMULAIRE IN MODAL : LOGIN ------------- */
+
+
+/* ------------- STYLES : BASE -------------  */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a:focus, a:active, img, a img, select:focus {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+a:hover {
+    text-decoration: underline;
+}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+.inline {display: inline!important;}
+.inline-block {display: inline-block!important;}
+.block { display: block!important;}
+.invisible {display: none!important;}
+/* ------------- END STYLES : BASE -------------  */
+
+
+div.overflow {
+    overflow: hidden;
+}
+
+ul.list-bills {
+    /*text-align: center;*/
+    list-style: none;
+}
+ul.list-bills > li + li {
+    border-top: 1px solid #CCC;
+    padding-top: 0.3em;
+    margin-top: 0.3em;
+}
+ul.list-bills > li > .wrapper {
+    background-color: rgba(220, 220, 220, 0.3);
+    padding: 0.4em;
+}
+ul.list-bills .blue_button,
+ul.list-bills .grey_button {
+    padding: 0 0.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.list-button-grey {
+    list-style-type: none;
+    font: normal 20px Alegreya;
+    line-height: 35px;
+    color: #1f1f1f;
+}
+ul.list-button-grey li {
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+ul.list-button-grey li:hover, ul.list-button-grey li.active {
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
+}
+ul.list-button-grey li:hover, ul.list-button-grey li:hover a, ul.list-button-grey li.active, ul.list-button-grey li.active a {
+    color: white;
+}
+ul.list-button-grey li a {
+    padding-left: 1em;
+    display: block;
+}
+ul.list-button-grey li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ul.list-button-grey li.active {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ul.list-button-grey li + li {
+    margin-top: 12px;
+}
+
+/* ------------- TABLEAU DES BOUTONS : ACCUEIL, ... ------------- */
+div.table-button-grey {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+div.table-button-grey .grid-column {
+    padding: 0 5px;
+    float: left;
+    width: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+div.table-button-grey .grid-item {
+    margin: 0 0 10px 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 100%;
+}
+div.table-button-grey .grid-item a {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    height: 30px;
+}
+div.table-button-grey .grid-item a:hover {
+    //background-color: #4bb2ac;
+    //border-color: #4bb2ac;
+    background-color: #323232;
+    border-color: #323232;
+    color: #fff;
+    text-decoration: none;
+}
+/* Bouton actif */
+div.table-button-grey .grid-item a.active, div.table-button-grey .grid-item a.active:hover {
+    background-color: #221E1F;
+    border: 1px solid #221E1F;
+    color: #fff;
+}
+/* Bouton inactif */
+div.table-button-grey .grid-item a.inactive, div.table-button-grey .grid-item a.inactive:hover {
+    background-color: #dedede;
+    border: 1px solid #cccccc;
+    color: #1f1f1f;
+    cursor: not-allowed;
+}
+
+/* Tableau des sous-discipline (3 colonnes) */
+div.table-button-grey.table-subdisc {
+    padding: 15px 10px 5px 20px; /* Il y a des marges au niveau des liens colonnes à prendre en compte, on fait juste -10px pour Droite et Bas par rapport à Gauche et Haut */
+    background: #F5F5F5;
+    border: solid 1px #CCCCCC;
+}
+div.table-button-grey.table-subdisc .grid-column {
+    width: 33%;
+    max-width: 33%;
+}
+div.table-button-grey.table-subdisc .grid-item a {
+    background: #FFF;
+}
+div.table-button-grey.table-subdisc .grid-item a:hover {
+    color: inherit;
+}
+/* ------------- END TABLEAU DES BOUTONS : ACCUEIL, ... ------------- */
+
+
+
+/* ------------- PRESENTATION DE CAIRN (Homepage) ------------- */
+#apropos {
+    margin-top: 4.5em;
+    margin-bottom: -40px;
+    padding: 28px 0 48px;
+    background-color: #4bb2ac;
+    color: white;
+}
+#apropos h1 {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+#apropos h2 {
+    margin: 0 0 20px 0;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+}
+/* Présentation : Texte */
+#apropos .grid-8 {
+    margin-top: 30px;
+    padding-right: 140px;
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+}
+#apropos .grid-8 p {
+    font-family: "Alegreya";
+    font-size: 22px;
+    line-height: 30px;
+
+    margin: 0;
+    text-align: justify;
+}
+#apropos .grid-8 a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Liens utiles */
+#apropos .grid-2 {
+    margin-top: 30px;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+}
+#apropos .grid-2 dl, #apropos .grid-2 dd {
+    margin: 0;
+    padding: 0;
+}
+#apropos .grid-2 dd {
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#apropos .grid-2 dd a {
+    color: #fff;
+}
+#apropos .grid-2 dd a:hover {
+    text-decoration: none;
+}
+#apropos .grid-2 dl a.twitter {
+    padding-left: 45px;
+    background: url("../images/icon-twitter-white.png") no-repeat center left;
+}
+#apropos .grid-2 dl a.facebook {
+    padding-left: 45px;
+    background: url("../images/icon-facebook-white.png") no-repeat 7px center;
+}
+#apropos .grid-2 dl a.newsletter {
+    padding-left: 45px;
+    background: url("../images/icon-newsletter-white.png") no-repeat center left;
+}
+/* ------------- END PRESENTATION DE CAIRN ------------- */
+
+
+
+ul.pagination {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+ul.pagination li {
+    display: inline-block;
+    text-align: center;
+}
+ul.pagination a, ul.pagination span {
+    padding: 0 0.5em;
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    font: normal 20px Alegreya;
+    color: #1f1f1f;
+    text-transform: capitalize;
+}
+ul.pagination a:hover, ul.pagination a.active, ul.pagination span:hover, ul.pagination span.active {
+    text-decoration: none;
+    color: white;
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
+}
+
+
+.pagination.letters {
+    overflow : hidden;
+    width : 1020px;
+    position : relative;
+    left : -16px;
+}
+.pagination.letters a, .pagination.letters span, .pagination.letters .desactivate, .pagination.letters .active {
+    font-size : 1.1em;
+    padding : 0;
+    width : 50px;
+    height : 50px;
+    line-height : 2.8;
+}
+.pagination.letters .all {
+    width : 120px;
+}
+.pagination.letters .alldesactivate {
+    width : 120px;
+    color : #dedede;
+}
+.pagination.letters li {
+    line-height : 3.8;
+    margin-left : 18px;
+    float : left;
+}
+.pagination.letters .desactivate {
+    color : #dedede;
+}
+.pagination.letters .desactivate:hover {
+    background-color : #f4f4f4;
+    border-color : #cccccc;
+}
+
+/* ------------- OWL - NUMEROS RECENTS ------------- */
+#numeros-recents {}
+
+.owl-numeros-recents {}
+.owl-numeros-recents .owl-item {
+    box-sizing: border-box;
+}
+.owl-numeros-recents .owl-item img {
+    display: block;
+    /* OWL Carousel calcul automatiquement la largeur de la boite, mais
+     * dans ce cas-ci, les bordures de l'image sortent de la boite, il faut donc
+     * compenser cette marge. En plus de cela, les couvertures ne sont pas toujours
+     * à des tailles identiques, elles sont donc fixées sur base de la mesure précédente : 204px X 314px
+     * En retirant la largeur des bordures à la largeur de la boite (176px - 2 X 4px), on arrive à 168px
+     * Pour la hauteur, il s'agit seulement d'une proportion de la valeur précédente */
+    width: 168px !important;    /* le !important overwrite le style par défaut de owl */
+    height: 258px;
+
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.owl-numeros-recents .owl-item h2 {
+    margin-top: 15px;
+    padding: 0 4px;
+    font: bold 18px "Alegreya SC";
+    line-height: 23px;
+    color: #4bb2ac;
+}
+.owl-numeros-recents .owl-item h3 {
+    margin-top: 0;
+    padding: 0 4px;
+    font: bold 16px "Alegreya";
+    line-height: 20px;
+}
+.owl-numeros-recents .owl-item p {
+    margin-top: 0;
+    padding: 0 4px;
+    font: bold 18px "Alegreya";
+    line-height: 18px;
+    color: #535353;
+}
+
+.owl-stage-outer {
+    position: relative;
+    z-index: 2;
+}
+/* .owl-nav est généré par la librairie */
+.owl-numeros-recents .owl-nav {
+    position: absolute;
+    top: 25%;
+    margin: 0 -80px;
+    width: 100%;
+    height: 58px;
+    width: calc(100% + 80px + 80px);
+    z-index: 1;
+}
+/* Précédent */
+.owl-numeros-recents .owl-nav .owl-prev {
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    //left: -80px;
+    width: 25px;
+    height: 48px;
+    background: url('../images/owl-prev.png') no-repeat center center;
+    text-indent: -9999px;
+}
+.owl-numeros-recents .owl-nav .owl-prev:hover {
+    background: url('../images/owl-prev-active.png') no-repeat center center;
+}
+/* Suivant */
+.owl-numeros-recents .owl-nav .owl-next {
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    //right: -80px;
+    right: 0px;
+    width: 25px;
+    height: 48px;
+    background: url('../images/owl-next.png') no-repeat center center;
+    text-indent: -9999px;
+}
+.owl-numeros-recents .owl-nav .owl-next:hover {
+    background: url('../images/owl-next-active.png') no-repeat center center;
+}
+/* OWL NAVIGATION RESPONSIVE */
+@media screen and (max-width: 1120px) {
+    .owl-numeros-recents .owl-nav {
+        top: -50px;
+        height: 31px;
+        right: 100px;
+        width: 50px;
+    }
+    .owl-numeros-recents .owl-nav .owl-prev,
+    .owl-numeros-recents .owl-nav .owl-next,
+    .owl-numeros-recents .owl-nav .owl-prev:hover,
+    .owl-numeros-recents .owl-nav .owl-next:hover {
+        padding: 3px;
+        background-size: 10px;
+        width: 15px;
+        height: 25px;
+    }
+}
+/* ------------- END OWL - NUMEROS RECENTS ------------- */
+
+hr.grey {
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin-top: 36px;
+}
+
+/* ------------- GESTION DES TAILLES D'IMAGES ------------- */
+img.big_cover, img.small_cover, img.big_coverbis, img.small_coverbis, img.cover, img.coverbix {
+    /*   Pour ne pas afficher le alt des couvertures   */
+    color : transparent;
+    background-color : #eee;
+}
+img.big_cover {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 6px solid #cccccc;
+    display: block;
+    width: 204px;
+    height: 314px;
+}
+img.big_coverbis {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 6px solid #cccccc;
+    display: block;
+    width: 204px;
+}
+
+img.small_cover {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    border: 4px solid #cccccc;
+    display: block;
+    width: 61px;
+    height: 92px;
+}
+img.small_coverbis {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    border: 4px solid #cccccc;
+    display: block;
+    width: 62px;
+}
+/* ------------- END GESTION DES TAILLES D'IMAGES ------------- */
+
+.contrast-box {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 15px;
+    background: #EFEFEF;
+}
+.contrast-box h1 {
+    margin: 0 0 10px 0;
+    font-family: "Alegreya SC";
+    font-size: 16px;
+    font-weight: bold;
+    color: #b15f5f;
+}
+.contrast-box ul, .contrast-box li {margin: 0;padding: 0;list-style: none;} /* Reset */
+.contrast-box ul {
+    margin: 0 0 10px 0;
+}
+.contrast-box li {
+    font-family: "Alegreya";
+    font-size: 16px;
+    line-height: 24px;
+}
+.contrast-box p {
+    font-size: 0.9em;
+}
+.contrast-box button.button {
+    width: 100%;
+    margin: 0;
+}
+
+/* ------------- E-MAIL ALERTS (FORM) ------------- */
+.email_alertes {
+    line-height: 150%;
+    overflow : hidden;
+}
+.email_alertes p {
+    margin-top: -10px;
+    font: bold 14px Alegreya;
+    margin-bottom: 0.8em;
+}
+.email_alertes a {
+    margin-top: 3px;
+    font: bold 12px Alegreya;
+    color: #b15f5f;
+    text-decoration: none;
+}
+.email_alertes a:hover {
+    text-decoration: underline;
+}
+.email_alertes input {
+
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+.email_alertes button {
+    border: 0;
+    background-color: inherit;
+    font: bold 16px "Alegreya SC";
+    float: right;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.email_alertes button:hover {
+    text-decoration: underline;
+}
+/* ------------- END E-MAIL ALERTS (FORM) ------------- */
+
+.cairn-int_link {
+    display: block;
+    padding-left: 45px;
+    min-height: 34px;
+    line-height: 34px;
+    font-weight : bold;
+    background: url('../images/icon-arrow-green-circle.png') no-repeat center left;
+    text-decoration: none;
+}
+.cairn-int_link:hover {
+    background-image: url('../images/icon-arrow-black-circle.png');
+    text-decoration: none;
+}
+.cairn-int_link .label {
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+
+
+
+
+.article_menu {
+    line-height: 2;
+}
+.article_menu, .article_menu a {
+    line-height: 2;
+    font: normal 16px "Alegreya";
+    display: block;
+    overflow : hidden;
+}
+.article_menu .add_to_cart {
+    font-weight: bold;
+    margin: 0.75em 0;
+    display: block;
+}
+.article_menu .add_to_cart .icon {
+    margin-right: 0.5em;
+}
+.article_menu h1 {
+    font: bold 16px "Alegreya SC";
+    color: #b15f5f;
+}
+.article_menu ul {
+    list-style-type: none;
+}
+.article_menu ul li { clear : both; }
+.article_menu ul li a {
+    overflow : hidden;
+    line-height : 1.7;
+}
+.article_menu ul + h1 { padding-top : 2em; }
+/* #page_revue .article_menu { display : inline-block; } */
+
+
+.greybox_hover:hover {
+    background-color: rgba(220, 220, 220, 0.2);
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) inset;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* ------------- FREE TEXT ------------- */
+/* FREE_TEXT est un bloc sans marge haute et basse */
+#free_text h2 {
+    font: bold 20px/1.3 Alegreya;
+    margin-top: 1em;
+}
+#free_text h2.main_subtitle {
+    font: bold 21px/1.5 "Alegreya SC";
+    color: #333333;
+    text-align: center;
+}
+#free_text h1.main-title + h2.main_subtitle {
+    margin: 0 0 2em;
+}
+#free_text h2 + h3 {
+    margin-top: 0.5em;
+}
+#free_text h3 {
+    font: bold italic 17px/1.3 "Alegreya";
+    color: #333333;
+}
+#free_text p {
+    font: 17px/1.6 Alegreya;
+}
+#free_text p.emphasis {
+    font: italic 17px/1.6 "Alegreya";
+}
+#free_text p + h2 {
+    margin-top: 3em;
+}
+#free_text p + h3 {
+    margin-top: 2em;
+}
+
+#free_text ul.links_list,
+#free_text ul.bullets_list {
+    list-style-type: none;
+    margin-left: 2em;
+    text-indent: -2.5em;
+}
+#free_text ul.links_list li,
+#free_text ul.bullets_list li {
+    margin: 0.5em 0;
+}
+#free_text ul.links_list li .icon,
+#free_text ul.bullets_list li .icon {
+    margin-right : 1em;
+}
+#free_text ul.links_list li a:hover .icon,
+#free_text ul.bullets_list li a:hover .icon {
+    background-position: 0 -99px;
+}
+#free_text ul {
+    list-style-position: inside;
+}
+#free_text ul.links_list,
+#free_text ul.bullets_list {
+    list-style-type: none;
+}
+#free_text ul.links_list li,
+#free_text ul.bullets_list li {
+    margin: 0.5em 0;
+}
+#free_text ul.links_list li a:hover,
+#free_text ul.bullets_list li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#free_text img.figure {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    border: 8px solid #cccccc;
+}
+#free_text img.figure + .img_legend {
+    display: block;
+    text-align: center;
+    font: italic 17px/1.1 "Alegreya";
+}
+/* ------------- END FREE TEXT ------------- */
+
+
+/* ------------- LANDING PDF -------------  */
+.landing_pdf {
+    margin: 0 auto;
+    width: 450px;
+}
+.landing_pdf .text_medium {
+    margin: 0;
+}
+.landing_pdf .auteur {
+        margin: 1em 0 2em 0;
+}
+.landing_pdf .auteurs .auteur {
+    display: inline-block;
+    font: bold 16px "Alegreya";
+    color: #333;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 .2em 0.3em;
+    padding: 0 3px;
+    height: 22px;
+}
+
+/* ------------- END LANDING PDF -------------  */
+
+/* ------------- ICONS ------------- */
+.icon-sprite, .icon-add-biblio-glyph, .icon-add-biblio,  .icon-remove-biblio, .icon-add-to-cart-big, .icon-arrow-black-left, .icon-arrow-black-right, .icon-arrow-blue-right, .icon-arrow-white-left, .icon-arrow-white-right, .icon-arrow-white-top, .icon-bell, .icon-breadcrump-arrow, .icon-citation-begin, .icon-citation-end, .icon-diamond-bullet, .icon-envelope, .icon-login, .icon-logout, .icon-magnifing-glass, .icon-modal-close, .icon-refresh, .icon-remote-access, .icon-round-arrow-right, .icon-rss, .icon-submit-arrow, .icon-tools-ico-biblio, .icon-tools-ico-fontBigger, .icon-tools-ico-fontSmaller, .icon-tools-ico-hightlight, .icon-tools-ico-pdf, .icon-tools-ico-print, .icon-tools-ico-top, #nav1 #user_islogout:hover .icon, #nav1 #user_islogout.active .icon, #page_revue #page_header .links .left:hover .icon, #page_revue #page_header .links .right:hover .icon, #page_numero #page_header .links .left:hover .icon, #page_numero #page_header .links .right:hover .icon, #page_article #page_header .links .left:hover .icon, #page_article #page_header .links .right:hover .icon {
+    background: url('../images/icon-s63d8f25c80.png') no-repeat;
+}
+.icon-add-biblio-glyph {
+    background-position: 0 -903px;
+    height: 15px;
+    width: 25px;
+}
+.icon-add-biblio {
+    background-position: 0 -425px;
+    height: 32px;
+    width: 32px;
+}
+.icon-remove-biblio {
+    background-position: -0 -187px;
+    height: 34px;
+    width: 35px;
+}
+.icon-add-biblio:hover, .icon-add-biblio.add-biblio_hover, .icon-add-biblio.add-biblio-hover {
+    background-position: 0 -457px;
+}
+.icon-remove-biblio:hover, .icon-remove-biblio.remove-biblio_hover, .icon-remove-biblio.remove-biblio-hover {
+    background-position: 0 -187px;
+}
+
+.icon-add-to-cart-big {
+    background-position: 0 -289px;
+    height: 34px;
+    width: 34px;
+}
+
+.icon-arrow-black-right {
+    background-position: 0 -947px;
+    height: 23px;
+    width: 23px;
+}
+.icon-arrow-black-left {
+    background-position: 0 -947px;
+    height: 23px;
+    width: 23px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.highlight .icon-arrow-black-left {
+    width: 20px;
+    -webkit-transform: rotate(180deg) scale(0.6);
+    -moz-transform: rotate(180deg) scale(0.6);
+    -ms-transform: rotate(180deg) scale(0.6);
+    -o-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6);
+}
+
+.icon-arrow-blue-right {
+    background-position: 0 -1006px;
+    height: 20px;
+    width: 28px;
+}
+
+.highlight .icon-arrow-black-right {
+    width: 20px !important;
+    transform: scale(0.6);
+}
+
+.icon-arrow-blue-right:hover, .icon-arrow-blue-right.arrow-blue-right_hover, .icon-arrow-blue-right.arrow-blue-right-hover {
+    background-position: 0 -99px;
+}
+
+.icon-arrow-white-left {
+    background-position: 0 -1051px;
+    height: 15px;
+    width: 16px;
+}
+
+.icon-arrow-white-right {
+    background-position: 0 -1036px;
+    height: 15px;
+    width: 16px;
+}
+
+.icon-arrow-white-top {
+    background-position: 0 -1066px;
+    height: 16px;
+    width: 15px;
+}
+
+.icon-bell {
+    background-position: 0 -663px;
+    height: 36px;
+    width: 37px;
+}
+
+.icon-breadcrump-arrow {
+    background-position: 0 -1026px;
+    height: 10px;
+    width: 7px;
+}
+
+.icon-citation-begin {
+    background-position: 0 -869px;
+    height: 14px;
+    width: 19px;
+}
+
+.icon-citation-end {
+    background-position: 0 -855px;
+    height: 14px;
+    width: 19px;
+}
+
+.icon-diamond-bullet {
+    background-position: 0 -60px;
+    height: 14px;
+    width: 14px;
+}
+
+.icon-envelope {
+    background-position: 0 -627px;
+    height: 36px;
+    width: 37px;
+}
+
+.icon-login {
+    background-position: 0 -970px;
+    height: 36px;
+    width: 36px;
+}
+.icon-login:hover, .icon-login.login_hover, .icon-login.login-hover {
+    background-position: 0 -557px;
+}
+
+.icon-logout {
+    background-position: 0 -918px;
+    height: 15px;
+    width: 14px;
+}
+
+.icon-magnifing-glass {
+    background-position: 0 -883px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-modal-close {
+    background-position: 0 -34px;
+    height: 26px;
+    width: 26px;
+}
+
+.icon-refresh {
+    background-position: 0 -933px;
+    height: 14px;
+    width: 14px;
+}
+
+.icon-remote-access {
+    background-position: 0 -807px;
+    height: 14px;
+    width: 29px;
+}
+
+.icon-round-arrow-right {
+    background-position: 0 -255px;
+    height: 34px;
+    width: 34px;
+}
+.icon-round-arrow-right:hover, .icon-round-arrow-right.round-arrow-right_hover, .icon-round-arrow-right.round-arrow-right-hover {
+    background-position: 0 -821px;
+}
+
+.icon-rss {
+    background-position: 0 -699px;
+    height: 36px;
+    width: 36px;
+}
+
+.icon-submit-arrow {
+    background-position: 0 -74px;
+    height: 25px;
+    width: 25px;
+}
+
+.icon-tools-ico-biblio {
+    background-position: 0 0;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-biblio:hover, .icon-tools-ico-biblio.tools-ico-biblio_hover, .icon-tools-ico-biblio.tools-ico-biblio-hover {
+    background-position: 0 -773px;
+}
+
+.icon-tools-ico-fontBigger {
+    background-position: 0 -187px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-fontBigger:hover, .icon-tools-ico-fontBigger.tools-ico-fontBigger_hover, .icon-tools-ico-fontBigger.tools-ico-fontBigger-hover {
+    background-position: 0 -489px;
+}
+
+.icon-tools-ico-fontSmaller {
+    background-position: 0 -391px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-fontSmaller:hover, .icon-tools-ico-fontSmaller.tools-ico-fontSmaller_hover, .icon-tools-ico-fontSmaller.tools-ico-fontSmaller-hover {
+    background-position: 0 -357px;
+}
+
+.icon-tools-ico-hightlight {
+    background-position: 0 -221px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-hightlight:hover, .icon-tools-ico-hightlight.tools-ico-hightlight_hover, .icon-tools-ico-hightlight.tools-ico-hightlight-hover {
+    background-position: 0 -323px;
+}
+
+.icon-tools-ico-pdf {
+    background-position: 0 -153px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-pdf:hover, .icon-tools-ico-pdf.tools-ico-pdf_hover, .icon-tools-ico-pdf.tools-ico-pdf-hover {
+    background-position: 0 -119px;
+}
+
+.icon-tools-ico-print {
+    background-position: 0 -523px;
+    height: 34px;
+    width: 34px;
+}
+.icon-tools-ico-print:hover, .icon-tools-ico-print.tools-ico-print_hover, .icon-tools-ico-print.tools-ico-print-hover {
+    background-position: 0 -593px;
+}
+
+.icon-tools-ico-top {
+    background-position: 0 -735px;
+    height: 38px;
+    width: 60px;
+}
+/* ------------- END ICONS ------------- */
+
+
+#category_tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font: 20px Alegreya;
+    line-height: 36px;
+    display: table;
+    width: 100%;
+    padding-bottom: 3px;
+    border-bottom: 6px solid #dedede;
+    *text-align: center;
+    *font-size : 19px;
+    *list-style-type : none;
+}
+#category_tabs li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    text-align: center;
+    padding: 0;
+    width: 1%;
+    *width: 184px;
+    *padding : 0;
+    *margin:0;
+}
+#category_tabs li + li {
+    padding-left: 9px;
+    *margin-left : 10px;
+    *padding-left: 0;
+}
+#category_tabs li a, #category_tabs li > span {
+    width: 100%;
+    padding: 0;
+    text-decoration: none;
+    *width : 100%;
+    *border : 0;
+    *padding : 0;
+    *margin: 0;
+}
+
+
+/* ------------- BREADCRUMB ------------- */
+#breadcrump {
+    border-bottom: 1px solid #cccccc;
+}
+#breadcrump, #breadcrump a {
+    font: bold 15px "Alegreya SC";
+    line-height: 120%;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+#breadcrump .icon {
+    margin: 0 0.1em;
+}
+#breadcrump .inactive {
+    color: #1f1f1f;
+}
+#breadcrump .inactive:hover {
+    text-decoration: underline;
+}
+
+#wrapper_category_tabs + #breadcrump, .mon-panier #breadcrump {
+    margin-top: 0.9em;
+    padding-bottom: 0.7em;
+}
+
+#breadcrump + #body-content {
+    margin-top: 2.25em;
+}
+/* ------------- END BREADCRUMB ------------- */
+
+
+.yellow {
+    color: #a5a524;
+}
+
+.yellow2, .orange {
+    color: #b8b858;
+}
+
+
+
+#list_revue_suscriber .meta {
+    position: relative;
+    min-height: 100px;
+}
+#list_revue_suscriber .meta .editeur {
+    font: bold 17px "Alegreya SC";
+    position: absolute;
+    bottom: 0;
+}
+
+#articles_more_view .article {
+    list-style-type: none;
+    padding-left: 0.3em;
+}
+#articles_more_view .article > * {
+    /*padding-left: 0.3em;*/
+}
+#articles_more_view .article > img, #articles_more_view .article .meta {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    vertical-align : top;
+}
+#articles_more_view .article .meta {
+    margin-left : 0.6em;
+    width : 790px;
+}
+#articles_more_view .article .title {
+    font: bold 18px "Alegreya";
+}
+#articles_more_view .article .subtitle {
+    font: normal 17px "Alegreya";
+}
+#articles_more_view .article .author {
+    /*font-style: italic;*/
+}
+#articles_more_view ul + ul {
+    margin-top: 0.5em;
+}
+
+#sub_disc {
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    padding: 0.3em 2em 0.8em 2em;
+    text-align: left;
+}
+#sub_disc h2 {
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+    font: bold 19px "Alegreya SC";
+    color: #333333;
+}
+#sub_disc a {
+    display: block;
+    border: 1px solid #cccccc;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    text-align: left;
+    padding-left : 1em;
+}
+#sub_disc a:hover, #sub_disc a.active {
+    text-decoration: none;
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
+    font-weight: bold;
+    color: white;
+}
+#sub_disc .grid-u-1-3 {
+    width: 31.333%;
+}
+#sub_disc .grid-u-1-3 + .grid-u-1-3 {
+    margin-left: 3%;
+}
+#sub_disc .row:last-child {
+    display: none;
+}
+
+#page_revue #page_header, #page_numero #page_header, #page_article #page_header {
+    line-height: 1.1;
+}
+#page_revue #page_header .meta, #page_numero #page_header .meta, #page_article #page_header .meta {
+    min-height: 326px;
+    position: relative;
+}
+#page_revue #page_header .title, #page_numero #page_header .title, #page_article #page_header .title {
+    margin-bottom: 0.3em;
+}
+#page_revue #page_header .subtitle, #page_numero #page_header .subtitle, #page_article #page_header .subtitle {
+    margin-bottom: 1em;
+}
+#page_revue #page_header .wrapper_affiliation br + br,
+#page_numero #page_header .wrapper_affiliation br + br,
+#page_article #page_header .wrapper_affiliation br + br {
+    display: none;
+}
+#page_revue #page_header .others, #page_numero #page_header .others, #page_article #page_header .others {
+    list-style-type: none;
+    font: bold 16px Alegreya;
+    margin-bottom: 1em;
+}
+#page_revue #page_header .others .yellow, #page_numero #page_header .others .yellow, #page_article #page_header .others .yellow {
+    font: bold 18px "Alegreya SC";
+}
+#page_revue #page_header .others a, #page_numero #page_header .others a, #page_article #page_header .others a {
+    text-decoration: underline;
+}
+#page_revue #page_header .links .left, #page_revue #page_header .links .right, #page_numero #page_header .links .left, #page_numero #page_header .links .right, #page_article #page_header .links .left, #page_article #page_header .links .right {
+    float: none;
+    position: absolute;
+    bottom: 0;
+    font: bold 16px Alegreya SC;
+    color: black;
+    width: 50%;
+}
+#page_revue #page_header .links .left:hover .icon, #page_revue #page_header .links .right:hover .icon, #page_numero #page_header .links .left:hover .icon, #page_numero #page_header .links .right:hover .icon, #page_article #page_header .links .left:hover .icon, #page_article #page_header .links .right:hover .icon {
+    background-position: 0 -821px;
+    height: 34px;
+    width: 34px;
+}
+#page_revue #page_header .links .left, #page_numero #page_header .links .left, #page_article #page_header .links .left {
+    left: 0;
+}
+#page_revue #page_header .links .right, #page_numero #page_header .links .right, #page_article #page_header .links .right {
+    right: 0;
+}
+#page_revue #page_header .links .icon, #page_numero #page_header .links .icon, #page_article #page_header .links .icon {
+    padding-right: 0.6em;
+}
+
+#page_numero #page_header .revue_title {
+    margin-bottom: 0.3em;
+}
+#page_numero #page_header .title {
+    margin-bottom: 1em;
+}
+#page_numero #page_header .title + .subtitle {
+    position: relative;
+    top : -1em;
+    margin-bottom : 0em;
+    font-style: italic;
+    font-size : 0.975em;
+}
+#page_numero #page_header .title + .subtitle i, #page_numero #page_header .title + .subtitle em {
+    font-style: normal;
+}
+
+#page_numero #page_header .contribution {
+    color: #b8b858;
+    font: italic bold 17px/20px "Alegreya";
+}
+#page_numero #page_header a.wrapper_nom_auteur {
+    text-decoration: none;
+    margin-bottom: 0.5em;
+}
+#page_numero #page_header a.author .nom_auteur {
+    font: bold 17px/16px "Alegreya";
+    color: #333;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 .5em;
+    padding: 0 3px;
+    height: 22px;
+}
+#page_numero #page_header a.author .from-the-same-author {
+    display: none;
+    background-color: #4bb2ac;
+    color: #fff;
+    border-radius: 3px;
+    font: bold 14px/16px 'Alegreya SC',serif;
+    padding: 0 3px;
+    height: 22px;
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid transparent;
+    position: relative;
+}
+#page_numero #page_header a.author:hover .from-the-same-author {display: inline;}
+
+#page_numero #page_header a.author .from-the-same-author:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(75,178,172,0);
+    border-right-color: #4bb2ac;
+    border-width: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+#page_article #page_header .title {
+    font-weight: bold;
+}
+#page_article #page_header + .grid-4-article, #add_to_cart_slider + .grid-4-article {
+    margin-top: 32px;
+}
+#page_article #page_header .yellow2 {
+    font: bold italic 17px Alegreya;
+}
+#page_article #page_header .author {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    font: bold 17px Alegreya;
+    background-color: whitesmoke;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    padding: 0 0.2em;
+}
+#page_article #page_header .affiliation {
+    font: normal 25px Alegreya;
+}
+#page_article #page_header ul {
+    list-style-type: none;
+}
+#page_article .meta.numero {
+    font-size: 0.9em;
+}
+#page_article .meta.numero ul {
+    list-style-type: none;
+    margin-top: 0.7em;
+}
+#page_article .meta.numero .yellow {
+    font-weight: bold;
+}
+#page_article .meta.numero .others .affiliation { margin : 1em 0; }
+#page_article .meta.numero .others .affiliation br { display : none; }
+#page_article .meta.numero .others .affiliation .re { display : block; }
+#page_article .meta.numero .others .affiliation a { text-decoration : underline; }
+#page_article .meta.numero .list_links {
+    font: bold 16px "Alegreya SC";
+}
+#page_article .meta.numero .list_links li + li {
+    margin-top: 0.3em;
+}
+
+.numero_navpages {
+    overflow: hidden;
+    margin-top: 0.3em;
+    text-align: center;
+    font: bold 16px "Alegreya SC";
+}
+
+#about_revue {
+    overflow: hidden;
+}
+#about_revue h3.sstitre9 {
+    float: left;
+    width: 230px;
+    font: bold 18px/1 "Alegreya SC";
+    color: #a5a524;
+}
+#about_revue a {
+    color: #4bb2ac;
+}
+#about_revue div.txtstand {
+    padding-left: 240px;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #cccccc;
+    font: 16px/1.5 Alegreya;
+}
+/*#about_revue div.txtstand sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.3em;
+}*/
+#about_revue div.txtstand > br:nth-child(1) {
+    display: none;
+}
+
+.main_title + .list_numeros {
+    margin-top: 32px;
+}
+
+.list_numeros .small_cover, .list_numeros .meta,
+#list_revue_suscriber .small_cover, #list_revue_suscriber .meta, #list_revue_suscriber .small_coverbis {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+.list_numeros .meta, #list_revue_suscriber .meta {
+    margin-left: 10px;
+    width: 383px;
+    vertical-align: top;
+}
+.list_numeros .meta .numero_ref, #list_revue_suscriber .meta .numero_ref {
+    margin-bottom: 0.2em;
+}
+.list_numeros .meta .numero_title, #list_revue_suscriber .meta .numero_title {
+    margin-bottom: 0.3em;
+}
+.list-ouvrages .meta .numero_title,
+.list-ouvrages .meta .auteurs,
+.list-ouvrages .meta .year {
+    line-height: 1.1;
+}
+.list_numeros .grid-2-list + .grid-2-list, #list_revue_suscriber .grid-2-list + .grid-2-list {
+    margin-top: 32px;
+}
+.list_numeros .text_medium, #list_revue_suscriber .text_medium {
+    line-height: 1;
+}
+.available_soon {
+    font : italic bold 1em "Alegreya";
+    color : #a5a524;
+}
+
+/* ------------- LISTE DES ARTICLES : AFFICHAGE SUR 1 COLONNE ------------- */
+.list_articles  h2.section {
+    border-bottom: solid 1px #D8D8D8;
+}
+.list_articles .article {
+    padding: 1.5em 0;
+    padding-left: 130px;
+    border-top: 1px solid #eeeeee;
+}
+.list_articles .article:first-of-type, .list_articles h2.sect_som + .article, .list_articles h3.sect_ssom + .article {
+    border-top: 1px solid #eeeeee;
+}
+.list_articles h2.sect_som {
+    font: bold 20px "Alegreya SC";
+    text-align: center;
+    margin: 1em;
+}
+.list_articles h3.sect_ssom {
+    font: bold 19px "Alegreya";
+    text-align: center;
+    margin: 0.8em;
+    color: #4bb2ac;
+}
+.list_articles .wrapper_title {
+    position: relative;
+}
+.list_articles .subtitle, .list_articles .mention_title {
+    display: block;
+}
+.list_articles .subtitle {
+    font-style: italic;
+}
+.list_articles .subtitle i, .list_articles .subtitle em {
+    font-style: normal;
+}
+.list_articles .surtitle {
+    font-size : 0.82em;
+}
+.list_articles .mention_title {
+    font: bold 0.85em/1.1 "Alegreya";
+    color: #525252;
+}
+.list_articles .nb_pages, .list_articles .title {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    font: normal 17px "Alegreya";
+}
+.list_articles .nb_pages {
+    color: #666666;
+    font-weight: bold;
+    position: absolute;
+    width: 110px;
+    left: -110px;
+}
+.list_articles .authors {
+    color: #a5a524;
+    font-weight: bold;
+}
+.list_articles .state {
+    margin-top: 0.5em;
+    overflow : hidden;
+}
+.list_articles .state .button {
+    font: bold 15px "Alegreya SC";
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 0 0.6em;
+}
+.list_articles .state .button:first-child {
+    margin-left : 0;
+}
+.list_articles .state .button.blue {
+    background-color: #4bb2ac;
+    color: white;
+    border: 1px solid #4bb2ac;
+}
+.list_articles .state .button:hover, .list_articles .state .button.active {
+    background-color: #221e1f;
+    color: white;
+    border: 1px solid #221e1f;
+    text-decoration: none;
+}
+.list_articles .state .icon-add-biblio {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+    float: right;
+    position: relative;
+    left: -10px;
+}
+.list_articles .state .icon-remove-biblio {
+    -webkit-transform: scale(0.75, 0.75);
+    -moz-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+    float: right;
+    position: relative;
+    left: -10px;
+}
+
+.list_articles .state .infoajout {
+    color : rgb(165, 165, 36);
+    font : italic 15px Alegreya;
+    float: right;
+    position: relative;
+    left: -10px;
+}
+
+.list_articles .button + .button {
+    margin-left: 0.5em;
+}
+.list_articles .button.add_to_cart {
+    background-color : transparent;
+    border : 0;
+    font-family : "Alegreya";
+}
+.list_articles .button.add_to_cart:hover {
+    background-color : transparent;
+    text-decoration : underline;
+    color : inherit;
+    border : 0;
+}
+.list_articles .button.add_to_cart .icon-add-to-cart, .icon.icon-add-to-cart {
+    width : 26px;
+    height : 26px;
+    background: url('../images/add-to-cart-set.png') no-repeat;
+    margin-right : 0.5em;
+}
+.list_articles .button.add_to_cart:hover .icon-add-to-cart {
+    background-position : 0px -26px;
+}
+/* ------------- END LISTE DES ARTICLES : AFFICHAGE SUR 1 COLONNE ------------- */
+
+
+
+/* ------------- LISTE DE MEDIA(S) : AFFICHAGE SUR X COLONNES ------------- */
+/* Les styles utilisées (ex.: list_articles, ...) sont beaucoup trop fermé et dépendant des balises
+ * parentes desquelles ils découlent. La solution est de créer un style de type media (cf.: Bootstrap) et
+ * de le répendre au fur et à mesure afin d'uniformiser les styles et les boites */
+.media {
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    margin: 0 0 20px;
+    padding: 5px;
+    width: 100%;
+    color: #323232;
+    /*float: left;*/
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.media.media-2 {
+    padding-right: 20px;
+    width: 49%;
+}
+
+/* Styles */
+.media .media-left {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.media .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.media .media-body a {
+    color: inherit;
+}
+.media .media-body .titre {
+    font-family : "Alegreya";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #2BA39B;
+}
+.media .media-body .sous-titre {
+    font-family : "Alegreya";
+    font-size: 16px;
+    line-height: 18px;
+    color: #323232;
+}
+.media .media-body .auteur {
+    margin-top: 14px;
+    font-family : "Alegreya";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #323232;
+}
+
+/* Media : NEWS */
+#news {margin: 0 auto;margin-top: 30px;width: 760px;}
+#news h1 {margin: 0;}
+#news h2 {margin: 0;font-size: 20px;}
+#news .media-news {margin-top: 30px;}
+#news .media-body {padding-left: 20px;}
+#news .media-body h3 {margin: 0;font-size: 18px;line-height: 25px;}
+#news .media-body p {margin: 0;font-size: 18px;line-height: 26px;text-align: justify;}
+#news .media-body a {font-weight: bold;color: #4CB2AC;}
+#news .media-body em {}
+#news .media-body p.news-text {margin-top: 10px;}
+
+
+/* ------------- END LISTE DE MEDIA(S) : AFFICHAGE SUR X COLONNES ------------- */
+
+/* ------------- ADD to CART : TRIGGER BUTTON ------------- */
+.add-to-cart {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 10px 20px 10px 60px;
+    background: url("../images/icon-cart-circle.png") no-repeat left center;
+    letter-spacing: normal; /* Overwrite */
+}
+.add-to-cart .label {
+    display: block;
+    font-family: "Alegreya SC";
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 17px;
+}
+.add-to-cart .subLabel {
+    display: block;
+    font-family: "Alegreya";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 17px;
+}
+.add-to-cart .subLabel span {
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: bold;
+}
+.add-to-cart.active:after,
+.add-to-cart:hover:after {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 5px);
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #181818 transparent transparent transparent;
+}
+.add-to-cart.active,
+.add-to-cart:hover {
+    background-image: none;
+    background-color: #181818;
+
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #FFF;
+    min-width: 80px;
+}
+.add-to-cart.active .label,
+.add-to-cart:hover .label {
+    margin-top: 10px;       /* On déplace le label en gardant les proportions du bouton */
+    margin-bottom: -10px;   /* On ajoute une marge en haut, on supprime la même valeur de marge en bas */
+    margin-left: -40px;     /* On déplace vers la gauche la différence de padding (60px - 20px) */
+    text-align: center;
+    font-size: 20px;
+}
+.add-to-cart.active .subLabel,
+.add-to-cart:hover .subLabel {
+    visibility: hidden;
+}
+
+.add-to-cart-icon-plus {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 10px 20px 10px 50px;
+    background: url("../images/icon-add-cart-circle.png") no-repeat left center;
+    letter-spacing: normal; /* Overwrite */
+}
+.add-to-cart-icon-plus .label {
+    display: block;
+    font-family: "Alegreya SC";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.add-to-cart-inline {
+    padding: 17px 20px 17px 60px;
+}
+.add-to-cart-inline:hover {
+    min-width: 138px;
+}
+.add-to-cart-inline:hover .label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.add-to-cart-inline:hover:after {display: none;}
+
+/* ------------- END ADD to CART : TRIGGER BUTTON ------------- */
+
+.add_to_cart_trigger {
+    /*position: absolute;*/
+    margin-top : 0.5em;
+    bottom: 0;
+}
+.add_to_cart_trigger .explain {
+    font: bold 16px "Alegreya SC";
+    color: #b15f5f;
+    margin-bottom: 0.3em;
+}
+.add_to_cart_trigger #add_to_cart_trigger {
+    font: bold 16px/120% "Alegreya SC";
+    color: #1f1f1f;
+}
+.add_to_cart_trigger #add_to_cart_trigger .icon {
+    margin-right: 0.5em;
+}
+
+.add-to-cart-bloc {}
+.add-to-cart-trigger {
+    font: bold 15px "Alegreya SC";
+    color: #4BB2AC;
+    padding: 0.8em 0.4em;
+    padding-right: 0.9em;
+    border-radius: 3px;
+    margin: 0;
+    line-height: 34px;
+    text-align: center;
+    position: relative;
+    /*padding: 0;*/
+}
+.add-to-cart-trigger.active, .add-to-cart-trigger:hover {
+    background-color: #4BB2AC;
+    color: white;
+}
+
+.add-to-cart-trigger:hover {
+    text-decoration: none;
+}
+.add-to-cart-trigger .icon-triangle-down {
+    display: none;
+    position: absolute;
+    bottom: -7px;
+    left: 96px;
+}
+.add-to-cart-trigger.active .icon-triangle-down {
+    display: inline-block;
+}
+.add-to-cart-trigger .pertinent-arrow {
+    display: none;
+    position: absolute;
+    bottom: -10px;
+    left: 96px;
+}
+.add-to-cart-trigger.active .pertinent-arrow {
+    display: inline-block;
+}
+.add-to-cart-trigger .icon {
+    margin-right: 0.2em;
+}
+.add-to-cart-trigger.active .icon-add-to-cart-big, .add-to-cart-trigger:hover .icon-add-to-cart-big {
+    background-position: -34px -289px;
+}
+
+/* ------------- ADD to CART : SLIDER PANEL ------------- */
+.add-to-cart-slider {
+    background-color: #F4F4F4;
+    border: 1px solid #CCC;
+    padding: 0;
+    padding-top: 2em;
+    overflow: hidden;
+}
+.add-to-cart-slider > .grid-u-3-4 {
+    width: 72%;
+}
+.add-to-cart-slider > .grid-u-1-4 {
+    border-left: 1px solid #CCC;
+    margin-left: 2%;
+}
+.add-to-cart-slider input {
+    margin: 0;
+    position:
+    relative;
+    top: 5em;
+}
+.add-to-cart-slider > .grid-u-1-4 > * {
+    padding-left: 26px;
+}
+.add-to-cart-slider .price,
+.add-to-cart-slider .icon-elec-reader,
+.add-to-cart-slider .icon-book-elec-reader {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: auto;
+}
+.add-to-cart-slider .mention {
+    font: bold 0.9em Alegreya;
+}
+.add-to-cart-slider .mention h2 {
+    font: bold 1.2em "Alegreya SC";
+    color: #B15F5F;
+}
+.add-to-cart-slider .mention p + p {
+    padding-top: 0;
+    margin-top: 0em;
+}
+.add-to-cart-slider .mention a {
+    text-decoration: underline;
+}
+.add-to-cart-slider .add-to-cart {
+    font: bold 1.2em "Alegreya SC";;
+}
+.add-to-cart-slider .add-to-cart a:hover {
+    text-decoration: none;
+}
+.add-to-cart-slider .add-to-cart .icon {
+    margin-right: 0.4em;
+}
+.add-to-cart-slider .frame-grey {
+    margin-left: 20px;
+    min-height: 125px;
+    background: #FFF;
+}
+.add-to-cart-slider input[type="radio"] + label {
+    cursor: pointer;
+}
+.add-to-cart-slider input[type="radio"]:not(:checked) + label  {
+    color: #858585;
+}
+.add-to-cart-slider input[type="radio"]:not(:checked) + label .yellow {
+    color: #CAD98B;
+}
+.add-to-cart-slider input[type="radio"]:checked + label > .frame-grey {
+    background-color: white;
+}
+.add-to-cart-slider input[type="radio"]:not(:checked) + label .icon-elec-reader {
+    background-position: 0px -1138px;
+}
+.add-to-cart-slider input[type="radio"]:not(:checked) + label .icon-book-elec-reader {
+    background-position: 0px -1182px;
+}
+.add-to-cart-slider .add-to-cart .alternative {
+    color: #4BB2AC;
+    font-size: 0.8em;
+    line-height: 34px;
+}
+
+.frame-grey {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background-color: #EEE;
+    padding: 20px;
+}
+.frame-grey.active {
+    background-color: white;
+}
+.frame-grey .detail-abonnement {
+    box-sizing: border-box;
+}
+.frame-grey .texte-abonnement {
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.frame-grey .title {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font: bold 20px "Alegreya SC";
+    line-height: 19px;
+    text-align: center;
+    color: #A5A524;
+    max-width: 180px;
+}
+.frame-grey .sub-title {
+    display: block;
+    margin-bottom: 10px;
+    font: normal 18px "Alegreya SC";
+    text-align: center;
+}
+.frame-grey .price {
+    display: block;
+    margin: 0 15px 20px;
+    font: bold 36px "Alegreya SC";
+    line-height: 17px;
+    text-align: center;
+    color: #A5A524;
+}
+.frame-grey .paragraph {
+    margin: 0 0 1em 0;
+    font-size: 0.95em;
+}
+.frame-grey .nice-select {
+    text-align: center;
+}
+
+.add-to-cart-slider .tips {
+    margin: 0 20px;
+    padding: 10px 10px 10px 40px;
+    font-family: "Alegreya";
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 20px;
+    background: url("../images/icon-tips.png") no-repeat 10px center;
+}
+.add-to-cart-slider .tips b {
+    font-size: 22px;
+}
+
+/* ------------- END ADD to CART : SLIDER PANEL ------------- */
+
+.add_to_cart_wrapper {
+    margin-top: 2em;
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    padding: 17px 0 17px 34px;
+    position : relative;
+}
+.add_to_cart_wrapper .close {
+    position : absolute;
+    /*    right : 11px;
+        top : -12px;*/
+    right : 5px;
+    top : 5px;
+    cursor : pointer;
+}
+.add_to_cart_wrapper h2 {
+    font: bold 24px "Alegreya SC";
+    color: #1f1f1f;
+    margin-bottom: 0.75em;
+}
+.add_to_cart_wrapper .libelle {
+    font: bold 17px "Alegreya SC";
+    color: #1f1f1f;
+    margin-top: 1em;
+    margin-bottom : 0.3em;
+    overflow : hidden;
+}
+.add_to_cart_wrapper .libelle .icon {
+    margin-right : 0.5em;
+    color : rgb(75, 178, 172);
+}
+.add_to_cart_wrapper .libelle a:hover .icon { color : black; }
+.add_to_cart_wrapper .libelle .text {
+    /*    position : relative;
+        top : 4px;*/
+}
+.add_to_cart_wrapper .libelle + h2 {
+    border-top: 1px solid #cccccc;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+.add_to_cart_wrapper p {
+    margin-top: 0.3em;
+}
+.add_to_cart_wrapper .add_to_cart_slider {
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    width: 667px;
+}
+
+.add_to_cart_wrapper .mention {
+    margin-left: 26px;
+}
+.add_to_cart_wrapper .mention h2 {
+    font: bold 18px/24px "Alegreya SC";
+    color: #b15f5f;
+    margin-bottom: 0.3em;
+}
+.add_to_cart_wrapper .mention p {
+    font: bold 16px/20px "Alegreya";
+}
+
+/* ------------- FOOTER -------------  */
+#wrapper_footer {
+    background: #323232;
+    padding: 45px 0;
+    margin-top: 40px;
+    min-height: 200px;
+}
+#wrapper_footer #footer {
+    position: relative;
+}
+#footer_shortcuts, #footer_cairn, #footer_tools, #footer_menu_user, #footer_others {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}
+.bottom-box + #wrapper_footer {
+    margin-top: 0px;
+}
+#wrapper_footer ul {
+    list-style-type: none;
+}
+#wrapper_footer, #wrapper_footer a {
+    font: bold 15px "Alegreya SC";
+    color: #dddddd;
+    text-decoration: none;
+    line-height: 150%;
+}
+#wrapper_footer a:hover {
+    text-decoration: underline;
+}
+#wrapper_footer h1 {
+    font: bold 16px "Alegreya SC";
+    color: white;
+    margin-bottom: 1em;
+}
+
+/* Shortcuts */
+#footer_shortcuts {
+    width: 260px;
+}
+#footer_shortcuts #logo_cairn_footer {
+    display: block;text-align: center;
+}
+#footer_shortcuts #logos_footer a img {
+    vertical-align: middle;
+}
+
+
+
+/* Affichage SINGLE */
+#footer_shortcuts #logos_footer.logo-single {
+    margin-top: 60px;
+}
+#footer_shortcuts #logos_footer.logo-single label span {
+    margin-top: -30px;
+    font-family: "Alegreya SC";
+    font-weight: normal;
+    margin-right: 10px;
+}
+#footer_shortcuts #logos_footer.logo-single .lbl-plural,
+#footer_shortcuts #logos_footer.logo-single #logo_cnrs_footer,
+#footer_shortcuts #logos_footer.logo-single #logo_cfc_footer {
+    display: none;
+}
+
+/* Affichage PLURIEL */
+#footer_shortcuts #logos_footer.logo-plural {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#footer_shortcuts #logos_footer.logo-plural .lbl-single {
+    display: none;
+}
+#footer_shortcuts #logos_footer.logo-plural .lbl-plural {
+    display: block;
+    margin-bottom: 18px;
+}
+#footer_shortcuts #logos_footer.logo-plural a {
+    margin: 0 10px;
+}
+
+/* Cairn */
+#footer_cairn {
+    width: 185px;
+    margin-left: 80px;
+}
+
+/* Tools & User */
+#footer_tools, #footer_menu_user {
+    width: 160px;
+    margin-left: 50px;
+}
+
+/* Copyright : Postfooter */
+#post_footer {
+    text-align: right;
+    line-height: 1;
+    margin: 0.4em auto;
+    font: normal 16px Alegreya;
+    color: #323232;
+}
+#post_footer > * + * {
+    border-left: 1px solid #cccccc;
+    margin-left: 0.6em;
+    padding-left: 0.6em;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+/* ------------- END FOOTER -------------  */
+
+
+/* FEEDBACK */
+#wrapper_feedback_link {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -6px;
+    left: -3px;
+    *display: none;
+}
+
+#feedback_link {
+    position: relative;
+    font: bold 20px/2.1 "Trebuchet MS";
+    color: white;
+    background: #4bb2ac;
+    display: block;
+    width: 500px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 120px;
+    left: -180px;
+}
+#feedback_link:hover {
+    text-decoration: none;
+}
+
+/* ------------- FORMULAIRE DE RECHERCHE (INSIDE) -------------  */
+.search_inside {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 40px;
+    height: 32px;
+    width: 400px;
+    border: solid 4px #CCCCCC;
+    background: #FFF;
+}
+.search_inside button {
+    margin-top: 1px;
+    margin-right: 1px;
+    float: right;
+    height: 30px;
+    width: 40px;
+    border: none;
+    background: url("../images/icon-search-grey.png") no-repeat center center #221E1E;
+    cursor: pointer;
+}
+.search_inside input {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 0 20px;
+    height: 30px;
+    width: 313px;
+    font-family: "Alegreya";
+    font-size: 17px;
+    line-height: 17px;
+    color: #181818;
+    border: none;
+}
+.search_inside button img {
+    display: none;
+}
+
+/* Formulaire du feuilleteur */
+.search_feuilleter {
+    width: 100%;
+}
+.search_feuilleter input {
+    padding: 0 5px;
+    width: 160px;
+}
+
+
+/* ------------- END FORMULAIRE DE RECHERCHE (INSIDE) -------------  */
+
+
+
+.memo-numpublie {
+    width : 70%;
+    margin : auto;
+}
+.memo-numpublie p {
+    font-style : italic;
+}
+.memo-numpublie p i, .memo-numpublie p em {
+    font-style : normal;
+}
+.memo-numpublie h2, .about-numpublie h2 {
+    font: bold 20px "Alegreya SC";
+    color: rgb(165, 165, 36);
+    line-height: 150%;
+    text-align: center;
+    margin: 0.8em 0;
+}
+.memo-numpublie-aut {
+    font: bold 20px "Alegreya SC";
+    color: rgb(165, 165, 36);
+    line-height: 150%;
+    text-align: center;
+    margin: 0em 0;
+}
+.meta .authors .yellow2 {
+    font-weight : bold;
+    font-style : italic;
+}
+.meta .authors div {
+    display : inline-block;
+}
+.meta .authors .author {
+    border : none;
+    background-color : transparent;
+    border-radius : 3px;
+    display : inline-block;
+    font : bold 16px Alegreya;
+    /*     padding : 0 0.3em; */
+    margin : 0 0.1em;
+}
+
+.pager {
+    border-top : 1px solid #ccc;
+    color : #8A96A1;
+}
+.pager a {
+    color : #8A96A1;
+}
+.pager ul {
+    list-style-type : none;
+    text-align : center;
+    font-size : 1.5em;
+}
+.pager li {
+    display : inline-block;
+    padding : 0 0.4em;
+    padding-top : 0.5em;
+}
+.pager .current {
+    color : #313C46;
+    border-top : 2px solid #313C46;
+}
+
+
+
+/****************************************************************************
+ * Page magazine.php
+ * *************************************************************************/
+.list_magazines .grid-4 + .grid-4 {
+    margin-top : 2em;
+}
+.list_magazines .reference {
+    margin : 0.6em 0;
+}
+h2.magazine_year {
+    text-align : center;
+    font : bold 1.3em "Alegreya SC";
+    margin : 1.5em 0;
+}
+h2.magazine_year hr {
+    display : inline-block;
+    width : 211px;
+    margin : 0.25em 16px;
+}
+.main-title_wrapper {
+    position : relative;
+}
+.main-title_wrapper .nav {
+    position : absolute;
+    top : 0;
+    right : 0;
+    line-height : 150%;
+    border-radius : 3px;
+    background-color : #4BB2AC;
+    padding : 0.15em 0.3em;
+}
+.main-title_wrapper .nav, .main-title_wrapper .nav a {
+    color : white;
+    font : bold 1.1em "Alegreya SC";
+}
+.main-title_wrapper .nav a {
+    font-size : 0.9em;
+    margin :0;
+    padding : 0;
+}
+.main-title_wrapper .nav a + a { margin-left : 0.3em; }
+.main-title_wrapper .nav a:hover { text-decoration : none; }
+.main-title_wrapper .nav .actu { margin : 0 0.5em; }
+.list_magazines + .magazine_year { margin-top : 3em; }
+
+.link_custom_en {
+    margin: 1.5em 0;
+    margin-bottom: 0.3em;
+    display: block;
+}
+
+.nav_to_year {position: relative;z-index: 2;}
+.nav_to_year a {font: bold 16px "Alegreya SC";}
+.nav_to_year a.inactive {/*cursor: initial !important; opacity: 0.5 !important; pointer-events: none !important; background: #bdbdbd;*/visibility: hidden !important;}
+.nav_to_year.nav_to_year_bottom {margin: 1em 0;height: 35px;}
+
+/****************************************************************************
+ * Page feuilleter.php
+ * *************************************************************************/
+#pdfviewer {
+    font-size : 0.9em;
+}
+#pdfviewer .grid-3-head {
+    border-top : 1px solid rgb(204, 204, 204);
+    /*             border-bottom : 1px solid rgb(204, 204, 204); */
+    padding : 0.7em 0;
+}
+#pdfviewer .grid-u-3-4 {
+    border-left : 1px solid rgb(204, 204, 204);
+    padding-left : 20px;
+    width : 699px;
+}
+#pdfviewer .return_to_numero {
+    font : bold 1em "Alegreya SC";
+}
+#pdfviewer .numero.title {
+    font : bold 1.1em/1.1 Alegreya;
+    margin-bottom : 0.75em;
+}
+#pdfviewer .article.pages {
+    font : bold 1em Alegreya;
+}
+#pdfviewer .article.title {
+    line-height : 1.1;
+    margin-bottom : 1em;
+}
+#pdfviewer .numero.authors {
+    margin-bottom : 1em;
+    list-style-type : none;
+}
+#pdfviewer .numero .author + .author {
+    margin-top : 0.5em;
+}
+#pdfviewer .return_to_numero a .icon {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-right : 0.5em;
+    font-weight : normal;
+    background-color : rgb(75, 178, 172);
+    color : white;
+    width:1.6em;
+    height:1.6em;
+    line-height:1.5;
+    border-radius:1.5em;
+    text-align:center;
+}
+#pdfviewer .return_to_numero a:hover .icon {
+    background-color : rgb(34, 30, 31);
+}
+#pdfviewer .summary {
+    margin-top : 1em;
+    padding-top : 1em;
+    border-top : 1px solid rgb(204, 204, 204);
+}
+
+#pdfviewer .wrapper_viewer h2 {
+    font : bold 1em "Alegreya SC";
+    color : rgb(177, 95, 95);
+    margin-bottom : 0.7em;
+    overflow : hidden;
+}
+#pdfviewer .wrapper_viewer h2 .unactive {
+    color : rgb(204, 204, 204);
+    cursor : pointer;
+}
+#pdfviewer #summary_numero, #pdfviewer #summary_article {
+    line-height : 1.1;
+    overflow : auto;
+}
+#pdfviewer .summary a {
+    margin-top : 0.6em;
+    display : block;
+}
+#pdfviewer .summary br { display : none; }
+#pdfviewer #summary_article { display : none; }
+
+
+
+/****************************************************************************
+ * Page resultat-recherche.php
+ * *************************************************************************/
+#breadcrump + #body-content.searchResult {
+    margin-top : 0;
+}
+.search div.table_row.fake_table {
+    padding : 0.3em; padding-top : 0.6em;
+    margin : 0.5em 0;
+}
+.search .img_border-gray { min-height : 6em; }
+.search .conjonction-de-coordination { margin-right : 0.4em; }
+.search .metadata {
+    position : relative;
+    min-height : 6.2em;
+    line-height : 1.1;
+}
+.search .in-numero { position : absolute; bottom : 0; }
+.search div.table_row.fake_table:hover
+{
+    background-color : rgba(220, 220, 220, 0.3);
+    box-shadow : 0px 2px 4px rgba(187, 187, 187, 0.4) inset;
+    border-radius : 6px;
+}
+a.article_title, a.article_subtitle, a.article_author, a.revue,
+span.revue
+{
+    font : 16px/1 'Alegreya',Georgia,Verdana;
+    text-decoration : none;
+    color : rgb(51, 51, 51);
+}
+a.article_subtitle { font-style : italic; }
+a.article_author { font : bold 16px/1 'Alegreya',Georgia,Verdana; }
+a.revue { font-weight : bold; color : rgb(75, 178, 172);}
+
+
+/* ------------- SEARCH HEADER ------------- */
+/* Comprend le nombre de résultat, le tri par pertinence ou date et le bouton filtrer */
+#search_header {
+    margin: 1em 0;
+    padding: 10px 0;
+    border-top: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+}
+#search_header .search_count {
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    margin-right: 20px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 24px;
+}
+#search_header .resultsOrder {
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+}
+#search_header .resultsOrder .filter-order-label {
+    color: #848484;
+}
+#search_header .search_filter a {
+    margin-top: -2px;
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    padding: 0.3em 0.6em;
+    padding-left: 30px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 18px;
+    background: url('../images/icon-filter-white.png') no-repeat 5px center #4CB2AC;
+    color: #fff;
+
+    text-decoration : none;
+    border : 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#search_header .search_filter a:hover, #search_header .search_filter a.active {
+    background-color: #221E1F;
+}
+/* ------------- END SEARCH HEADER ------------- */
+
+
+/* ------------- FACETTES ------------- */
+/* Le block #search_facettes fait partie d'un bloc limitée à 960px de large,
+ * soit on refait la partie HTML, soit on hack en jouant sur les marges, etc. */
+#search_facettes {
+    display: none;
+    margin: -18px -100% 20px;
+    padding: 30px 100%;
+    width: 100%;
+
+    border-top: solid 1px #CCCCCC;
+    border-bottom: solid 4px #CCCCCC;
+    background-color: #F2F2F2;
+}
+#search_facettes .facette_column {
+    margin-right: -3px; /* On compense les retours à la lignes */
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    width: 25%;
+    vertical-align: top;
+}
+#search_facettes .facette_title {
+    display: block;
+    margin-bottom: 14px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+}
+#search_facettes ul,
+#search_facettes li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#search_facettes ul {
+    margin-bottom: 30px;
+}
+
+#search_facettes .checkbox-list li:first-child,
+#search_facettes .checkbox-list li:first-child :checked + span {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    color: #2BA39B;
+}
+#search_facettes :checked + span {
+    font-weight: bold;
+    color: #1F1F1F;
+}
+#search_facettes li {
+    font-size: 16px;
+    line-height: 27px;
+    color: #6A6A6A;
+}
+#search_facettes li label span {
+    display: inline-block;
+    *display: inline; /*IE7/8 Hack*/
+    zoom:1;
+    //max-width: 200px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+#search_facettes #submitFacettes {
+    padding: 10px 75px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 20px;
+    background: #2BA39B;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-color: #2BA39B;
+}
+/* Modification des checkbox */
+#search_facettes .checkbox-list input[type="checkbox"] {
+    display: none;
+}
+#search_facettes .checkbox-list input[type="checkbox"]+span:before {
+    display: inline-block;
+    margin-right: 10px;
+    content: "\00a0";
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid #8B8B8B;
+    background-color: none;
+    width : 13px;
+    height : 13px;
+
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+}
+#search_facettes .checkbox-list input[type="checkbox"]:checked+span:before {
+    content: "✔";
+    background: #000;
+    border-color: #000;
+    color: #FFF;
+}
+
+/* ------------- END FACETTES ------------- */
+
+
+.search_menu {
+    display : table;
+    width : 100%;
+    font : bold 1.3em 'Alegreya',Georgia,Verdana;
+    font-variant : small-caps;
+    margin : 0.5em 0;
+}
+.search_menu > * {
+    display : table-cell!important;
+    vertical-align : top;
+    /*     width : 33%; */
+}
+.search_menu h1 {
+    margin : 0;
+    vertical-align : inherit;
+}
+.search_button, #alter_filter_online-since {
+    font-family : "Alegreya SC";
+    font-weight : bold;
+    background-color : rgba(220, 220, 220, 0.3);
+    border-radius : 3px;
+    padding : 0.3em 1em;
+    display : inline-block;
+    cursor : pointer;
+}
+.search_button.active, #alter_filter_online-since:hover, .search_button:hover {
+    background-color : rgb(51, 51, 51);
+    color : white;
+    box-shadow : none;
+}
+a.search_button {
+    text-decoration : none;
+}
+
+#refine_search { text-align : right; }
+
+#alter_filter_online-since {
+    /*     font : small-caps bold 1.3em 'Alegreya',Georgia,Verdana; */
+    z-index : 1;
+    min-width : 6.2em;
+    text-align : center;
+}
+
+#alter_filter_online-since .container-option { display : none; }
+#alter_filter_online-since:hover .container-option { display : block; }
+#alter_filter_online-since .current:after {
+    content : "\A0\A0▾";
+    float : right;
+}
+
+#label_filter_online-since {
+    font : bold 20px 'Alegreya SC',Georgia,Verdana;
+    color : #ccc;
+    line-height : 20px;
+    margin-right : 0.5em;
+    position : relative;
+    top : 0.3em;
+}
+
+.check_all, .uncheck_all {
+    color : rgb(75, 178, 172);
+    cursor : pointer;
+    /*     width : 24%; */
+    /*     display : inline-block; */
+}
+.check_all, .uncheck_all { margin-left : 0.5em; }
+
+#wrapper_filter_search {
+    width : 970px;
+    padding-right : 12px;
+    padding-top : 12px;
+    position : relative;
+    /*     display : none; */
+}
+.close { cursor : pointer; }
+#wrapper_filter_search .close {
+    position : absolute;
+    right : 25px;
+    top : 3px;
+    z-index : 2;
+}
+#filter_search .control { margin-top : 1em; position : relative;}
+#filter_search .control input {
+    min-width : 49%;
+    display : inline-block;
+    color : #323232;
+    font : small-caps 700 0.9em 'Alegreya SC';
+    border : 1px solid #5F6162;
+    background-color: #0000FF; /* couleur de repli si les dégradés ne sont pas supportés */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#938989));
+    background-image: -webkit-linear-gradient(top, #C1C1C1, #938989);
+    background-image:    -moz-linear-gradient(top, #C1C1C1, #938989);
+    background-image:     -ms-linear-gradient(top, #C1C1C1, #938989);
+    background-image:      -o-linear-gradient(top, #C1C1C1, #938989);
+    background-image:         linear-gradient(to bottom, #C1C1C1, #938989);
+}
+#filter_search .control input:hover { border-color : #2C2D2E; color : #DDDDDD;}
+.check_all:hover, .uncheck_all:hover { text-decoration : underline; }
+
+
+#filter_search {
+    background-color : rgb(51, 51, 51);
+    color : rgb(189, 191, 191);
+    padding : 0.7em 2em;
+    margin-bottom : 2em;
+    position : relative;
+    overflow : visible;
+    font-size : 15px;
+    /*     display : none; */
+}
+#filter_search ul {
+    list-style-type : none;
+}
+#close_filter_search {
+    position : absolute;
+    right : -13px;
+    top : -13px;
+    z-index : 2;
+    cursor : pointer;
+}
+#filter_type, #filter_disc, #filter_revue, #filter_year {
+    display : inline-block;
+}
+#filter_type, #filter_disc, #filter_revue, #filter_year {
+    width : 25%;
+}
+
+#filter_efta {
+    margin-right :30px;
+    display : inline-block;
+}
+
+#filter_year { width : 15%; }
+#filter_revue { width : 34%; }
+/*#filter_disc { width : 28%; }
+#filter_revue { width : 43%; }
+#filter_year { width : 28%; }*/
+
+hr#split_filter_search {
+    width : 970px;
+    position : relative;
+    left : -2em;
+}
+#filter_search > form { vertical-align : top; }
+#filter_search h2 {
+    font-variant : small-caps;
+    color : white;
+    font-size : 1.1em;
+}
+#filter_search li {
+    font-weight : bold;
+    margin : 0.2em 0;
+}
+
+/*#filter_search #filter_year > ul > li{
+    width : 49%;
+    display : inline-block;
+}*/
+#filter_search input[type="checkbox"] { display : none; }
+
+/* Les dégradés de couleur sont techniquement issus de https://developer.mozilla.org/fr/docs/CSS/linear-gradient () */
+#filter_search input[type="checkbox"] + label:before {
+    font-size : 0.7em;
+    text-align : center;
+    vertical-align : center;
+    content : "\00a0";
+    color : #323232;
+    border : 1px solid #5F6162;
+    background-color: #0000FF; /* couleur de repli si les dégradés ne sont pas supportés */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C1C1C1), to(#938989));
+    background-image: -webkit-linear-gradient(top, #C1C1C1, #938989);
+    background-image:    -moz-linear-gradient(top, #C1C1C1, #938989);
+    background-image:     -ms-linear-gradient(top, #C1C1C1, #938989);
+    background-image:      -o-linear-gradient(top, #C1C1C1, #938989);
+    background-image:         linear-gradient(to bottom, #C1C1C1, #938989);
+    width : 1.3em;
+    height : 1.3em;
+    display : inline-block;
+    margin-right : 1em;
+}
+#filter_search input[type="checkbox"] + label:hover { color : #707070; }
+#filter_search input[type="checkbox"] + label:hover:before { border-color : #2C2D2E;}
+#filter_search input[type="checkbox"]:checked + label:before {
+    content : "✔";
+}
+#filter_search label {
+    width : 100%;
+    display : inline-block;
+    font-weight : bold;
+}
+#filter_search #filter_lang label { width : inherit;}
+#filter_search #filter_lang i { margin-right : 1em; margin-left : 0.5em; }
+#filter_search label > i { margin-right : 0.3em; }
+
+
+#search_pager > ul { float : left; }
+#search_pager > a.search_button {
+    float : right;
+    font : small-caps bold 1.3em 'Alegreya',Georgia,Verdana;
+    color : black;
+}
+
+.wrapper_buttons_add-to-cart {
+    margin-left: 0.5em;
+}
+
+.wrapper_buttons_add-to-cart .first.button {
+    padding-right : 1.3em;
+}
+.wrapper_buttons_add-to-cart .icon-add-to-cart {
+    position : relative;
+    left : -1em;
+    margin-right : 0;
+    z-index : 1;
+}
+.wrapper_buttons_add-to-cart .last.button {
+    margin-left: -2em;
+    padding-left : 1em;
+}
+.wrapper_buttons_add-to-cart:hover .button {
+    background-color: #221e1f;
+    color: white;
+    border: 1px solid #221e1f;
+    text-decoration: none;
+}
+
+
+
+.results_list .article {
+    padding : 0;
+    border : 0;
+}
+.results_list .Z3988 { display : none; }
+.results_list .result + .result {
+    border-top : 1px solid #ccc;
+    margin-top : 0.7em;
+    padding-top : 0.7em;
+}
+.results_list .result h2 {
+    font : bold 13px "Alegreya SC";
+    color : #aaa;
+    margin-bottom : 0.7em;
+}
+.results_list .result .wrapper_meta, .results_list .result .wrapper_contexte { overflow : hidden; }
+.results_list .result .wrapper_meta > a + .meta , .results_list .result .wrapper_contexte > a + .contexte { margin-left : 1em; max-width : 873px; }
+.results_list .result .wrapper_meta > *, .results_list .result .wrapper_contexte > * {
+    float : left;
+}
+.results_list .result .title {
+    margin-bottom : 0.1em;
+    padding-right: 35px;
+}
+.results_list .result .author {
+    border : none;
+    background-color : transparent;
+    color: #A5A524;
+    font-weight: bold;
+}
+.results_list .result.numero .wrapper_contexte  { margin : 0.8em 0;}
+.results_list .result .meta .title_little_blue {
+    font : bold 17px "Alegreya SC";
+}
+.results_list .result .contexte { margin : 0.7em 0; }
+.results_list .result.numero .wrapper_contexte > .contexte { margin-top : 0; }
+
+
+
+.results_list .pertinent_articles {
+    display : none;
+    background-color : rgb(244, 244, 244);
+    border : 1px solid rgb(204, 204, 204);
+    position : relative;
+    top : 1em;
+    margin-bottom : 2em;
+}
+
+
+
+.results_list .pertinent_articles .meta {
+    padding : 0.5em 0.7em;
+}
+.results_list .pertinent_articles hr.grey {
+    margin : 0;
+    padding : 0;
+}
+.results_list .pertinent_articles hr.grey:last-child { display : none; }
+.results_list .pertinent_articles .meta .pages { font-size : 0.9em; margin-right : 0.5em;}
+.results_list .pertinent_articles .meta .title { font-weight : bold; }
+.results_list .pertinent_articles .meta .authors { font-size : 0.9em; margin : 0.6em 0; }
+.results_list .pertinent_articles .meta .pertinence { margin-right : 0.7em; }
+
+
+.boxHome {
+    width: 100%;
+}
+.listCoversedm{
+    margin-left:80px;
+    padding: 5px;
+    width:100%;
+}
+.listCoversedm li{
+    width:100px;
+    padding: 5px;
+}
+
+.listCoversedm a .title{
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    height: 40px;
+    width: 90px;
+    text-align:center;
+}
+.listCoversedm img{
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+.sl {    background-color : yellow;}
+
+.Hili, .highlight {
+    background-color : rgba(200, 199, 46, 0.5);
+    color: black;}
+
+.highlight.noHighlight {
+    background-color: transparent;
+}
+
+
+
+.without_contribution_free{
+    color: #B8B858;
+    font: italic bold 22px/20px "Alegreya";
+}
+
+.revue a {
+    text-decoration: none;
+}
+
+.bookmark {
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    background-color: #1F1F1F;
+    color: white;
+    padding: 0.5em;
+    font-size: 0.7em;
+    text-align: center;
+    font-family: 'Alegreya';
+    font-weight: bold;
+}
+.bookmark:hover {
+    text-decoration: none;
+}
+
+.bo-content {
+    color: purple;
+    font-style: italic;
+}
+.bo-label {
+    color: #D31600;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.danger {
+    background-color: #FD7171;
+    color: rgb(255, 255, 176);
+    padding: 1em 0.3em;
+}
+.danger.backoffice.article-desactivate {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+    font-size:11px;
+}
+.ui-autocomplete-category {
+    background-color:#4BB2AC;
+    font-weight:bold;
+    color:white;
+    font: bold 20px/100% "Alegreya SC";
+    padding:3px 0 3px 2px ;
+}
+.ui-menu-item a {
+    padding: 0px;
+    min-height: 0;
+    font-weight: normal;
+    font: 16px "Alegreya";
+    line-height: 1;
+}
+
+.petitecap, .smallcap {
+    font-variant: small-caps;
+}
+
+#msg_alert {
+    background-color: rgba(215,215,50,1);
+    text-align: center;
+    z-index: 1000;
+    position: fixed; top: 0;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 1.25em;
+    font-family: trebuchet ms;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.bad {
+    border-color: #5e2989;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 4px;
+    line-height: 1.3;
+    padding: 5px;
+    text-align: center;
+}
+
+.badDate {
+    background-color: #e7dfee;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+
+.btnBAD a {
+    color: #5e2989;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+#footer_logo_cnrs {
+    margin-left: 1.5em;
+    position: relative;
+    top: 6px;
+}
+
+/* ALERTES : Bootstrap styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+
+/* ------------- EXPANDER ------------- */
+.expander-read-more, .expander-read-less {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.expander-read-more a, .expander-read-less a {
+    margin-top: 20px;
+    padding: 8px 25px;
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 17px;
+    background: #2BA39B;
+    color: #FFF !important;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* ------------- NICE SELECT ------------- */
+.nice-select {
+    position: relative;
+    //display: block;
+    display: inline-block;
+    //float: left;
+
+    margin: 0 5px;
+    //margin-bottom: 1em;
+    padding-left: 18px;
+    padding-right: 30px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: left !important;
+
+    height: 42px;
+    width: auto;
+
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    outline: none;
+    cursor: pointer;
+    clear: both;
+
+    /* CAIRN STYLES */
+    font-family: "Alegreya";
+    height: 32px;
+    background-color: #F5F5F5;
+    border-color: #CCCCCC;
+    border-radius: 1px;
+}
+.nice-select .current {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    font-size: 18px;
+    color: #323232;
+}
+.nice-select:hover {
+    border-color: #dbdbdb;
+}
+.nice-select:active, .nice-select.open, .nice-select:focus {
+    border-color: #999;
+}
+.nice-select:after {
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px;
+}
+.nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+
+    max-height: 400px;
+    overflow-y: auto;
+}
+.nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none;
+}
+.nice-select.disabled:after {
+    border-color: #cccccc;
+}
+.nice-select.wide {
+    width: 100%;
+}
+.nice-select.wide .list {
+    left: 0 !important;
+    right: 0 !important;
+}
+.nice-select.right {
+    float: right;
+}
+.nice-select.right .list {
+    left: auto;
+    right: 0;
+}
+.nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px;
+}
+.nice-select.small:after {
+    height: 4px;
+    width: 4px;
+}
+.nice-select.small .option {
+    line-height: 34px;
+    min-height: 34px;
+}
+.nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+    -ms-transform: scale(0.75) translateY(-21px);
+    transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9;
+
+    /* CAIRN STYLES */
+    background-color: #F5F5F5;
+    max-height: 40px;   /* Evite, dans le cas de longue liste d'avoir un espace important en bas de page */
+    overflow-y: auto;
+}
+.nice-select .list:hover .option:not(:hover) {
+    background-color: transparent !important;
+}
+.nice-select .option {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+
+    /* CAIRN STYLES */
+    font-size: 16px;
+    line-height: 28px;
+    min-height: 28px;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background-color: #f6f6f6;
+
+    /* CAIRN STYLES */
+    background-color: #FFF;
+}
+.nice-select .option.selected {
+    font-weight: bold;
+}
+.nice-select .option.disabled {
+    background-color: transparent;
+    color: #999;
+    cursor: default;
+
+    /* CAIRN STYLES */
+    /* On utilise les disabled pour créer une séparation */
+    margin: 7px 0;
+    font-family: "Alegreya";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: #676868;
+}
+
+.nice-select .option.group-select {
+    font-weight: bold;
+}
+
+.no-csspointerevents .nice-select .list {
+    display: none;
+}
+
+.no-csspointerevents .nice-select.open .list {
+    display: block;
+}
+
+
+
+

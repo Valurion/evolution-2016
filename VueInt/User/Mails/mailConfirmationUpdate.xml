@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Your Cairn.info account has been modified.</subject>
+<from>cairn@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+Sir/Madam,
+
+Your Cairn.info account has been modified.
+Here are your new signing-in details :
+    Login :  [TO]
+    Password : (your chosen password).
+
+If you need any further assistance, please visit our customer service pages using the contact form at http://www.cairn-int.info/contact.php.
+You may also find answers to your questions in our online help pages at http://www.cairn-int.info/help.php.
+
+Thank you.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIUM
+General terms of sale:
+http://www.cairn-int.info/conditions.php
+]]></body>
+</mail>

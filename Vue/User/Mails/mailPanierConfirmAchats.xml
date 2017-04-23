@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>
+Madame, Monsieur,
+
+Vous venez d'effectuer sur le site Cairn.info l'achat de deux ou plusieurs articles, chapitres d'ouvrages, numéros de revue, ouvrages ou abonnements. Vous recevrez par e-mail, d'ici 24 heures, la facture de cet achat.
+
+Les contributions dont vous avez acquis l'accès en ligne sont à votre disposition sur le site www.cairn.info, en versions HTML et PDF si elles proviennent de revues ou d'ouvrages collectifs, en feuilletage en ligne si elles proviennent d'encyclopédies de poche, en version HTML et feuilletage en ligne si elles proviennent de monographies, enfin en HTML seul s'il s'agit d'articles de magazines.
+
+Pour y accéder, cliquez sur le lien suivant :
+
+	[URLSITE]/mes_achats.php?USER=[ID_USER].
+	
+	
+Il vous sera sans doute demandé votre mot de passe. Si vous l'avez oublié, veuillez consulter [URLSITE]/mot-de-passe.php. Notre aide en ligne, disponible sur [URLSITE]/aide.php pourrait également vous être utile.
+
+Vous aurez alors accès à la liste de vos achats (abonnements, numéros, articles). En cliquant sur l'une ou l'autre des références, vous serez dirigé vers la page "Revue", "Numéro" ou "Article" correspondante.
+
+ATTENTION : Les articles de revues et chapitre d'ouvrages achetés en ligne le sont sous forme électronique seulement. Ils ne sont pas expédiés par courrier.
+
+Si un numéro de revue acquis sous forme mixte (papier et électronique) fait partie de votre achat, vous recevrez ce numéro par courrier postal dans les plus brefs délais.
+
+Si un abonnement à une revue fait partie de votre achat, vous recevrez les numéros couverts par cet abonnement au fur et à mesure de leur parution.
+
+En cas de difficulté, n'hésitez pas à joindre notre service clients via notre formulaire de contact sur [URLSITE]/contact.php, en indiquant le numéro de commande suivant : [NO_COMMANDE].
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+[URLSITE]/conditions-generales-de-vente.php
+</body>
+</mail>

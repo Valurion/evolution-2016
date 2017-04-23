@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Message de [PRENOM] [NOM]</subject>
+<from>[FROM]</from>
+<fromName>[PRENOM] [NOM]</fromName>
+<body><![CDATA[
+
+Bonjour,
+
+Vous avez reçu le [DATE] le message suivant d'un utilisateur de Cairn:
+    
+-----------------------------------------------------------------------------------
+[TEXT]
+-----------------------------------------------------------------------------------
+
+Voici les coordonnées de cet utilisateur: [PRENOM] [NOM] [INSTITUTION], [FROM] [TELEPHONE].
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+http://www.cairn.info
+]]></body>
+</mail>

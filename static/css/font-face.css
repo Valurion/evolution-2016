@@ -1,0 +1,59 @@
+/* Famille Alegreya */
+@font-face {
+    font-family: "Alegreya";
+    src: url("../fonts/alegreya/Alegreya-Regular.otf");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    font-weight: bold;
+    src: url("../fonts/alegreya/Alegreya-Bold.otf");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    font-style: italic;
+    src: url("../fonts/alegreya/Alegreya-Italic.otf");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/alegreya/Alegreya-BoldItalic.otf");
+}
+
+/* Famille Alegreya SC */
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../fonts/alegreya/AlegreyaSC-Regular.otf");
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    font-weight: bold;
+    src: url("../fonts/alegreya/AlegreyaSC-Bold.otf");
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    font-style: italic;
+    src: url("../fonts/alegreya/AlegreyaSC-Italic.otf");
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/alegreya/AlegreyaSC-BoldItalic.otf");
+}
+
+
+@font-face {
+    font-family: "polae";
+    src: url("../fonts/polae/polae.ttf");
+}
+@font-face {
+    font-family: "polaep";
+    src: url("../fonts/polae/polaep.ttf");
+}

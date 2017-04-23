@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Facture de votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+<p>Madame, Monsieur,</p>
+<p>Vous trouverez ci-joint la facture de l'achat effectué le [DATE_ACHAT] pour un article de la revue [REVUE_TITRE].<br />Cet article est à votre disposition sur le site <a href="http://[URLSITE]">[URLSITE]</a>, en versions HTML et PDF. Il ne vous sera pas expédié par courrier.
+<ul><li>Pour accéder à sa version PDF, cliquez sur le lien suivant : <a href="http://[URLSITE]/load_pdf.php?ID_ARTICLE=[ID_ARTICLE]&USER=[ID_USER]">Version PDF de votre article</a>.</li>
+<li>Pour le consulter au format HTML, cliquez sur le lien suivant : <a href="http://[URLSITE]/article.php?ID_ARTICLE=[ID_ARTICLE]&USER=[ID_USER]">Version HTML de votre article</a>.</li></ul>
+NB : il vous sera demandé votre mot de passe (celui que vous avez indiqué en créant votre compte Cairn.info). Si vous l'avez oublié, veuillez cliquer sur <a href="http://[URLSITE]/mot-de-passe.php">Mot de passe oublié</a>.</p>
+
+<p>Vous avez le droit de notifier à Cairn que vous renoncez à votre achat, sans pénalités et sans indication de motif, dans les 14 jours calendrier à dater du lendemain du jour de la conclusion du présent contrat.</p>
+
+<p>Notez qu'en acceptant de télécharger votre article avant la fin du délai de rétractation précité, vous acceptez expressément renoncer à votre droit de rétractation.</p>
+
+
+<p>Le présent article est vendu par:<br/>
+Cairn S.A. 58/60,<br/>
+rue des Champs <br/>
+B-4020 Liège BELGIQUE<br/>
+N° BCE: BE.0873.856.568<br/>
+N° tel: 0032 43 40 38 30<br/>
+Mail:<a href="mailto:contact@cairn.info">contact@cairn.info</a><br/>
+</p>
+
+<p>Pour toute aide concernant la gestion ou la modification de vos commandes, veuillez consulter notre aide en ligne, disponible sur http://[URLSITE]/aide.php ou nos conditions générales de vente sur  http://[URLSITE]/conditions-generales-de-vente.php.</p>
+<p>En cas de difficulté, n'hésitez pas à joindre notre support utilisateurs : <a href="mailto:support@cairn.info">support@cairn.info</a>. </p>
+<p>Nos conditions générales de vente sont disponibles à l'adresse : <a href="http://[URLSITE]/conditions-generales-de-vente.php"> http://[URLSITE]/conditions-generales-de-vente.php</a>.</p>
+
+<p>En vous remerciant.</p>
+
+<p>Cairn.info<br />Chercher. Repérer. Avancer.<hr>
+Cairn S.A.<br />58/60, rue des Champs<br>
+B-4020 Liège, Belgique</p>
+]]></body>
+</mail>

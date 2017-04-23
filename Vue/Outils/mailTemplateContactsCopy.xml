@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Copie de votre message à Cairn.info</subject>
+<from>Cairn.info&lt;[FROM]&gt;</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+
+Madame, Monsieur,
+
+Vous avez expédié un message à Cairn.info le [DATE] [INSTITUTION].
+
+En voici le texte :
+-----------------------------------------------------------------------------------
+[TEXT]
+-----------------------------------------------------------------------------------
+
+
+Ce message a été transmis au service concerné, qui reviendra vers vous très prochainement s'il y a lieu.
+
+Notre aide en ligne, disponible sur http://www.cairn.info/aide.php pourrait également vous être utile.
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+http://www.cairn.info
+]]></body>
+</mail>

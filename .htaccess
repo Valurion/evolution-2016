@@ -1,0 +1,267 @@
+###############################################################################
+# Compression des fichiers pour économiser de la bande passante
+###############################################################################
+
+Addtype font/opentype .otf
+Addtype font/truetype .ttf
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/truetype
+
+
+
+###############################################################################
+# Éviter les failles XSS utilisant l'injection de javascript
+# Uniquement pour sécuriser les envois ajax vers d'autres domaines
+# /!\ Ne sécurise pas contre les injections dans la page
+#
+###############################################################################
+# Désactiver depuis la release 55, car pas encore vraiment testé en production
+###############################################################################
+# Header unset Content-Security-Policy
+# Header add Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' http://statse.webtrendslive.com http://dev.pythagoria.com/ http://cairn-int.info/ http://cairn.info/; img-src 'self' 'unsafe-inline' 'unsafe-eval' http://statse.webtrendslive.com http://dev.pythagoria.com/ http://cairn-int.info/ http://cairn.info/ # data:;"
+# # On verrouille la page en cas de faille
+# Header set X-XSS-Protection "1; mode=block"
+# # On interdit la capture de cairn.info via une iframe
+# Header set X-Frame-Options "DENY"
+
+
+###############################################################################
+# Redirection url
+###############################################################################
+
+# DirectoryIndex indexMaint.php index.php
+RewriteEngine on
+
+# FLA 2014-01-07 redirection des revues italies et terrain vers revues.org
+RewriteRule revue-italies http://italies.revues.org/
+RewriteRule revue-terrain- http://terrain.revues.org/
+RewriteRule revue-terrain.htm http://terrain.revues.org/
+RewriteRule revue-geomorphologie http://geomorphologie.revues.org/
+
+# FLA 2014-01-30 redirection suite au changement de nom de l arevue clio
+RewriteRule revue-clio-femmes-genre-histoire-2012(.*) revue-clio-2012$1
+RewriteRule revue-clio-femmes-genre-histoire-2011(.*) revue-clio-2011$1
+
+#FLA 2014-02-10 redirection de revue migree vers cairn-int
+RewriteRule revue-annales-english(.*) http://www.cairn-int.info/journal-annales$1
+RewriteRule revue-population-english(.*)  http://www.cairn-int.info/journal-population$1
+RewriteRule revue-francaise-de-science-politique-english(.*)  http://www.cairn-int.info/journal-revue-francaise-de-science-politique$1
+RewriteRule revue-revue-francaise-de-sociologie-english(.*)  http://www.cairn-int.info/journal-revue-francaise-de-sociologie$1
+RewriteRule revue-espace-geographique-english(.*)  http://www.cairn-int.info/journal-l-espace-geographique$1
+
+#JB 2015-04-01 redirection de revue de lentrepreneuriat (bad adresse google)
+RewriteRule revue--de-l-entrepreneuriat(.*) http://www.cairn.info/revue-de-l-entrepreneuriat$1
+
+#JC 2016-12-30 redirection de revue geocarrefour et traces vers revues.org
+RewriteRule revue-geocarrefour(.*) http://geocarrefour.revues.org/
+RewriteRule revue-traces(.*) http://traces.revues.org/
+
+# Redirection pour tires a part
+Redirect /landing_tireapart.php /static/includes/landing_tireapart.php
+Redirect /tireapart.php /static/includes/tireapart.php
+
+# Accueil
+RewriteRule ^disc-(.*).htm$ index.php?controleur=Accueil&action=disciplines&id=$1
+RewriteRule ^discipl.*php(.*)$ index.php?controleur=Accueil&action=disciplines [QSA]
+RewriteRule ^Accueil_Revues.php index.php?controleur=Accueil&action=index [QSA]
+
+# Pages accueil des ouvrages
+RewriteRule ^ouvrages.php index.php?controleur=Accueil&action=ouvragesDisciplines [QSA]
+RewriteRule ^ouvrages-en-(.*).htm index.php?controleur=Accueil&action=ouvragesDisciplines&id=$1
+# Oui, c'est sale de le faire coté applicatif. Mais j'ai passé deux heures et demi sur apache pour tenter d'avoir une redirection propre avec une racine web "dynamique" (vu que le code est déployé et à la racine, et dans un ou des dossiers type "/cairn" sur nt110 par exemple)
+RewriteRule ^ouvrages-collectifs.php index.php?controleur=Accueil&action=redirectOuvrages [QSA]
+RewriteRule ^Disc_OuvragesCollectifs.php index.php?controleur=Accueil&action=redirectOuvrages [QSA]
+
+RewriteRule ^aide-institutions-clientes.htm index.php?controleur=Accueil&action=aideInstitutionsClientes [QSA]
+RewriteRule ^aide-plan-du-site.htm index.php?controleur=Accueil&action=planDuSite [QSA]
+RewriteRule ^aide-raccourcis-clavier.htm index.php?controleur=Accueil&action=raccourcisClavier [QSA]
+RewriteRule ^mes_alertes.php index.php?controleur=Accueil&action=mesAlertes [QSA]
+
+RewriteRule ^que-sais-je-et-reperes.php index.php?controleur=Accueil&action=encyclopediesDisciplines [QSA]
+RewriteRule ^que-sais-je-et-reperes-en-(.*).htm index.php?controleur=Accueil&action=encyclopediesDisciplines&id=$1
+RewriteRule ^magazines.php index.php?controleur=Accueil&action=magazines [QSA]
+RewriteRule ^mes_recherches.php index.php?controleur=Accueil&action=mesRecherches [QSA]
+RewriteRule ^mon_historique.php index.php?controleur=Accueil&action=monHistorique [QSA]
+#Pages
+RewriteRule ^revue-(.*)-([0-9]+)-(.*)-page-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ANNEE=$2&NUMERO=$3&PAGE=$4&TYPEPUB=1 [QSA]
+RewriteRule ^revue-(.*)-([0-9]+)-([0-9A-Za-z]*)-p-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ANNEE=$2&NUMERO=$3&P=$4&TYPEPUB=1 [QSA]
+RewriteRule ^magazine-(.*)-([0-9]+)-([0-9A-Za-z]*)-page-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ANNEE=$2&NUMERO=$3&PAGE=$4&TYPEPUB=2
+RewriteRule ^magazine-(.*)-([0-9]+)-([0-9A-Za-z]*)-p-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ANNEE=$2&NUMERO=$3&P=$4&TYPEPUB=2
+RewriteRule ^([\sA-Za-z0-9-()]*)--([0-9X]{10,})-page-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ISBN=$2&PAGE=$3
+RewriteRule ^([\sA-Za-z0-9-()]*)--([0-9X]{10,})-p-([0-9A-Za-z]*).htm index.php?controleur=Pages&REVUE=$1&ISBN=$2&P=$3
+RewriteRule ^resume.php index.php?controleur=Pages&RES=1 [QSA]
+RewriteRule ^resume_p.php index.php?controleur=Pages&PR=1 [QSA]
+RewriteRule ^load_pdf.php index.php?controleur=Pages&PDF=1 [QSA]
+RewriteRule ^load_pdf_do_not_index.php index.php?controleur=Pages&PDF=1&act=true [QSA]
+RewriteRule ^loadextraweb.php index.php?controleur=Pages&EXTRAWEB=1 [QSA]
+RewriteRule ^article.php index.php?controleur=Pages&A=1 [QSA]
+RewriteRule ^article_p.php index.php?controleur=Pages&PA=1 [QSA]
+RewriteRule ^feuilleter.php index.php?controleur=Pages&FEUIL=A [QSA]
+RewriteRule ^page.php index.php?controleur=Pages&FEUIL=C [QSA]
+RewriteRule ^load_xml.php index.php?controleur=Pages&XML=1 [QSA]
+RewriteRule ^load_epub.php index.php?controleur=Pages&EPUB=1 [QSA]
+RewriteRule ^load_swf.php index.php?controleur=Pages&SWF=1 [QSA]
+RewriteRule ^loadimg.php index.php?controleur=Pages&IMG=1 [QSA]
+
+
+#Revues
+RewriteRule ^revue.php index.php?controleur=Revues&action=index [QSA]
+RewriteRule ^journal.php index.php?controleur=Revues&action=index [QSA]
+RewriteRule ^revue-(.*)-([0-9]+)-(.*).htm index.php?controleur=Revues&action=numero&REVUE=$1&ANNEE=$2&NUMERO=$3 [QSA]
+RewriteRule ^revue-(.*).htm index.php?controleur=Revues&action=index&REVUE=$1 [QSA]
+RewriteRule ^magazine-(.*)-([0-9]+)-([0-9A-Za-z]*).htm index.php?controleur=Revues&action=numero&REVUE=$1&ANNEE=$2&NUMERO=$3&TYPEPUB=2
+RewriteRule ^magazine-(.*).htm index.php?controleur=Revues&action=index&REVUE=$1&TYPEPUB=2
+RewriteRule ^magazine.php index.php?controleur=Revues&action=index&TYPEPUB=2 [QSA]
+RewriteRule ^([\sa-zA-Z0-9-()]*)--([0-9X]{10,}).htm index.php?controleur=Revues&action=numero&REVUE=$1&ISBN=$2
+RewriteRule ^en-savoir-plus-sur-la-revue-(.*).htm index.php?controleur=Revues&action=apropos&REVUE=$1
+RewriteRule ^en-savoir-plus.php index.php?controleur=Revues&action=apropos [QSA]
+RewriteRule ^numero.php index.php?controleur=Revues&action=numero [QSA]
+RewriteRule ^issue.php index.php?controleur=Revues&action=numero [QSA]
+
+
+#Recherche
+RewriteRule ^resultats_recherche.php index.php?controleur=Recherche [QSA]
+RewriteRule ^recherche_avancee.php index.php?controleur=Recherche&action=rechercheAvancee
+RewriteRule ^sur-un-sujet-proche.php index.php?controleur=Recherche&action=sujetProche [QSA]
+#ListeDetail
+RewriteRule ^listerev.php index.php?controleur=ListeDetail&TYPE=revues [QSA]
+RewriteRule ^collections.php index.php?controleur=ListeDetail&TYPE=collections [QSA]
+RewriteRule ^liste-des-ouvrages.php index.php?controleur=ListeDetail&TYPE=ouvrages [QSA]
+RewriteRule ^liste-des-que-sais-je-et-reperes.php index.php?controleur=ListeDetail&TYPE=encyclopedies [QSA]
+RewriteRule ^editeur.php index.php?controleur=ListeDetail&TYPE=editeur [QSA]
+RewriteRule ^collection.php index.php?controleur=ListeDetail&TYPE=collection [QSA]
+RewriteRule ^collection-(.*).htm index.php?controleur=ListeDetail&TYPE=collection&REVUE=$1
+RewriteRule ^publications-de-(.*)--([0-9]*).htm index.php?controleur=ListeDetail&TYPE=auteur&NOM=$1&ID=$2
+RewriteRule ^cite-par.php index.php?controleur=ListeDetail&TYPE=citepar [QSA]
+
+
+#Utilisateur
+RewriteRule ^creer_compte.php index.php?controleur=User&action=creerCompte [QSA]
+RewriteRule ^mdp_oublie.php index.php?controleur=User&action=mdpOublie [QSA]
+RewriteRule ^mot-de-passe.php index.php?controleur=User&action=mdpOublie [QSA]
+RewriteRule ^connexion.php index.php?controleur=User&action=connexion [QSA]
+RewriteRule ^mon_compte.php index.php?controleur=User
+RewriteRule ^modification-adresse-email.php index.php?controleur=User&action=updEmail
+RewriteRule ^modification-de-mot-de-passe.php index.php?controleur=User&action=updMdp
+RewriteRule ^change-password.php index.php?controleur=User&action=updMdp
+RewriteRule ^credit.php index.php?controleur=User&action=credit [QSA]
+RewriteRule ^mon_credit.php index.php?controleur=User&action=creditDetail [QSA]
+RewriteRule ^mes_achats.php index.php?controleur=User&action=achats [QSA]
+RewriteRule ^mes_factures.php index.php?controleur=User&action=factures [QSA]
+RewriteRule ^load_facture.php index.php?controleur=User&action=loadFacture [QSA]
+RewriteRule ^mon_panier.php index.php?controleur=User&action=panier [QSA]
+RewriteRule ^mes_demandes.php index.php?controleur=User&action=demandes [QSA]
+RewriteRule ^biblio.php index.php?controleur=User&action=biblio [QSA]
+RewriteRule ^biblioActions.php index.php?controleur=User&action=biblioActions [QSA]
+RewriteRule ^biblio_p.php index.php?controleur=User&action=biblioPrint [QSA]
+RewriteRule ^mdp_nouveau.php index.php?controleur=User&action=mdpRecover [QSA]
+RewriteRule ^landing_ogone_erreur.php index.php?controleur=User&action=panierOgoneErreur [QSA]
+#RewriteRule ^landing_ogone.php index.php?controleur=User&action=panierOgone [QSA]
+RewriteRule ^postsale.php index.php?controleur=User&action=panierOgone [QSA]
+RewriteRule ^landing_ogone.php index.php?controleur=User&action=panierOgoneDisplay [QSA]
+RewriteRule ^err_ogone.php index.php?controleur=User&action=errOgone [QSA]
+RewriteRule ^acces_hors.php index.php?controleur=User&action=accesHors [QSA]
+RewriteRule shibboleth/ident_sso2.php index.php?controleur=User&action=accesHors [QSA]
+RewriteRule ^identSSO.php index.php?controleur=User&action=identSSO [QSA]
+RewriteRule ^code-abonnement-papier.php index.php?controleur=User&action=codeAboPapier [QSA]
+
+
+#A Propos
+RewriteRule ^a-propos.php index.php?controleur=Apropos [QSA]
+RewriteRule ^services-aux-editeurs.php index.php?controleur=Apropos&action=servicesEditeurs [QSA]
+RewriteRule ^services-aux-institutions.php index.php?controleur=Apropos&action=servicesInstitutions [QSA]
+RewriteRule ^services-aux-particuliers.php index.php?controleur=Apropos&action=servicesParticuliers [QSA]
+RewriteRule ^conditions.php index.php?controleur=Apropos&action=conditions [QSA]
+RewriteRule ^conditions-generales-de-vente.php index.php?controleur=Apropos&action=conditionsVente [QSA]
+RewriteRule ^vie-privee.php index.php?controleur=Apropos&action=viePrivee [QSA]
+
+#Outils
+RewriteRule ^contact.php index.php?controleur=Outils&action=contacts [QSA]
+RewriteRule ^contact-confirm.php index.php?controleur=Outils&action=contactsConfirm [QSA]
+RewriteRule ^abonnement_flux.php index.php?controleur=Outils&action=fluxRss [QSA]
+
+RewriteRule ^static/pages.swf.xml index.php
+
+#Admin
+RewriteRule ^administration.php index.php?controleur=Admin&action=administration [QSA]
+RewriteRule ^statistiques_consultation.php index.php?controleur=Admin&action=statistiquesConsultation [QSA]
+RewriteRule ^gestion_utilisateurs.php index.php?controleur=Admin&action=gestionUtilisateurs [QSA]
+
+
+#                       #
+# INTERNATIONAL LINKS   #
+#                       #
+
+RewriteRule ^journal-(.*)-([0-9]+)-([0-9A-Za-z]*)-page-([0-9A-Z]*).htm index.php?controleur=Pages&REVUE=$1&ANNEE=$2&NUMERO=$3&PAGE=$4
+
+#A Propos
+RewriteRule ^about.php index.php?controleur=Apropos [QSA]
+RewriteRule ^conditions.php index.php?controleur=Apropos&action=conditions [QSA]
+RewriteRule ^help.php index.php?controleur=Apropos&action=help [QSA]
+
+#Accueil
+RewriteRule ^my_searches.php index.php?controleur=Accueil&action=mesRecherches [QSA]
+RewriteRule ^my_history.php index.php?controleur=Accueil&action=monHistorique [QSA]
+RewriteRule ^my_alerts.php index.php?controleur=Accueil&action=mesAlertes [QSA]
+RewriteRule ^listrev.php$ index.php?controleur=Accueil&action=disciplines&id=ALL [QSA]
+RewriteRule ^accueil.php index.php?controleur=Accueil&action=index [QSA]
+
+#ListeDetail
+RewriteRule ^publisher.php index.php?controleur=ListeDetail&TYPE=editeur [QSA]
+RewriteRule ^publications-of-(.*)--([0-9]*).htm index.php?controleur=ListeDetail&TYPE=auteur&NOM=$1&ID=$2
+
+#Revue
+RewriteRule ^journal-(.*)-([0-9]+)-(.*).htm index.php?controleur=Revues&action=numero&REVUE=$1&ANNEE=$2&NUMERO=$3
+RewriteRule ^journal-(.*).htm index.php?controleur=Revues&action=index&REVUE=$1
+RewriteRule ^about_this_journal.php index.php?controleur=Revues&action=apropos [QSA]
+RewriteRule ^about_this_journal.php?ID_JOURNAL= index.php?controleur=Revues&action=apropos&ID_REVUE= [QSA]
+RewriteRule ^about-the-journal-(.*).htm index.php?controleur=Revues&action=apropos&REVUE=$1
+RewriteRule ^list_articles_fulltext.php index.php?controleur=Revues&action=fulltext [QSA]
+
+#Pages
+RewriteRule ^abstract-([\sA-Z0-9-_]*)--([\sA-Za-z0-9-]*).htm index.php?controleur=Pages&RES=1&ID_ARTICLE=$1 [QSA]
+RewriteRule ^abstract.php index.php?controleur=Pages&RES=1 [QSA]
+RewriteRule ^article-([\sA-Z0-9-_]*)--([\sA-Za-z0-9-]*).htm index.php?controleur=Pages&A=1&ID_ARTICLE=$1 [QSA]
+RewriteRule ^focus-([\sA-Z0-9-_]*)--([\sA-Za-z0-9-]*).htm index.php?controleur=Pages&ZEN=1&ID_ARTICLE=$1
+
+#User
+RewriteRule ^my_account.php index.php?controleur=User
+RewriteRule ^my_cart.php index.php?controleur=User&action=panier [QSA]
+RewriteRule ^my_purchases.php index.php?controleur=User&action=achats [QSA]
+RewriteRule ^my_bills.php index.php?controleur=User&action=factures [QSA]
+RewriteRule ^create_account.php index.php?controleur=User&action=creerCompte [QSA]
+RewriteRule ^password_forgotten.php index.php?controleur=User&action=mdpOublie [QSA]
+RewriteRule ^update_email.php index.php?controleur=User&action=updEmail
+RewriteRule ^off_campus.php index.php?controleur=User&action=accesHors [QSA]
+RewriteRule ^desinscription_alerte.php index.php?controleur=User&action=desinscriptionAlerte [QSA]
+
+#Outils
+RewriteRule ^rss_feeds.php index.php?controleur=Outils&action=fluxRss [QSA]
+
+#Recherche
+RewriteRule ^redirect_to_french_research.php index.php?controleur=Recherche&action=redirectToFrench [QSA]
+RewriteRule ^see_also.php index.php?controleur=Recherche&action=sujetProche [QSA]
+
+#Erreur
+RewriteRule ^error.php index.php?controleur=Error&action=error [QSA]
+RewriteRule ^error_no_id.php index.php?controleur=Error&action=errorNoID [QSA]
+RewriteRule ^error_id.php index.php?controleur=Error&action=errorID [QSA]
+
+#Redirection 301
+redirect 301 /accueil.php http://www.cairn.info
+redirect 301 /0 http://www.cairn.info
+redirect 301 /php http://www.cairn.info
+redirect 301 /ip http://www.cairn.info
+
+redirect 301 /aide.php http://aide.cairn.info
+
+ErrorDocument 404 /index.php?controleur=Error&action=error

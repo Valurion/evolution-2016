@@ -1,0 +1,964 @@
+/*
+    INTERNATIONAL
+*/
+/* ------------- CAIRN : LOGO & FORMULAIRE ------------- */
+/* Logo : Les dimensions sont légèrement différentes */
+#header .container-cairn .logo img {
+    width: 219px;
+    height: 82px;
+}
+#footer_shortcuts a.logo_cairn_footer img {
+    width: 219px;
+    height: 82px;
+}
+
+
+
+.homepage-container .homepage-section {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 5px;
+    padding-bottom: 11px;
+}
+
+.homepage-container .homepage-section .homepage-section-title.first {
+    font: bold 24px 'Alegreya SC',Georgia,Verdana;
+    margin-top: 21px;
+    margin-bottom: 11px;
+    text-align: center;
+    color:#333;
+}
+
+.homepage-container .homepage-section .homepage-section-title {
+    font: bold 24px 'Alegreya SC',Georgia,Verdana;
+    margin-top: 11px;
+    margin-bottom: 18px;
+    text-align: center;
+    color:#333;
+}
+
+.welcome-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 225px;
+    margin: 0 7px;
+}
+.welcome-box-item .welcome-box-text .welcome-title {
+    border-bottom: 3px solid #4BB2AC;
+    color: #4BB2AC;
+    font: bold 35px/1 'Alegreya SC';
+    margin-bottom: 22px;
+}
+
+.welcome-box-item .welcome-box-text h2 {
+    border-bottom: 1px solid #ccc;
+    color:#545454;
+    font: bold 18px/1.2 'Alegreya SC';
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    min-height: 45px;
+}
+
+.welcome-box-item .welcome-box-text .welcome-text-p {
+    color:#211E1F;
+    font: bold 18px/1.3 'Alegreya';
+    margin-top: 15px;
+}
+
+.welcome-box-item .welcome-box-text p {
+    margin-top: 15px;
+    color:#262626;
+    font: 16px/1.5 'Alegreya';
+    margin-bottom: 0px;
+}
+
+
+.homepage-section.last {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.homepage-section.last .homepage-section-title {
+    margin-bottom: 15px;
+}
+.welcome-box-item .welcome-box-text a.more {
+    color: #262626;
+    display: block;
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+.homepage-section.bottom-box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: medium none;
+    margin-bottom: 0;
+    padding: 23px 0 36px;
+    text-align: left;
+    width: 100%;
+}
+
+.homepage-section.bottom-box .homepage-section-content {
+    margin: 0 auto;
+    text-align: left;
+    width: 970px;
+}
+
+a.inline-link {
+    color: rgb(75, 178, 172);
+}
+
+ul.breadcrump {
+    margin: 12px 0px 5px 0px;
+    padding: 0px 0px 4px 0px;
+    float:left;
+    width: 970px;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+ul.breadcrump li {
+    float:left;
+}
+ul.breadcrump li a {
+    float:left;
+    padding-right: 10px;
+    margin-right: 6px;
+    background: url(../images/icons.png) no-repeat right -1072px;
+    text-decoration: none;
+    color: #1F1E1F;
+    font: bold 15px 'Alegreya SC', Georgia, Verdana;
+}
+ul.breadcrump li a:hover {
+    text-decoration: underline;
+}
+ul.breadcrump li:last-child a {
+    background: none;
+}
+
+.page-title {
+    font: bold 24px/1.2 'Alegreya SC',Georgia,Arial;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form
+{
+    /*     width : 90%; */
+    margin : auto;
+    font : normal 1em 'Alegreya SC', Georgia;
+    display : block;
+}
+.form_row
+{
+    display : table;
+    border-collapse : separate;
+    border-spacing : 2em 0.6em;
+    padding : 0;
+    margin : 0;
+    width : 100%;
+}
+.form_cell
+{
+    display : table-cell;
+    max-width : 25%;
+    width : 25%;
+    position:relative;
+}
+.form_submit
+{
+    background-color : rgb(75, 178, 172);
+    border : none;
+    border-radius : 3px;
+    color : white;
+    padding : 0.3em;
+    font : bold 1em 'Alegreya', serif;
+    text-transform : uppercase;
+}
+
+.case_blue-milk, .flash_message
+{
+    border :1px solid rgb(204, 204, 204);
+    border-radius : 3px;
+    padding : 0.5em;
+    background-color : white;
+    color : rgb(75, 178, 172);
+    font : bold 0.9em 'Alegreya SC', Georgia;
+}
+.case_blue-milk > *
+{
+    display : block;
+    width : 95%;
+    margin : auto;
+    /*     margin-bottom : 0.5em; */
+}
+.case_blue-milk input, .case_blue-milk textarea
+{
+    background-color : transparent;
+    border : none;
+    border-radius : 2px;
+    font : normal 1em 'Alegreya', Georgia;
+}
+
+.case_promo-code
+{
+    font-size : 0.8em;
+    text-align : right;
+}
+.case_promo-code input
+{
+    border-radius : 3px; border :1px solid rgb(204, 204, 204);
+    padding : 0.3em;
+}
+
+.flash_message
+{
+    position : relative;
+    background : url("../img/form-validation-correct.png") no-repeat scroll top 7px right 5px white;
+    padding : 5px 1em;
+    width : 75%;
+    margin : auto;
+    margin-bottom : 3em;
+    border-color : rgb(75, 178, 172);
+    font : normal 1.2em 'Alegreya', Georgia;
+    color : black;
+}
+.flash_message.problem
+{
+    background-image : url("../img/form-validation-error.png");
+    border-color : #FF0004;
+    color : red;
+}
+.flash_message a
+{
+    color : red;
+}
+
+.pr2, .prm { padding-right: 20px; }
+
+.general-p {
+    font: 17px/1.6 'Alegreya',Georgia,Arial;
+    color: #1F1E1F;
+    margin-bottom: 10px;
+}
+
+.justify { text-align : justify; margin:0;padding:0}
+
+.w1     { width : 1%!important; }
+
+.inbl {
+    vertical-align: top;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 966px;
+    text-align: left;
+    width: 966px;
+}
+.wrapper-int {
+    overflow: hidden;
+    clear: both;
+} 
+
+.Clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.research {
+    background: none repeat scroll 0 0 rgba(220, 220, 220, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px #bbb inset;
+    padding: 15px 0 20px;
+    width: 100%;
+}
+
+.research nav {
+    margin-left: 20px;
+}
+
+.research nav ul {
+    display: block;
+    width: auto;
+}
+.research ol, .research ul {
+    list-style: none outside none;
+}
+
+.research nav ul li {
+    display: inline-block;
+    margin: 5px 6px 0 0;
+    vertical-align: top;
+}
+
+.research a.btn {
+    background-color: #4bb2ac;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: Georgia;
+    font-size: 16px;
+    height: 2.5em;
+    padding: 6px 0 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 147px;
+}
+
+#recently_added_revue {
+    font-size: 18px;
+    left: -0.8em;
+    line-height: 1.1;
+    position: relative;
+    /*text-align: center;*/
+}
+
+a.more-journals {
+    color: #333;
+    display: block;
+    font: italic 18px 'Alegreya';
+    margin-top: 13px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.research a.btn.dark {
+    background-color: #333;
+}
+.research a.btn {
+    background-color: #4bb2ac;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: Georgia;
+    font-size: 16px;
+    height: 2.5em;
+    padding: 6px 0 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 147px;
+}
+.btn {
+    display: inline-block;
+}
+.btn {
+    font-family: inherit;
+    font-size: inherit;
+    vertical-align: middle;
+}
+
+#pagination {
+    text-align:center;
+}
+
+#pagination span a {
+    background-color: #4bb2ac;
+}
+#pagination span a, #pagination span.activated {
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 0 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listIssues a {
+    line-height: 180%;
+    text-decoration: none;
+}
+
+#pagination span a, #pagination span.activated {
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 0 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#pagination span a:hover, #pagination a.activated {
+    background-color: #000;
+}
+
+#pagination span.activated {
+    padding: 5px;
+}
+
+
+.researchArea h1 {
+    font: bold 24px 'Alegreya SC',Georgia,Verdana;
+    margin-bottom: 3px;
+    position: relative;
+    text-align: center;
+    top: -3px;
+}
+
+.researchArea h1 span {
+    font: 20px 'Alegreya SC',Georgia,Verdana;
+    padding: 9px;
+}
+
+.researchArea .frenchVersion a {
+    line-height: 50px !important;
+}
+.frenchVersion a {
+    background: url("../images/icons.png") no-repeat scroll -6px -931px rgba(0, 0, 0, 0);
+    color: #201e1f;
+    display: inline-block;
+    font: bold 16px/53px 'Alegreya SC',Georgia,Verdana;
+    height: 53px;
+    padding-left: 42px;
+    text-decoration: none;
+}
+
+.issue .frenchVersion.inline-block {
+    margin-left: 9px;
+}
+.journal-page .frenchVersion {
+    margin-top: 23px;
+}
+
+.frenchVersion {
+    display: inline-block;
+}
+
+.issue article .descriptionPage {
+    min-height: 305px;
+}
+.minHeight {
+    min-height: 270px !important;
+}
+
+.desc {
+    display: block;
+    width: 100%;
+}
+
+.desc-about-journal {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 16px;
+}
+
+.Clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#about_revue h3 {
+    color: #a7a724;
+    font: bold 18px 'Alegreya SC',Georgia,Arial;
+    margin-top: -3px;
+    text-align: right;
+}
+
+#about_revue h3 {
+    font: bold 18px/1 'Alegreya SC',Georgia,Arial;
+    margin-top: 0;
+}
+
+
+#about_revue article {
+    display: block;
+    float: left;
+    /*font-size: 15px;*/
+    /*line-height: 150%;*/
+    margin-left: 25px;
+    width: 700px;
+}
+
+#about_revue article p{
+    margin-top: 0;
+}
+
+#about_revue div {
+    display: block;
+    float: left;
+    width: 220px;
+}
+
+.links-list
+{
+    list-style: none;
+}
+
+.links-list li a {
+    font: 17px/1.1 'Alegreya',Georgia,Arial;
+    text-decoration: none;
+    color: #1F1E1F;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+.links-list li a:hover {
+    font-weight: bold;
+}
+
+.links-list-icon {
+    width: 28px;
+    height: 20px;
+    background: url(../images/links-list-sprite.png) no-repeat 12px -34px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 19px;
+}
+
+.links-list li a:hover .links-list-icon {
+    background: #2C2B2C url(../images/links-list-sprite.png) no-repeat 12px 4px;
+}
+
+#help_main img {
+    margin: 1em auto;
+    max-width: 50%;
+    display: block;
+    border: 8px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+.list_articles .article {
+    /*margin: 0.4em 0;*/
+}
+.list_articles, .numero, .article {
+    width: 100%;
+}
+
+.pages_article {
+    width: 13%;
+}
+
+.pages_article, .metadata_article {
+    vertical-align: top;
+}
+
+.pages_article {
+    font-size: 0.9em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+.list_articles .article > div {
+    display: inline-block;
+    padding: 0.6em 0.4em;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: inherit;
+    vertical-align: middle;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn:hover, .btn:hover span {
+    background-color: #333 !important;
+    color : white;
+}
+
+.grey, .gray {
+    color: rgb(102, 102, 102);
+}
+
+.list_articles p {
+    line-height: 1.2;
+}
+element.style {
+    position: relative;
+    top: 24px;
+}
+.metadata_article {
+    text-align: left;
+}
+.pages_article, .metadata_article {
+    vertical-align: top;
+}
+.metadata_article {
+    width: 64%;
+}
+.state_article {
+    width: 15.5%;
+}
+.state_article .icon-usermenu-tools-tiny {
+    top: 10px;
+}
+.button-blue2, .button-grey2, .button-red2 {
+    color: white;
+    font: small-caps 700 0.9em 'Alegreya SC';
+    padding: 0.35em 0;
+    text-align: center;
+    text-decoration: none;
+}
+.button-grey2 {
+    background-color: rgb(204, 204, 204);
+    cursor: default;
+}
+.state_article > a, .state_article > span {
+    border-radius: 3px;
+    display: inline-block;
+}
+.w49 {
+    width: 49%;
+}
+.button-blue2 {
+    background-color: rgb(75, 178, 172);
+    cursor: pointer;
+}
+
+.state_article .w100 {
+    margin-top: 0.3em;
+}
+
+.button-grey2 .question-mark {
+    float: right;
+    left: -1em;
+    position: relative;
+    top: 0.1em;
+    height: 22px;
+    width:24px;
+}
+
+.metadata_article p {
+    margin-top: 0;
+}
+
+#modal_why-not-article .basic_modal {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+#modal_why-not-article .basic_modal p{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#modal_why-not-article .basic_modal h1 {
+    font: bold 1.4em 'Alegreya SC',Georgia,Verdana;
+    text-align: center;
+}
+
+#modal_why-not-article .basic_modal h2 {
+    font: italic 1.1em/1 'Alegreya',Georgia,Verdana;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.ml1 { margin-left: 0.1em; }
+.ml2 { margin-left: 0.2em; }
+.ml3 { margin-left: 0.3em; }
+.ml4 { margin-left: 0.4em; }
+.ml5 { margin-left: 0.5em; }
+.ml6 { margin-left: 0.6em; }
+.ml1e { margin-left: 1em; }
+.ml2e { margin-left: 2em; }
+.ml3e { margin-left: 3em; }
+
+.mr1 { margin-right: 0.1em; }
+.mr2 { margin-right: 0.2em; }
+.mr3 { margin-right: 0.3em; }
+.mr4 { margin-right: 0.4em; }
+.mr5 { margin-right: 0.5em; }
+.mr6 { margin-right: 0.6em; }
+.mr1e { margin-right: 1em; }
+.mr2e { margin-right: 2em; }
+.mr3e { margin-right: 3em; }
+
+.mt1 { margin-top: 1em; }
+.mt2 { margin-top: 2em; }
+.mt3 { margin-top: 3em;}
+
+.mb1 { margin-bottom: 1em;}
+.mb2 { margin-bottom: 2em;}
+.mb3 { margin-bottom: 3em;}
+.mr3, .mrl {
+    margin-right: 30px;
+}
+
+.button-blue, .button-black, .button-white, .button-grey, .button-gray, .button-red {
+    background-color: rgb(75, 178, 172);
+    border: medium none;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    font: bold 0.95em 'Alegreya SC',Georgia,Verdana;
+    margin: 0 0.2em;
+    min-width: 4em;
+    padding: 0.05em 0.3em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content .add-to-cart {
+    border-bottom: 1px solid #888;
+    border-top: 1px solid #888;
+    display: block;
+    float: left;
+    height: 53px;
+    line-height: 53px;
+    margin-bottom: 10px;
+    width: 569px;
+    background-image: none;
+}
+/* Overwrite des styles de cairn.info...*/
+.content .add-to-cart:hover {background: none;}
+.content .add-to-cart:hover:after {border: none;}
+
+.content .addToCard a {
+    background: url("../images/icons.png") no-repeat scroll 6px -887px rgba(0, 0, 0, 0);
+    color: #1f1e1f;
+    display: inline-block;
+    float: left;
+    font: bold 16px/53px 'Alegreya SC',Georgia,Verdana;
+    height: 53px;
+    padding-left: 60px;
+    text-decoration: none;
+    /*width: 137px;*/
+}
+
+.frenchVersionCart a {
+    background: url("../images/icons.png") no-repeat scroll 6px -887px rgba(0, 0, 0, 0);
+    color: #201e1f;
+    display: inline-block;
+    font: bold 16px/53px 'Alegreya SC',Georgia,Verdana;
+    height: 53px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+
+.add-to-cart .add-to-cart-text-container {
+    display: inline-block;
+    line-height: 1;
+}
+
+.add-to-cart a .value-currency {
+    padding-right: 5px;
+}
+
+.w10 {
+    width: 10%;
+}
+
+#article_shortcuts li.add-to-cart a {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #000000;
+    float: left;
+    font: bold 16px 'Alegreya',serif;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+#article_shortcuts li.add-to-cart a span.add-to-cart-icon {
+    background: url("../images/icons.png") no-repeat scroll -7px -620px rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 27px;
+    width: 34px;
+}
+
+#article_shortcuts li a span.frenchversion-icon {
+    background: url("../images/icons.png") no-repeat scroll 1px -685px rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 27px;
+    width: 34px;
+}
+
+.blue {
+    color: rgb(75, 178, 172) !important;
+}
+
+.numero {
+    font-size: 0.75em;
+}
+
+.numero h2 {
+    line-height: 1;
+    margin-bottom: 0.5em;
+    /*margin-left: 15.5%;*/
+    max-width: 64%;
+}
+
+.articles_fulltext .numero h2{
+   margin-left: 15.5%;
+}
+
+.vign_small {
+    width: 8%;
+}
+
+.mon-panier .prix_inter{
+    margin-right: 2em;
+    position: relative;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+blockquote, .dedicace{
+    border-bottom:none !important;
+    border-top:none !important;
+}
+
+.negative-right {
+    border-right: 1px solid #888888;
+    border-top: 1px solid #888888;
+    color: #a5a524;
+    float: right;
+    font: bold 15px 'Alegreya',Georgia,Verdana !important;
+    height: 12px;
+    margin-right: -30px;
+    margin-top: 8px;
+    position: relative;
+    width: 18px;
+}
+
+#textehtml a.renvoi_inside, #infoBook .renvoi {
+    color: rgb(75, 178, 172);
+    line-height: 1;
+    margin: 0 0.15em;
+    position: relative;
+    text-decoration: none;
+    top: -0.3em;
+}
+
+#textehtml .renvoi {
+    clear: left;
+    color: black !important;
+    display: block;
+    float: left;
+    font: 15px/16px 'Alegreya',Georgia,Verdana !important;
+    margin-bottom: 1em;
+    margin-left: -124px !important;
+    overflow: hidden;
+    padding-bottom: 1px;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    width: 115px;
+}
+
+#recently_added_revue {
+    left:0;
+}
+
+.descriptionPage h2 {
+    color: #666;
+    font: bold 18px 'Alegreya SC',Georgia,Verdana;
+    margin-bottom: -4px;
+    margin-top: -2px;
+}
+
+.article + .numero {
+    margin-top: 2.8em;
+}
+
+
+.article + .separator_article {
+    display: block;
+}
+.separator_article {
+    display: none;
+    margin: 0.7em 0;
+}
+
+.articles_fulltext hr {
+    border-color: -moz-use-text-color -moz-use-text-color #ccc;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    margin-top: 19px;
+}
+
+.articles_fulltext .article {
+    border-bottom: 0px;
+}
+.separator_article {
+    display: none;
+    margin: 0.7em 0;
+}
+
+.article + .separator_article {
+    display: block;
+    color: #ccc;
+}
+
+.yellow-author2 {
+    font-weight: bold;
+}
+
+.homepage-section {
+    border-bottom: 1px solid #cccccc;
+    //float: left;
+    margin-bottom: 5px;
+    padding-bottom: 11px;
+}
+
+.homepage-section-content ul {
+    display: block;
+    margin-left: -7px;
+    margin-top: 28px;
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+.homepage-section-content ul li {
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 2px;
+    padding: 5px;
+    width: 470px;
+}
+
+.homepage-section-content ul li:hover {
+    background: none repeat scroll 0 0 rgba(220, 220, 220, 0.3);
+    box-shadow: 0 0 4px #d3d3d3 inset;
+}
+
+.homepage-section-content ul li a.recent-article-title {
+    display: block;
+}
+.homepage-section-content ul li a {
+    color: #333333;
+    font: 18px/1 'Alegreya';
+    margin-bottom: 3px;
+    margin-top: 1px;
+    text-decoration: none;
+}
+
+.homepage-section-content ul li .italic {
+    font-style: italic;
+}
+
+.homepage-section-content ul li .home-article-category {
+    color: #4bb2ac;
+    font: bold 18px/1 'Alegreya SC';
+}
+#page_article .resume {
+    font-style: italic;
+}
+#page_article .resume i,
+#page_article .resume em {
+    font-style: normal;
+}
+#page_article .alinea {
+    display: block;
+}
+
+/* OVERWRITE */
+.results_list .result + .result {
+    border-top : 1px solid #ccc;
+    margin-top : 0;
+    padding-top : 0;
+}

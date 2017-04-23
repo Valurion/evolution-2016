@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>
+Madame, Monsieur,
+
+Vous avez effectué sur le site Cairn.info l'achat du numéro [NUMERO_ANNEE]/[NUMERO_NUMERO] de la revue [REVUE_TITRE] en version électronique, [TYPE_PAIEMENT].  Vous recevrez par e-mail, d'ici 24 heures, la facture de cet achat.
+
+Il ne vous sera pas expédié par courrier.
+
+Vous pouvez immédiatement consulter en ligne le texte intégral des différents articles de ce numéro en versions HTML et PDF. Pour cela, veuillez cliquez sur le lien suivant :
+	
+	[URLSITE]/numero.php?ID_REVUE=[ID_REVUE]&amp;ID_NUMPUBLIE=[NUMERO_ID_NUMPUBLIE]&amp;USER=[ID_USER]
+
+
+Il vous sera sans doute demandé votre mot de passe. Si vous l'avez oublié, veuillez consulter [URLSITE]/mot-de-passe.php. Notre aide en ligne, disponible sur [URLSITE]/aide.php pourrait également vous être utile.
+
+Cliquez ensuite sur les liens [version HTML] ou [version PDF] pour consulter les articles en ligne ou pour les télécharger.
+
+
+Vous avez le droit de notifier à Cairn que vous renoncez à votre achat, sans pénalités et sans indication de motif, dans les 14 jours calendrier à dater du lendemain du jour de la conclusion du présent contrat.
+
+Notez qu'en acceptant de télécharger votre article avant la fin du délai de rétractation précité, vous acceptez expressément renoncer à votre droit de rétractation.
+
+
+Le présent article est vendu par :
+Cairn S.A. 58/60,
+rue des Champs
+B-4020 Liège BELGIQUE
+N° BCE : BE.0873.856.568
+N° tel : 0032 43 40 38 30
+Mail : contact@cairn.info
+
+Pour toute aide concernant la gestion ou la modification de vos commandes, veuillez consulter notre aide en ligne, disponible sur http://www.cairn.info/aide.php ou nos conditions générales de vente sur [URLSITE]/conditions-generales-de-vente.php.
+
+En cas de difficulté, n'hésitez pas à joindre notre service clients via notre formulaire de contact sur [URLSITE]/contact.php, en indiquant le numéro de commande suivant : [NO_COMMANDE].
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+[URLSITE]/conditions-generales-de-vente.php
+</body>
+</mail>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre commande n° [NO_COMMANDE]</subject>
+<from>commandes@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body>
+Madame, Monsieur,
+
+Vous avez commandé sur Cairn.info un crédit d'achats valable pour l'acquisition d'articles, de contributions, de chapitres d'ouvrages, de numéros de revue, d'ouvrages ou d'abonnements, pour lequel vous souhaitez effectuer un paiement par courrier.
+
+
+Veuillez trouver ci-joint votre bon de commande, à nous retourner accompagné de votre règlement (chèque ou attestation de virement bancaire).
+
+Dès réception, votre crédit vous sera ouvert. Vous pourrez le vérifier sur la page suivante : [URLSITE]/mon_credit.php?USER=[ID_USER].
+
+Il vous sera sans doute demandé votre mot de passe. Si vous l'avez oublié, veuillez consulter [URLSITE]/mot-de-passe.php. Notre aide en ligne, disponible sur [URLSITE]/aide.php pourrait également vous être utile.
+
+Nous restons à votre disposition pour toute information complémentaire : support@cairn.info
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+[URLSITE]/conditions-generales-de-vente.php
+</body>  
+</mail>

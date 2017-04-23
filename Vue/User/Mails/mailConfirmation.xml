@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre compte Cairn.info est créé.</subject>
+<from>cairn@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+Madame, Monsieur,
+
+Merci pour votre inscription sur Cairn.info !
+Votre compte personnel a bien été créé avec les données suivantes :
+
+Adresse email : [EMAIL]
+Prénom : [PRENOM]
+Nom : [NOM]
+Activité : [ACTIVITY]
+Discipline de prédilection : [DISCIPLINE]
+Pays : [PAYS]
+
+Pour tout autre besoin d'assistance, n'hésitez pas à :
+- consulter nos pages d’aide sur http://aide.cairn.info ;
+- nous rejoindre sur Twitter https://twitter.com/cairninfo ;
+- ou nous contacter par email via http://www.cairn.info/contact.php.
+
+En vous remerciant.
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+http://www.cairn.info/conditions-generales-de-vente.php
+]]></body>
+</mail>

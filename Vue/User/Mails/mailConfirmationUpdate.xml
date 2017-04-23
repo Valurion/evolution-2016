@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail>
+<subject>Votre compte Cairn.info est modifié.</subject>
+<from>cairn@cairn.info</from>
+<fromName>Cairn.info</fromName>
+<body><![CDATA[
+Madame, Monsieur,
+
+Votre compte a bien été modifié sur Cairn.info.
+En voici les nouvelles coordonnées : 
+	Login : 		[TO]
+	Mot de passe : 	(celui que vous avez choisi).
+
+Pour tout besoin d'assistance,n'hésitez pas à joindre notre service clients via notre formulaire de contact sur http://www.cairn.info/contact.php.
+Notre aide en ligne, disponible sur http://aide.cairn.info, pourrait également vous être utile.
+
+En vous remerciant.
+
+
+Cairn.info
+Chercher. Repérer. Avancer
+
+-----------------------
+Cairn S.A.
+58/60, rue des Champs
+B-4020 Liège
+BELGIQUE
+Conditions générales de vente :
+http://www.cairn.info/conditions-generales-de-vente.php
+]]></body>
+</mail>
